@@ -15,7 +15,7 @@ public class TestCJKAddlCharsFoldingFilter extends BaseTokenStreamTestCase
 {
 
 @Test
-	public void fakeTest() throws Exception
+	public void nonCJKTest() throws Exception
 	{
 		TokenStream stream = new MockTokenizer(new StringReader
 			("Des mot"), MockTokenizer.WHITESPACE, false);

@@ -9,7 +9,7 @@ import org.apache.lucene.util.ArrayUtil;
 import org.apache.lucene.util.RamUsageEstimator;
 
 /**
- * Maps specific Unicode characters to other Unicode characters per a
+ * Maps specific CJK Unicode characters to other Unicode characters per a
  *  properties file.
  * @author Naomi Dushay
  *
@@ -36,7 +36,7 @@ public class CJKAddlCharsFoldingFilter extends TokenFilter
 
 
 	@Override
-	public boolean incrementToken() throws IOException
+	public final boolean incrementToken() throws IOException
 	{
 		if (input.incrementToken())
 		{
