@@ -8,10 +8,10 @@ import org.apache.lucene.analysis.core.KeywordTokenizer;
 import org.junit.Test;
 
 /**
+ * Tests to ensure CJKFoldingFilter works properly
  * @author Naomi Dushay
- *
  */
-public class TestCJKAddlCharsFoldingFilter extends BaseTokenStreamTestCase
+public class TestCJKFoldingFilter extends BaseTokenStreamTestCase
 {
 
 @Test
@@ -19,7 +19,7 @@ public class TestCJKAddlCharsFoldingFilter extends BaseTokenStreamTestCase
 	{
 		TokenStream stream = new MockTokenizer(new StringReader
 			("Des mot"), MockTokenizer.WHITESPACE, false);
-		CJKAddlCharsFoldingFilter filter = new CJKAddlCharsFoldingFilter(stream);
+		CJKFoldingFilter filter = new CJKFoldingFilter(stream);
 
 		CharTermAttribute termAtt = filter.getAttribute(CharTermAttribute.class);
 		filter.reset();
@@ -46,7 +46,7 @@ public class TestCJKAddlCharsFoldingFilter extends BaseTokenStreamTestCase
 			@Override
 			protected TokenStreamComponents createComponents(String fieldName, Reader reader) {
 				Tokenizer tokenizer = new MockTokenizer(reader, MockTokenizer.WHITESPACE, false);
-				return new TokenStreamComponents(tokenizer, new CJKAddlCharsFoldingFilter(tokenizer));
+				return new TokenStreamComponents(tokenizer, new CJKFoldingFilter(tokenizer));
 			}
 		};
 		checkRandomData(random(), a, 1000*RANDOM_MULTIPLIER);
@@ -60,7 +60,7 @@ public class TestCJKAddlCharsFoldingFilter extends BaseTokenStreamTestCase
 			@Override
 			protected TokenStreamComponents createComponents(String fieldName, Reader reader) {
 				Tokenizer tokenizer = new KeywordTokenizer(reader);
-				return new TokenStreamComponents(tokenizer, new CJKAddlCharsFoldingFilter(tokenizer));
+				return new TokenStreamComponents(tokenizer, new CJKFoldingFilter(tokenizer));
 			}
 		};
 		checkOneTermReuse(a, "", "");

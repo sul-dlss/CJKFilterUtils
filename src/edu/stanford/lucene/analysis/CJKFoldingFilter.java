@@ -9,12 +9,13 @@ import org.apache.lucene.util.ArrayUtil;
 import org.apache.lucene.util.RamUsageEstimator;
 
 /**
- * Maps specific CJK Unicode characters to other Unicode characters per a
- *  properties file.
+ * Maps equivalent CJK Unicode characters to a single Unicode character.
+ * Meant to supplement ICUNormalization and ICU translation of Han traditional
+ * <-> simplified, as there are variants of specific characters that are not
+ * mapped by either ICU filter.
  * @author Naomi Dushay
- *
  */
-public class CJKAddlCharsFoldingFilter extends TokenFilter
+public class CJKFoldingFilter extends TokenFilter
 {
 	 private CharTermAttribute charTermAttr;
 	 private char[] output = new char[512];
@@ -26,7 +27,7 @@ public class CJKAddlCharsFoldingFilter extends TokenFilter
 	/**
 	 * @param input
 	 */
-	protected CJKAddlCharsFoldingFilter(TokenStream input)
+	protected CJKFoldingFilter(TokenStream input)
 	{
 		super(input);
 		this.charTermAttr = addAttribute(CharTermAttribute.class);

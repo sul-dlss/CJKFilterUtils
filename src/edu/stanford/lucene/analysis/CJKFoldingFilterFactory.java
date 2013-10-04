@@ -6,17 +6,16 @@ import org.apache.lucene.analysis.TokenStream;
 import org.apache.lucene.analysis.util.TokenFilterFactory;
 
 /**
- * Factory for CJKAddlCharsFoldingFilter
+ * Factory for CJKFoldingFilter
  * @author Naomi Dushay
  *
  */
-public class CJKAddlCharsFoldingFilterFactory extends TokenFilterFactory
+public class CJKFoldingFilterFactory extends TokenFilterFactory
 {
-
 	/**
 	 * @param map
 	 */
-	protected CJKAddlCharsFoldingFilterFactory(Map<String, String> map)
+	protected CJKFoldingFilterFactory(Map<String, String> map)
 	{
 		super(map);
 	}
@@ -27,7 +26,6 @@ public class CJKAddlCharsFoldingFilterFactory extends TokenFilterFactory
 	@Override
 	public TokenStream create(TokenStream input)
 	{
-		return new CJKAddlCharsFoldingFilter(input);
+		return new CJKFoldingFilter(input);
 	}
-
 }
