@@ -15,7 +15,7 @@ public class TestCJKAddlCharsFoldingFilter extends BaseTokenStreamTestCase
 {
 
 @Test
-	public void nonCJKTest() throws Exception
+	public void testNonCJKtokens() throws Exception
 	{
 		TokenStream stream = new MockTokenizer(new StringReader
 			("Des mot"), MockTokenizer.WHITESPACE, false);
@@ -38,6 +38,7 @@ public class TestCJKAddlCharsFoldingFilter extends BaseTokenStreamTestCase
 
 
 	/** blast some random strings through the analyzer */
+@Test
 	public void testRandomStrings() throws Exception
 	{
 		Analyzer a = new Analyzer()
@@ -51,6 +52,7 @@ public class TestCJKAddlCharsFoldingFilter extends BaseTokenStreamTestCase
 		checkRandomData(random(), a, 1000*RANDOM_MULTIPLIER);
 	}
 
+@Test
 	public void testEmptyTerm() throws IOException
 	{
 		Analyzer a = new Analyzer()
