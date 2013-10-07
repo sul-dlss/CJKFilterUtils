@@ -28,6 +28,29 @@ public class TestCJKFoldingFilter extends BaseTokenStreamTestCase
 		assertFalse(filter.incrementToken());
 	}
 
+@Test
+	public void testModernJapaneseToTrad() throws Exception
+	{
+		checkOneTerm(analyzer, "亜", "亞"); // 亜 U+4E9C =>（亞）U+4E9E
+		checkOneTerm(analyzer, "悪", "惡"); // 悪 U+60AA =>（惡）U+60E1
+		checkOneTerm(analyzer, "圧", "壓"); // 圧 U+5727 =>（壓）U+58D3
+		checkOneTerm(analyzer, "囲", "圍"); // 囲 U+56F2 =>（圍）U+570D
+		checkOneTerm(analyzer, "壱", "壹"); // 壱 U+58F1 =>（壹）U+58F9
+		checkOneTerm(analyzer, "逸", "逸"); // 逸 U+9038 =>（逸）U+FA67
+		checkOneTerm(analyzer, "隠", "隱"); // 隠 U+96A0 =>（隱）U+96B1
+		checkOneTerm(analyzer, "栄", "榮"); // 栄 U+6804 =>（榮）U+69AE
+		checkOneTerm(analyzer, "営", "營"); // 営 U+55B6 =>（營）U+71DF
+		checkOneTerm(analyzer, "衛", "衞"); // 衛 U+885B =>（衞）U+885E
+		checkOneTerm(analyzer, "駅", "驛"); // 駅 U+99C5 =>（驛）U+9A5B
+		checkOneTerm(analyzer, "謁", "謁"); // 謁 U+8B01 =>（謁）U+FA62
+		checkOneTerm(analyzer, "円", "圓"); // 円 U+5186 =>（圓）U+5713
+		checkOneTerm(analyzer, "塩", "鹽"); // 塩 U+5869 =>（鹽）U+9E7D
+		checkOneTerm(analyzer, "縁", "緣"); // 縁 U+7E01 =>（緣）U+7DE3
+		checkOneTerm(analyzer, "応", "應"); // 応 U+5FDC =>（應）U+61C9
+		checkOneTerm(analyzer, "桜", "櫻"); // 桜 685C =>（櫻) 6AFB
+//		checkOneTerm(analyzer, "", "");
+	}
+
 
 
 	void assertTermEquals(String expected, TokenStream stream, CharTermAttribute termAtt) throws Exception
@@ -41,15 +64,7 @@ public class TestCJKFoldingFilter extends BaseTokenStreamTestCase
 @Test
 	public void testRandomStrings() throws Exception
 	{
-		Analyzer a = new Analyzer()
-		{
-			@Override
-			protected TokenStreamComponents createComponents(String fieldName, Reader reader) {
-				Tokenizer tokenizer = new MockTokenizer(reader, MockTokenizer.WHITESPACE, false);
-				return new TokenStreamComponents(tokenizer, new CJKFoldingFilter(tokenizer));
-			}
-		};
-		checkRandomData(random(), a, 1000*RANDOM_MULTIPLIER);
+		checkRandomData(random(), analyzer, 1000*RANDOM_MULTIPLIER);
 	}
 
 @Test
@@ -65,5 +80,16 @@ public class TestCJKFoldingFilter extends BaseTokenStreamTestCase
 		};
 		checkOneTermReuse(a, "", "");
 	}
+
+	private Analyzer analyzer = new Analyzer() {
+	    @Override
+	    protected TokenStreamComponents createComponents(String field, Reader reader) {
+	      final Tokenizer tokenizer = new MockTokenizer(reader, MockTokenizer.WHITESPACE, false);
+	      final TokenStream stream = new CJKFoldingFilter(tokenizer);
+	      return new TokenStreamComponents(tokenizer, stream);
+	    }
+	};
+
+
 
 }

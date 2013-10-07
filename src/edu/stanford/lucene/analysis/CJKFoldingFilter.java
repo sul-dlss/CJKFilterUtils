@@ -101,9 +101,59 @@ public class CJKFoldingFilter extends TokenFilter
 			{
 				switch (c)
 				{
-					case '\uFF5E': // ～  [FULLWIDTH TILDE]
-						output[outputPos++] = '~';
+					// Japanese variant modern chars -> traditional
+					case '\u4E9C': // modern 亜
+						output[outputPos++] = '\u4E9E';  // traditional 亞
 						break;
+					case '\u60AA': // modern 悪
+						output[outputPos++] = '\u60E1';  // traditional 惡
+						break;
+					case '\u5727': // modern 圧
+						output[outputPos++] = '\u58D3';  // traditional 壓
+						break;
+					case '\u56F2': // modern 囲
+						output[outputPos++] = '\u570D';  // traditional 圍
+						break;
+					case '\u58F1': // modern 壱
+						output[outputPos++] = '\u58F9';  // traditional 壹
+						break;
+					case '\u9038': // modern 逸
+						output[outputPos++] = '\uFA67';  // traditional 逸
+						break;
+					case '\u96A0': // modern 隠
+						output[outputPos++] = '\u96B1';  // traditional 隱
+						break;
+					case '\u6804': // modern 栄
+						output[outputPos++] = '\u69AE';  // traditional 榮
+						break;
+					case '\u55B6': // modern 営
+						output[outputPos++] = '\u71DF';  // traditional 營
+						break;
+					case '\u885B': // modern 衛
+						output[outputPos++] = '\u885E';  // traditional 衞
+						break;
+					case '\u99C5': // modern 駅
+						output[outputPos++] = '\u9A5B';  // traditional 驛
+						break;
+					case '\u8B01': // modern 謁
+						output[outputPos++] = '\uFA62';  // traditional 謁
+						break;
+					case '\u5186': // modern 円
+						output[outputPos++] = '\u5713';  // traditional 圓
+						break;
+					case '\u5869': // modern 塩
+						output[outputPos++] = '\u9E7D';  // traditional 鹽
+						break;
+					case '\u7E01': // modern 縁
+						output[outputPos++] = '\u7DE3';  // traditional 緣
+						break;
+					case '\u5FDC': // modern 応
+						output[outputPos++] = '\u61C9';  // traditional 應
+						break;
+					case '\u685C': // modern 桜
+						output[outputPos++] = '\u6AFB';  // traditional 櫻
+						break;
+
 					default:
 						output[outputPos++] = c;
 						break;
