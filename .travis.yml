@@ -3,4 +3,4 @@ script: "ant ci"
 jdk:
   - openjdk6
   - openjdk7
-#  - oraclejdk7
+  - oraclejdk7
