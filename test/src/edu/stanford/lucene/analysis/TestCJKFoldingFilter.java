@@ -48,7 +48,22 @@ public class TestCJKFoldingFilter extends BaseTokenStreamTestCase
 		checkOneTerm(analyzer, "縁", "緣"); // 縁 U+7E01 =>（緣）U+7DE3
 		checkOneTerm(analyzer, "応", "應"); // 応 U+5FDC =>（應）U+61C9
 		checkOneTerm(analyzer, "桜", "櫻"); // 桜 685C =>（櫻) 6AFB
-//		checkOneTerm(analyzer, "", "");
+//		checkOneTerm(analyzer, "奥", "奧"); // 奥（奧）
+//		checkOneTerm(analyzer, "横", "橫"); // 横（橫）
+//		checkOneTerm(analyzer, "温", "溫"); // 温（溫）
+//		checkOneTerm(analyzer, "穏", "穩"); // 穏（穩）
+//		checkOneTerm(analyzer, "仮", "假"); // 仮（假）
+//		checkOneTerm(analyzer, "価", "價"); // 価（價）
+//		checkOneTerm(analyzer, "禍", "禍"); // 禍（禍）
+//		checkOneTerm(analyzer, "画", "畫"); // 画（畫）
+//		checkOneTerm(analyzer, "悔", "悔"); // 悔（悔）
+//		checkOneTerm(analyzer, "海", "海"); // 海（海）
+//		checkOneTerm(analyzer, "絵", "繪"); // 絵（繪）
+//		checkOneTerm(analyzer, "壊", "壞"); // 壊（壞）
+//		checkOneTerm(analyzer, "懐", "懷"); // 懐（懷）
+//		checkOneTerm(analyzer, "慨", "慨"); // 慨（慨）
+
+		//		checkOneTerm(analyzer, "", "");
 	}
 
 
