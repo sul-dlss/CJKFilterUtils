@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="CJKFoldingFilter" default="dist" basedir="." >
+
+	<property file="build.properties" />
+
+	<!-- Continuous Integration properties -->
+	<property name="cobertura.jar.dir" location="${test.lib.dir}/cobertura-1.9.4.1" />
+	<property name="cobertura.data.file" value="${instr.dir}/cobertura.ser" />
+
+	<target name="clean" description="remove the build directories">
+		<delete dir="${build.dir}" />
+	</target>
+
+	<target name="init" description="create (empty) generated directories">
+		<mkdir dir="${build.dir}" />
+	</target>
+
+	<path id="classpath" description="classes and jars needed to build code)">
+		<fileset dir="${test.lib.dir}">
+			<include name="*.jar" />
+		</fileset>
+	</path>
+
+	<target name="compile" depends="init" description="Compile source code into the build directory">
+		<javac destdir="${build.dir}" srcdir="${src.dir}"
+                target="${java.compat.version}"
+                source="${java.compat.version}"
+                debug="true" debuglevel="lines,vars,source"
+                encoding="utf-8" includeAntRuntime="false">
+			<include name="**/*.java" />
+			<classpath refid="classpath" />
+		</javac>
+	</target>
+
+	<target name="jar" depends="compile" description="Build custom jar file" >
+		<mkdir dir="${dist.dir}" />
+		<jar destfile="${dist.dir}/CJKFoldingFilter.jar">
+			<fileset dir="${build.dir}" includes="**/*.class"/>
+			<fileset dir="${src.dir}" includes="**/*.java"/>
+		</jar>
+	</target>
+
+<!-- ************ test targets ********** -->
+
+	<target name="test_clean" description="remove the directories generated for testing">
+		<delete dir="${test.build.dir}" />
+		<delete dir="${instr.dir}" />
+		<delete file="${cobertura.data.file}" />
+		<delete dir="${coverage.dir}" />
+	</target>
+
+	<target name="test_init" description="create (empty) generated directories for TEST code">
+		<mkdir dir="${test.build.dir}" />
+	</target>
+
+	<path id="test.build.classpath" description="classes and jars needed to build TEST code">
+		<fileset dir="${test.lib.dir}">
+			<include name="**/*.jar" />
+		</fileset>
+		<pathelement location="${build.dir}"/>
+		<path refid="classpath" />
+	</path>
+
+	<target name="test_compile" depends="compile,test_init" description="Compile TEST source code into the test build directory">
+		<javac destdir="${test.build.dir}" srcdir="${test.src.dir}"
+                target="${java.compat.version}"
+                source="${java.compat.version}"
+                debug="true" debuglevel="lines,vars,source"
+                encoding="utf-8" includeAntRuntime="false">
+			<include name="**/*.java" />
+			<classpath refid="test.build.classpath" />
+		</javac>
+	</target>
+
+	<path id="test.run.classpath" description="classes and jars needed to run TEST code">
+		<pathelement location="${test.build.dir}"/>
+		<file name="${test.lib.dir}/randomizedtesting-running-2.0.10.jar" />
+		<file name="${test.lib.dir}/lucene-test-framework-4.4.0.jar" />
+<!--
+ -->
+ 		<fileset dir="${test.lib.dir}">
+			<exclude name="lucene-test-framework-4.4.0.jar,randomizedtesting-running-2.0.10.jar" />
+<!--
+			<exclude name="lucene-test-framework-4.4.0.jar" />
+ -->
+			<include name="*.jar" />
+		</fileset>
+		<path refid="test.build.classpath" />
+ 	</path>
+
+	<target name="test" depends="test_clean,test_compile" description="run tests">
+    <junit showoutput="yes" printsummary="yes" fork="yes" haltonfailure="on">
+			<jvmarg value="-ea" />
+			<classpath refid="test.run.classpath" />
+			<formatter type="plain" usefile="false" />
+    	<batchtest>
+				<fileset dir="${test.build.dir}" includes="**/Test*.class" excludes="**/*$*.class"/>
+			</batchtest>
+		</junit>
+	</target>
+
+
+<!-- ************ continuous integration targets ********** -->
+
+	<path id="cobertura.classpath">
+		<fileset dir="${cobertura.jar.dir}">
+			<include name="cobertura.jar" />
+			<include name="lib/**/*.jar" />
+		</fileset>
+	</path>
+
+	<!-- Load cobertura custom ant tasks -->
+	<taskdef classpathref="cobertura.classpath" resource="tasks.properties" />
+
+	<!-- NOTE:  this should be used only after a fresh compile -->
+	<target name="instrument">
+		<delete dir="${instr.dir}" />
+		<delete file="${cobertura.data.file}" />
+		<mkdir dir="${instr.dir}" />
+		<cobertura-instrument todir="${instr.dir}" datafile="${cobertura.data.file}">
+			<fileset dir="${build.dir}">
+				<include name="**/*.class" />
+				<exclude name="**/test/**" />
+				<exclude name="**/*Test*" />
+			</fileset>
+		</cobertura-instrument>
+	</target>
+
+	<target name="test_coverage" depends="test_clean,test_compile,instrument"
+		description="run tests and capture code coverage" >
+		<delete dir="${coverage.dir}" />
+		<mkdir dir="${coverage.dir}"/>
+
+		<path id="instrumented.classpath">
+			<pathelement location="${instr.dir}" />
+			<path refid="test.run.classpath" />
+			<path refid="cobertura.classpath" />
+		</path>
+
+		<junit showoutput="yes" printsummary="yes" fork="yes" haltonfailure="on">
+			<formatter type="plain" usefile="false" />
+			<jvmarg value="-ea" />
+			<classpath refid="instrumented.classpath" />
+			<!-- name of the coverage data file to use.  It must be the same
+                as the coverage data file generated during instrumentation. -->
+			<sysproperty key="net.sourceforge.cobertura.datafile" file="${cobertura.data.file}" />
+    	<batchtest>
+				<fileset dir="${test.build.dir}" includes="**/Test*.class" excludes="**/*$*.class"/>
+			</batchtest>
+		</junit>
+
+		<!-- hudson cobertura plugin uses xml report and html reports are handy -->
+		<cobertura-report format="xml" destdir="${coverage.dir}" srcdir="${src.dir}" datafile="${cobertura.data.file}"/>
+		<cobertura-report format="html" destdir="${coverage.dir}" srcdir="${src.dir}" datafile="${cobertura.data.file}"/>
+	</target>
+
+
+	<target name="javadoc" description="generate javadoc">
+		<path id="docs.srcpath">
+			<pathelement location="${src.dir}"/>
+			<pathelement location="${test.src.dir}"/>
+		</path>
+
+		<javadoc	destdir="${javadoc.dir}"
+							sourcepathref="docs.srcpath"
+							classpathref="test.build.classpath"
+							author="true"
+							version="true"
+							use="true"
+							windowtitle="CJKFoldingFilter for Lucene/Solr">
+		    <doctitle><![CDATA[<h1>CJKFoldingFilter for Lucene/Solr API</h1>]]></doctitle>
+	    	<group title="Packages" packages="edu.stanford.lucene.analysis"/>
+	    	<group title="Test Classes" packages="edu.stanford.lucene.analysis.*Test*"/>
+				<package name="edu.stanford.*" />
+	    	<link href="http://docs.oracle.com/javase/6/docs/api/" />
+		  </javadoc>
+	</target>
+
+	<target name="clean_all" depends="test_clean,clean" />
+
+	<target name="ci" depends="clean_all,test_coverage,javadoc" description="Continuous Integration: javadoc and tests with coverage" />
+
+</project>
