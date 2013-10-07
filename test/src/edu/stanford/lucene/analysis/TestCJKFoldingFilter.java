@@ -75,12 +75,13 @@ public class TestCJKFoldingFilter extends BaseTokenStreamTestCase
 	}
 
 
-//	/** blast some random strings through the analyzer */
-//@Test
-//	public void testRandomStrings() throws Exception
-//	{
-//		checkRandomData(random(), analyzer, 1000*RANDOM_MULTIPLIER);
-//	}
+// FIXME: this fails sometimes in undetermined ways, presumably because random chars sometimes include the ones we change
+	/** blast some random strings through the analyzer */
+@Test
+	public void testRandomStrings() throws Exception
+	{
+		checkRandomData(random(), analyzer, 1000*RANDOM_MULTIPLIER);
+	}
 
 @Test
 	public void testEmptyTerm() throws IOException
