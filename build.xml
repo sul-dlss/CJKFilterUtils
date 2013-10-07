@@ -72,24 +72,24 @@
 		</javac>
 	</target>
 
+	<path id="test.framework.jar">
+		<fileset dir="${test.lib.dir}">
+			<include name="lucene-test-framework*.jar" />
+		</fileset>
+	</path>
+
 	<path id="test.run.classpath" description="classes and jars needed to run TEST code">
+		<path refid="test.framework.jar"/>
 		<pathelement location="${test.build.dir}"/>
-		<file name="${test.lib.dir}/randomizedtesting-running-2.0.10.jar" />
-		<file name="${test.lib.dir}/lucene-test-framework-4.4.0.jar" />
-<!--
- -->
  		<fileset dir="${test.lib.dir}">
-			<exclude name="lucene-test-framework-4.4.0.jar,randomizedtesting-running-2.0.10.jar" />
-<!--
-			<exclude name="lucene-test-framework-4.4.0.jar" />
- -->
+			<exclude name="lucene-test-framework*.jar" />
 			<include name="*.jar" />
 		</fileset>
 		<path refid="test.build.classpath" />
  	</path>
 
 	<target name="test" depends="test_clean,test_compile" description="run tests">
-    <junit showoutput="yes" printsummary="yes" fork="yes" haltonfailure="on">
+    <junit showoutput="yes" printsummary="yes" fork="yes" forkmode="once" haltonfailure="on">
 			<jvmarg value="-ea" />
 			<classpath refid="test.run.classpath" />
 			<formatter type="plain" usefile="false" />
@@ -132,15 +132,15 @@
 		<mkdir dir="${coverage.dir}"/>
 
 		<path id="instrumented.classpath">
-			<pathelement location="${instr.dir}" />
 			<path refid="test.run.classpath" />
+			<pathelement location="${instr.dir}" />
 			<path refid="cobertura.classpath" />
 		</path>
 
-		<junit showoutput="yes" printsummary="yes" fork="yes" haltonfailure="on">
+		<junit showoutput="yes" printsummary="yes" fork="yes" forkmode="once" haltonfailure="on">
 			<formatter type="plain" usefile="false" />
-			<jvmarg value="-ea" />
 			<classpath refid="instrumented.classpath" />
+			<jvmarg value="-ea" />
 			<!-- name of the coverage data file to use.  It must be the same
                 as the coverage data file generated during instrumentation. -->
 			<sysproperty key="net.sourceforge.cobertura.datafile" file="${cobertura.data.file}" />
