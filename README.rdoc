@@ -10,13 +10,15 @@ converts modern Japanese Kanji to their traditional equivalents.
 == Usage
 
 * clone the project
+
   git clone git://github.com/solrmarc/CJKFoldingFilter.git
+
 * run the jar ant task
+
   ant jar
+
 * put the CJKFoldingFilter.jar file found in the dist directory into your Solr lib directory
 * utilize the Solr CJKFoldingFilterFactory in your schema.xml file.
-
-== Example
 
  <fieldType name="text_cjk" class="solr.TextField" positionIncrementGap="10000" autoGeneratePhraseQueries="false">
    <analyzer>
