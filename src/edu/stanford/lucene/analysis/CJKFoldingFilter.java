@@ -153,6 +153,68 @@ public class CJKFoldingFilter extends TokenFilter
 					case '\u685C': // modern 桜
 						output[outputPos++] = '\u6AFB';  // traditional 櫻
 						break;
+					case '\u5965': // modern 奥
+						output[outputPos++] = '\u5967'; // traditional 奧
+						break;
+					case '\u6A2A': // modern 横
+						output[outputPos++] = '\u6A6B'; // traditional （橫
+						break;
+					case '\u6E29': // modern 温
+						output[outputPos++] = '\u6EAB'; // traditional （溫）
+						break;
+					case '\u7A4F': // modern 穏
+						output[outputPos++] = '\u7A69'; // traditional （穩）
+						break;
+					case '\u4EEE': // modern 仮
+						output[outputPos++] = '\u5047'; // traditional （假）
+						break;
+					case '\u4FA1': // modern 価
+						output[outputPos++] = '\u50F9'; // traditional （價）
+						break;
+					case '\u798D': // modern 禍
+						output[outputPos++] = '\uFA52'; // traditional （禍）
+						break;
+					case '\u753B': // modern 画
+						output[outputPos++] = '\u756B'; // traditional （畫）
+						break;
+					case '\u6094': // modern 悔
+						output[outputPos++] = '\uFA3D'; // traditional （悔）
+						break;
+					case '\u6D77': // modern 海
+						output[outputPos++] = '\uFA45'; // traditional （海）
+						break;
+					case '\u7D75': // modern 絵
+						output[outputPos++] = '\u7E6A'; // traditional （繪）
+						break;
+					case '\u58CA': // modern 壊
+						output[outputPos++] = '\u58DE'; // traditional （壞）
+						break;
+					case '\u61D0': // modern 懐
+						output[outputPos++] = '\u61F7'; // traditional （懷）
+						break;
+					case '\u6168': // modern 慨
+						output[outputPos++] = '\uFA3E'; // traditional （慨）
+						break;
+					case '\u62E1': // modern 拡
+						output[outputPos++] = '\u64F4'; // traditional （擴）
+						break;
+					case '\u6BBB': // modern 殻
+						output[outputPos++] = '\u6BBC'; // traditional （殼）
+						break;
+					case '\u899A': // modern 覚
+						output[outputPos++] = '\u89BA'; // traditional （覺）
+						break;
+					case '\u697D': // modern 楽
+						output[outputPos++] = '\u6A02'; // traditional （樂）
+						break;
+					case '\u559D': // modern 喝
+						output[outputPos++] = '\uFA36'; // traditional （喝）
+						break;
+					case '\u6E07': // modern 渇
+						output[outputPos++] = '\u6E34'; // traditional （渴）
+						break;
+
+
 
 					default:
 						output[outputPos++] = c;

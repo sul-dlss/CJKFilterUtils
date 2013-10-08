@@ -48,20 +48,26 @@ public class TestCJKFoldingFilter extends BaseTokenStreamTestCase
 		checkOneTerm(analyzer, "縁", "緣"); // 縁 U+7E01 =>（緣）U+7DE3
 		checkOneTerm(analyzer, "応", "應"); // 応 U+5FDC =>（應）U+61C9
 		checkOneTerm(analyzer, "桜", "櫻"); // 桜 685C =>（櫻) 6AFB
-//		checkOneTerm(analyzer, "奥", "奧"); // 奥（奧）
-//		checkOneTerm(analyzer, "横", "橫"); // 横（橫）
-//		checkOneTerm(analyzer, "温", "溫"); // 温（溫）
-//		checkOneTerm(analyzer, "穏", "穩"); // 穏（穩）
-//		checkOneTerm(analyzer, "仮", "假"); // 仮（假）
-//		checkOneTerm(analyzer, "価", "價"); // 価（價）
-//		checkOneTerm(analyzer, "禍", "禍"); // 禍（禍）
-//		checkOneTerm(analyzer, "画", "畫"); // 画（畫）
-//		checkOneTerm(analyzer, "悔", "悔"); // 悔（悔）
-//		checkOneTerm(analyzer, "海", "海"); // 海（海）
-//		checkOneTerm(analyzer, "絵", "繪"); // 絵（繪）
-//		checkOneTerm(analyzer, "壊", "壞"); // 壊（壞）
-//		checkOneTerm(analyzer, "懐", "懷"); // 懐（懷）
-//		checkOneTerm(analyzer, "慨", "慨"); // 慨（慨）
+		checkOneTerm(analyzer, "奥", "奧"); // 奥 U+5965 =>（奧）U+5967
+		checkOneTerm(analyzer, "横", "橫"); // 横 6A2A =>（橫） 6A6B
+		checkOneTerm(analyzer, "温", "溫"); // 温 6E29 =>（溫） 6EAB
+		checkOneTerm(analyzer, "穏", "穩"); // 穏 7A4F =>（穩） 7A69
+		checkOneTerm(analyzer, "仮", "假"); // 仮 4EEE =>（假）5047
+		checkOneTerm(analyzer, "価", "價"); // 価 4FA1 =>（價）50F9
+		checkOneTerm(analyzer, "禍", "禍"); // 禍 798D =>（禍） FA52
+		checkOneTerm(analyzer, "画", "畫"); // 画 753B =>（畫） 756B
+		checkOneTerm(analyzer, "悔", "悔"); // 悔 6094 =>（悔） FA3D
+		checkOneTerm(analyzer, "海", "海"); // 海 6D77 =>（海） FA45
+		checkOneTerm(analyzer, "絵", "繪"); // 絵 7D75 =>（繪） 7E6A
+		checkOneTerm(analyzer, "壊", "壞"); // 壊 58CA =>（壞） 58DE
+		checkOneTerm(analyzer, "懐", "懷"); // 懐 61D0 =>（懷） 61F7
+		checkOneTerm(analyzer, "慨", "慨"); // 慨 6168 =>（慨） FA3E
+		checkOneTerm(analyzer, "拡", "擴"); // 拡 62E1 =>（擴） 64F4
+		checkOneTerm(analyzer, "殻", "殼"); // 殻 6BBB =>（殼） 6BBC
+		checkOneTerm(analyzer, "覚", "覺"); // 覚 899A =>（覺） 89BA
+		checkOneTerm(analyzer, "楽", "樂"); // 楽 697D =>（樂） 6A02
+		checkOneTerm(analyzer, "喝", "喝"); // 喝 559D =>（喝） FA36
+		checkOneTerm(analyzer, "渇", "渴"); // 渇 6E07 =>（渴） 6E34
 
 		//		checkOneTerm(analyzer, "", "");
 	}
