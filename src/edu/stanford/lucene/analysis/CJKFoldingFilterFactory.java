@@ -15,7 +15,7 @@ public class CJKFoldingFilterFactory extends TokenFilterFactory
 	/**
 	 * @param map
 	 */
-	protected CJKFoldingFilterFactory(Map<String, String> map)
+	public CJKFoldingFilterFactory(Map<String, String> map)
 	{
 		super(map);
 	}
