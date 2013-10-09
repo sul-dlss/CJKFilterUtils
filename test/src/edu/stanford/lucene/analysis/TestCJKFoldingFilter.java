@@ -112,7 +112,7 @@ public class TestCJKFoldingFilter extends BaseTokenStreamTestCase
 		checkOneTerm(analyzer, "恋", "戀"); // 恋 604B => (戀) 6200
 		checkOneTerm(analyzer, "恒", "恆"); // 恒 6052 => (恆) 6046
 		checkOneTerm(analyzer, "恵", "惠"); // 恵 6075 => (惠) 60E0
-		checkOneTerm(analyzer, "悔", "悔"); // 悔 6094 =>（悔） FA3D
+		checkOneTerm(analyzer, "悔", "悔"); // 悔 6094 => (悔) FA3D
 		checkOneTerm(analyzer, "悪", "惡"); // 悪 60AA => (惡) 60E1
 		checkOneTerm(analyzer, "悩", "惱"); // 悩 60A9 => (惱) 60F1
 		checkOneTerm(analyzer, "慨", "慨"); // 慨 6168 => (慨) FA3E
@@ -162,7 +162,7 @@ public class TestCJKFoldingFilter extends BaseTokenStreamTestCase
 		checkOneTerm(analyzer, "温", "溫"); // 温 6E29 => (溫) 6EAB
 		checkOneTerm(analyzer, "漢", "漢"); // 漢 6F22 => (漢) FA47
 		checkOneTerm(analyzer, "権", "權"); // 権 6A29 => (權) 6B0A
-		checkOneTerm(analyzer, "横", "橫"); // 横 6A2A =>（橫） 6A6B
+		checkOneTerm(analyzer, "横", "橫"); // 横 6A2A => (橫) 6A6B
 		checkOneTerm(analyzer, "欄", "欄"); // 欄 6B04 => (欄) F91D
 		checkOneTerm(analyzer, "欠", "缺"); // 欠 6B20 => (缺) 7F3A
 		checkOneTerm(analyzer, "歩", "步"); // 歩 6B69 => (步) 6B65
@@ -313,7 +313,20 @@ public class TestCJKFoldingFilter extends BaseTokenStreamTestCase
 		checkOneTerm(analyzer, "齢", "齡"); // 齢 9F62 => (齡) 9F61
 	}
 
-// FIXME: this fails sometimes in undetermined ways, presumably because random chars sometimes include the ones we change
+	/**
+	 * ensure that when character maps to an Fnnn character, there is no
+	 * issue with tokens of multiple characters
+	 */
+@Test
+	public void testFirstByteFTokens() throws Exception
+	{
+		checkOneTerm(analyzer, "亜", "亞"); // 亜 4E9C => (亞) 4E9E
+		checkOneTerm(analyzer, "梅", "梅"); // 梅 6885 => (梅) FA44
+
+		checkOneTerm(analyzer, "亜梅亜", "亞梅亞");
+		checkOneTerm(analyzer, "梅亜", "梅亞");
+	}
+
 	/** blast some random strings through the analyzer */
 @Test
 	public void testRandomStrings() throws Exception
