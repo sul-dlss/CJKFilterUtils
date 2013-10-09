@@ -38,35 +38,6 @@ public class CJKFoldingFilter extends TokenFilter
 		{
 			final char[] buffer = charTermAttr.buffer();
 			final int bufferLen = charTermAttr.length();
-
-//			for (int i = 0, cp = 0, cpLen = 0; i < bufferLen; i += cpLen)
-//			{
-//				cp = buffer[bufferLen] = (char) Character.codePointAt(buffer, i, bufferLen);
-//				cpLen = Character.charCount(cp);
-//				bufferLen++;
-//			}
-
-//			int codePnt = 0;
-//			int cpLen = 0;
-//			for (int i = 0; i < bufferLen ; i += cpLen)
-//			{
-//				buffer[bufferLen] = (char) Character.codePointAt(buffer, i, bufferLen);
-//				codePnt = buffer[bufferLen];
-//				cpLen = Character.charCount(codePnt);
-//System.out.println("\ncodePnt is " + String.valueOf(codePnt) + " with len of " + String.valueOf(cpLen));
-////				bufferLen++;
-//
-//				final char c = buffer[bufferLen];
-//				// If no characters actually require rewriting then we
-//				// just return token as-is:
-//				if (c >= '\u3000')
-//				{
-//					mapUnicode(buffer, bufferLen);
-//					charTermAttr.copyBuffer(output, 0, outputPos);
-//					break;
-//				}
-//			}
-
 			for (int i = 0 ; i < bufferLen ; ++i)
 			{
 				final char c = buffer[i];
@@ -120,7 +91,7 @@ public class CJKFoldingFilter extends TokenFilter
 
 			// Quick test: if it's not in range then just keep current character
 			if (c < '\u3000')
-			  output[outputPos++] = c;
+				output[outputPos++] = c;
 			else
 			{
 				// check for Japanese Modern chars that aren't the same as Han Simplified
@@ -128,42 +99,13 @@ public class CJKFoldingFilter extends TokenFilter
 				{
 					String mapped = japaneseMod2Trad.get(String.valueOf(c));
 					int mappedLen = mapped.length();
-//System.out.println("\t" + String.valueOf(c) + " mapped to " + mapped);
-//System.out.println("mapped length " + String.valueOf(mappedLen));
-//char[] a = new char[2];
-//a[0] = c;
-//char mappedChar = mapped.charAt(mappedLen-1);
-//System.out.println("mapped code point count " + Character.codePointCount(mapped, 0, mappedLen));
-//a[1] = mappedChar;
-//System.out.println("orig char " + String.valueOf(Character.codePointAt(a, 0))+ " char count " + String.valueOf(Character.charCount(c)) + " " + String.valueOf(Character.isValidCodePoint(c)));
-//System.out.println("mapped char " + String.valueOf(Character.codePointAt(a, 1))+ " char count " + String.valueOf(Character.charCount(mappedChar)) + " " + String.valueOf(Character.isValidCodePoint(mappedChar)));
 					for (int i = 0; i < mappedLen; i++)
 					{
-//System.out.println("mapped char type " + Character.getType(mapped.charAt(i)));
-//boolean b = Character.isSurrogatePair(mapped.charAt(mappedLen-1), mapped.charAt(mappedLen));
-//System.out.println("is surrogate pair: " + String.valueOf(b));
 						output[outputPos++] = mapped.charAt(i);
 					}
-//					output[outputPos++] = japaneseMod2Trad.get(String.valueOf(c));
 				}
 				else
 					output[outputPos++] = c;
-
-/*
-				switch (c)
-				{
-					// Japanese variant modern chars -> traditional
-					case '\u4E9C': // modern 亜
-						output[outputPos++] = '\u4E9E';  // traditional 亞
-						break;
-					case '\u60AA': // modern 悪
-						output[outputPos++] = '\u60E1';  // traditional 惡
-						break;
-					default:
-						output[outputPos++] = c;
-						break;
-				}
-*/
 			}
 		}
 		return outputPos;
