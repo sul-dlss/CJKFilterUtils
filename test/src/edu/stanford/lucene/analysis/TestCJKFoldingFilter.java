@@ -314,11 +314,16 @@ public class TestCJKFoldingFilter extends BaseTokenStreamTestCase
 	}
 
 
-	void assertTermEquals(String expected, TokenStream stream, CharTermAttribute termAtt) throws Exception
-	{
-		assertTrue(stream.incrementToken());
-		assertEquals(expected, termAtt.toString());
-	}
+//	/**
+//	 * from http://www.loc.gov/ils/cjk_search/browse.php
+//	 * @throws Exception
+//	 */
+//@Test
+//	public void testLoCCJKCompatibility() throws Exception
+//	{
+//		checkOneTerm(analyzer, "＜", "<"); // 亜 4E9C => (亞) 4E9E
+//		checkOneTerm(analyzer, "仮", "假"); // 仮 4EEE => (假) 5047
+//	}
 
 
 // FIXME: this fails sometimes in undetermined ways, presumably because random chars sometimes include the ones we change
@@ -351,6 +356,12 @@ public class TestCJKFoldingFilter extends BaseTokenStreamTestCase
 	      return new TokenStreamComponents(tokenizer, stream);
 	    }
 	};
+
+	void assertTermEquals(String expected, TokenStream stream, CharTermAttribute termAtt) throws Exception
+	{
+		assertTrue(stream.incrementToken());
+		assertEquals(expected, termAtt.toString());
+	}
 
 
 
