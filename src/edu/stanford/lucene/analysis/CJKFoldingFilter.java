@@ -153,6 +153,7 @@ public class CJKFoldingFilter extends TokenFilter
 		variant2Trad.put(String.valueOf('\u5606'), String.valueOf('\uFA37')); // modern 嘆 => trad 嘆
 		variant2Trad.put(String.valueOf('\u5668'), String.valueOf('\uFA38')); // modern 器 => trad 器
 		variant2Trad.put(String.valueOf('\u56E3'), String.valueOf('\u5718')); // modern 団 => trad 團
+		variant2Trad.put(String.valueOf('\u56EF'), String.valueOf('\u570B')); // variant 囯 => trad 國
 		variant2Trad.put(String.valueOf('\u56F2'), String.valueOf('\u570D')); // modern 囲 => trad 圍
 		variant2Trad.put(String.valueOf('\u56F3'), String.valueOf('\u5716')); // modern 図 => trad 圖
 		variant2Trad.put(String.valueOf('\u570F'), String.valueOf('\u5708')); // modern 圏 => trad 圈
