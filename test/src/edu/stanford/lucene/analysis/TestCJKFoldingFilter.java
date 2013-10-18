@@ -34,8 +34,9 @@ public class TestCJKFoldingFilter extends BaseTokenStreamTestCase
 	 */
 	public void testAddlHanVariants() throws Exception
 	{
-		checkOneTerm(analyzer, "緖", "緒"); // 緖 7DD6 (variant) => 緒 7DD2 (std trad)
+		checkOneTerm(analyzer, "緖", "緒"); // 緖 7DD6 (variant) => 緒 7DD2 (std trad) // backwards in Jidong's list
 		checkOneTerm(analyzer, "甯", "寧"); // 甯 752F (variant) => 寧 5BE7 (std trad)
+		checkOneTerm(analyzer, "硏", "研"); // 緖 784F (variant) => 研 7814 (std trad) // backwards in Jidong's list
 	}
 
 	/**
@@ -210,7 +211,6 @@ public class TestCJKFoldingFilter extends BaseTokenStreamTestCase
 		checkOneTerm(analyzer, "畳", "疊"); // 畳 7573 => 疊 758A
 		checkOneTerm(analyzer, "発", "發"); // 発 767A => 發 767C
 		checkOneTerm(analyzer, "県", "縣"); // 県 770C => 縣 7E23
-		checkOneTerm(analyzer, "研", "硏"); // 研 7814 => 硏 784F
 		checkOneTerm(analyzer, "砕", "碎"); // 砕 7815 => 碎 788E
 		checkOneTerm(analyzer, "碑", "碑"); // 碑 7891 => 碑 FA4B
 		checkOneTerm(analyzer, "祉", "祉"); // 祉 7949 => 祉 FA4D

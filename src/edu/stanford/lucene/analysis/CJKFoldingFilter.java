@@ -275,8 +275,8 @@ public class CJKFoldingFilter extends TokenFilter
 		variant2Trad.put(String.valueOf('\u7573'), String.valueOf('\u758A')); // modern 畳 => trad 疊
 		variant2Trad.put(String.valueOf('\u767A'), String.valueOf('\u767C')); // modern 発 => trad 發
 		variant2Trad.put(String.valueOf('\u770C'), String.valueOf('\u7E23')); // modern 県 => trad 縣
-		variant2Trad.put(String.valueOf('\u7814'), String.valueOf('\u784F')); // modern 研 => trad 硏
 		variant2Trad.put(String.valueOf('\u7815'), String.valueOf('\u788E')); // modern 砕 => trad 碎
+		variant2Trad.put(String.valueOf('\u784F'), String.valueOf('\u7814')); // variant 硏 => trad 研
 		variant2Trad.put(String.valueOf('\u7891'), String.valueOf('\uFA4B')); // modern 碑 => trad 碑
 		variant2Trad.put(String.valueOf('\u7949'), String.valueOf('\uFA4D')); // modern 祉 => trad 祉
 		variant2Trad.put(String.valueOf('\u7965'), String.valueOf('\uFA1A')); // modern 祥 => trad 祥
