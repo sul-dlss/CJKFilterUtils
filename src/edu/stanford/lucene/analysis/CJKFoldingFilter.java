@@ -223,6 +223,7 @@ public class CJKFoldingFilter extends TokenFilter
 		variant2Trad.put(String.valueOf('\u63FA'), String.valueOf('\u6416')); // modern 揺 => trad 搖
 		variant2Trad.put(String.valueOf('\u6442'), String.valueOf('\u651D')); // modern 摂 => trad 攝
 		variant2Trad.put(String.valueOf('\u6483'), String.valueOf('\u64CA')); // modern 撃 => trad 擊
+		variant2Trad.put(String.valueOf('\u654E'), String.valueOf('\u6559')); // variant 敎 => trad 教
 		variant2Trad.put(String.valueOf('\u654F'), String.valueOf('\uFA41')); // modern 敏 => trad 敏
 		variant2Trad.put(String.valueOf('\u6589'), String.valueOf('\u9F4A')); // modern 斉 => trad 齊
 		variant2Trad.put(String.valueOf('\u658E'), String.valueOf('\u9F4B')); // modern 斎 => trad 齋
