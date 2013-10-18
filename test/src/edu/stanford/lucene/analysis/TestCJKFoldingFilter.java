@@ -49,6 +49,7 @@ public class TestCJKFoldingFilter extends BaseTokenStreamTestCase
 		checkOneTerm(analyzer, "児", "兒"); // 児 5150 => 兒 5152
 		checkOneTerm(analyzer, "円", "圓"); // 円 5186 => 圓 5713
 		checkOneTerm(analyzer, "処", "處"); // 処 51E6 => 處 8655
+		checkOneTerm(analyzer, "刊", "刋"); // 刊 520A => 刋 520B
 		checkOneTerm(analyzer, "剣", "劍"); // 剣 5263 => 劍 528D
 		checkOneTerm(analyzer, "剤", "劑"); // 剤 5264 => 劑 5291
 		checkOneTerm(analyzer, "剰", "剩"); // 剰 5270 => 剩 5269

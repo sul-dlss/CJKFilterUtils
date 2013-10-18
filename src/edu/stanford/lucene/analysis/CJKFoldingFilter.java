@@ -130,6 +130,7 @@ public class CJKFoldingFilter extends TokenFilter
 		japaneseMod2Trad.put(String.valueOf('\u5150'), String.valueOf('\u5152')); // modern 児 => trad 兒
 		japaneseMod2Trad.put(String.valueOf('\u5186'), String.valueOf('\u5713')); // modern 円 => trad 圓
 		japaneseMod2Trad.put(String.valueOf('\u51E6'), String.valueOf('\u8655')); // modern 処 => trad 處
+		japaneseMod2Trad.put(String.valueOf('\u520A'), String.valueOf('\u520B')); // modern 刊 => trad 刋
 		japaneseMod2Trad.put(String.valueOf('\u5263'), String.valueOf('\u528D')); // modern 剣 => trad 劍
 		japaneseMod2Trad.put(String.valueOf('\u5264'), String.valueOf('\u5291')); // modern 剤 => trad 劑
 		japaneseMod2Trad.put(String.valueOf('\u5270'), String.valueOf('\u5269')); // modern 剰 => trad 剩
