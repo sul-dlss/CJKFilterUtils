@@ -28,21 +28,35 @@ public class TestCJKFoldingFilter extends BaseTokenStreamTestCase
 		assertFalse(filter.incrementToken());
 	}
 
+	/**
+	 * Han character variants that aren't Japanese Modern and aren't from
+	 *  "Jidong's list"
+	 */
+	public void testAddlHanVariants() throws Exception
+	{
+		checkOneTerm(analyzer, "緖", "緒"); // 緖 7DD6 => 緒 7DD2 (std trad)
+	}
+
+	/**
+	 * the chars below are mostly from "Jidong's list" (Stanford University
+	 * East Asia Librarian) and may also include chars not used by Modern
+	 * Japanese
+	 */
 @Test
 	public void testModernJapaneseToTrad() throws Exception
 	{
-
-		checkOneTerm(analyzer, "亜", "亞"); // 亜 4E9C => 亞 4E9E
-		checkOneTerm(analyzer, "仮", "假"); // 仮 4EEE => 假 5047
-		checkOneTerm(analyzer, "価", "價"); // 価 4FA1 => 價 50F9
 		checkOneTerm(analyzer, "両", "兩"); // 両 4E21 => 兩 5169
 		checkOneTerm(analyzer, "並", "竝"); // 並 4E26 => 竝 7ADD
 		checkOneTerm(analyzer, "乗", "乘"); // 乗 4E57 => 乘 4E58
 		checkOneTerm(analyzer, "予", "豫"); // 予 4E88 => 豫 8C6B
+		checkOneTerm(analyzer, "亜", "亞"); // 亜 4E9C => 亞 4E9E
 		checkOneTerm(analyzer, "仏", "佛"); // 仏 4ECF => 佛 4F5B
+		checkOneTerm(analyzer, "仮", "假"); // 仮 4EEE => 假 5047
 		checkOneTerm(analyzer, "伝", "傳"); // 伝 4F1D => 傳 50B3
 		checkOneTerm(analyzer, "併", "倂"); // 併 4F75 => 倂 5002
+		checkOneTerm(analyzer, "価", "價"); // 価 4FA1 => 價 50F9
 		checkOneTerm(analyzer, "侮", "侮"); // 侮 4FAE => 侮 FA30
+
 		checkOneTerm(analyzer, "倹", "儉"); // 倹 5039 => 儉 5109
 		checkOneTerm(analyzer, "偽", "僞"); // 偽 507D => 僞 50DE
 		checkOneTerm(analyzer, "免", "免"); // 免 514D => 免 FA32
@@ -53,12 +67,12 @@ public class TestCJKFoldingFilter extends BaseTokenStreamTestCase
 		checkOneTerm(analyzer, "剣", "劍"); // 剣 5263 => 劍 528D
 		checkOneTerm(analyzer, "剤", "劑"); // 剤 5264 => 劑 5291
 		checkOneTerm(analyzer, "剰", "剩"); // 剰 5270 => 剩 5269
-		checkOneTerm(analyzer, "勤", "勤"); // 勤 52E4 => 勤 FA34
-		checkOneTerm(analyzer, "勧", "勸"); // 勧 52E7 => 勸 52F8
 		checkOneTerm(analyzer, "励", "勵"); // 励 52B1 => 勵 52F5
 		checkOneTerm(analyzer, "労", "勞"); // 労 52B4 => 勞 52DE
 		checkOneTerm(analyzer, "効", "效"); // 効 52B9 => 效 6548
 		checkOneTerm(analyzer, "勉", "勉"); // 勉 52C9 => 勉 FA33
+		checkOneTerm(analyzer, "勤", "勤"); // 勤 52E4 => 勤 FA34
+		checkOneTerm(analyzer, "勧", "勸"); // 勧 52E7 => 勸 52F8
 		checkOneTerm(analyzer, "勲", "勳"); // 勲 52F2 => 勳 52F3
 		checkOneTerm(analyzer, "卑", "卑"); // 卑 5351 => 卑 FA35
 		checkOneTerm(analyzer, "単", "單"); // 単 5358 => 單 55AE
@@ -70,8 +84,8 @@ public class TestCJKFoldingFilter extends BaseTokenStreamTestCase
 		checkOneTerm(analyzer, "営", "營"); // 営 55B6 => 營 71DF
 		checkOneTerm(analyzer, "嘆", "嘆"); // 嘆 5606 => 嘆 FA37
 		checkOneTerm(analyzer, "器", "器"); // 器 5668 => 器 FA38
-		checkOneTerm(analyzer, "囲", "圍"); // 囲 56F2 => 圍 570D
 		checkOneTerm(analyzer, "団", "團"); // 団 56E3 => 團 5718
+		checkOneTerm(analyzer, "囲", "圍"); // 囲 56F2 => 圍 570D
 		checkOneTerm(analyzer, "図", "圖"); // 図 56F3 => 圖 5716
 		checkOneTerm(analyzer, "圏", "圈"); // 圏 570F => 圈 5708
 		checkOneTerm(analyzer, "圧", "壓"); // 圧 5727 => 壓 58D3
@@ -80,20 +94,16 @@ public class TestCJKFoldingFilter extends BaseTokenStreamTestCase
 		checkOneTerm(analyzer, "塚", "塚"); // 塚 585A => 塚 FA10
 		checkOneTerm(analyzer, "塩", "鹽"); // 塩 5869 => 鹽 9E7D
 		checkOneTerm(analyzer, "増", "增"); // 増 5897 => 增 589E
-		checkOneTerm(analyzer, "壊", "壞"); // 壊 58CA => 壞 58DE
-		checkOneTerm(analyzer, "壱", "壹"); // 壱 58F1 => 壹 58F9
 		checkOneTerm(analyzer, "墨", "墨"); // 墨 58A8 => 墨 FA3A
 		checkOneTerm(analyzer, "壊", "壞"); // 壊 58CA => 壞 58DE
 		checkOneTerm(analyzer, "壌", "壤"); // 壌 58CC => 壤 58E4
+		checkOneTerm(analyzer, "壱", "壹"); // 壱 58F1 => 壹 58F9
 		checkOneTerm(analyzer, "売", "賣"); // 売 58F2 => 賣 8CE3
 		checkOneTerm(analyzer, "変", "變"); // 変 5909 => 變 8B8A
 		checkOneTerm(analyzer, "奥", "奧"); // 奥 5965 => 奧 5967
 		checkOneTerm(analyzer, "奨", "奬"); // 奨 5968 => 奬 596C
-		checkOneTerm(analyzer, "寛", "寬"); // 寛 5BDB => 寬 5BEC
-		checkOneTerm(analyzer, "巻", "卷"); // 巻 5DFB => 卷 5377
-		checkOneTerm(analyzer, "帰", "歸"); // 帰 5E30 => 歸 6B78
-		checkOneTerm(analyzer, "応", "應"); // 応 5FDC => 應 61C9
 		checkOneTerm(analyzer, "嬢", "孃"); // 嬢 5B22 => 孃 5B43
+		checkOneTerm(analyzer, "寛", "寬"); // 寛 5BDB => 寬 5BEC
 		checkOneTerm(analyzer, "実", "實"); // 実 5B9F => 實 5BE6
 		checkOneTerm(analyzer, "対", "對"); // 対 5BFE => 對 5C0D
 		checkOneTerm(analyzer, "専", "專"); // 専 5C02 => 專 5C08
@@ -101,9 +111,11 @@ public class TestCJKFoldingFilter extends BaseTokenStreamTestCase
 		checkOneTerm(analyzer, "層", "層"); // 層 5C64 => 層 FA3B
 		checkOneTerm(analyzer, "州", "洲"); // 州 5DDE => 洲 6D32
 		checkOneTerm(analyzer, "巣", "巢"); // 巣 5DE3 => 巢 5DE2
+		checkOneTerm(analyzer, "巻", "卷"); // 巻 5DFB => 卷 5377
 		checkOneTerm(analyzer, "帯", "帶"); // 帯 5E2F => 帶 5E36
 		checkOneTerm(analyzer, "庁", "廳"); // 庁 5E81 => 廳 5EF3
 		checkOneTerm(analyzer, "広", "廣"); // 広 5E83 => 廣 5EE3
+		checkOneTerm(analyzer, "帰", "歸"); // 帰 5E30 => 歸 6B78
 		checkOneTerm(analyzer, "廃", "廢"); // 廃 5EC3 => 廢 5EE2
 		checkOneTerm(analyzer, "廊", "廊"); // 廊 5ECA => 廊 F928
 		checkOneTerm(analyzer, "弐", "貳"); // 弐 5F10 => 貳 8CB3
@@ -112,12 +124,13 @@ public class TestCJKFoldingFilter extends BaseTokenStreamTestCase
 		checkOneTerm(analyzer, "徳", "德"); // 徳 5FB3 => 德 5FB7
 		checkOneTerm(analyzer, "徴", "徵"); // 徴 5FB4 => 徵 5FB5
 		checkOneTerm(analyzer, "応", "應"); // 応 5FDC => 應 61C9
+
 		checkOneTerm(analyzer, "恋", "戀"); // 恋 604B => 戀 6200
 		checkOneTerm(analyzer, "恒", "恆"); // 恒 6052 => 恆 6046
 		checkOneTerm(analyzer, "恵", "惠"); // 恵 6075 => 惠 60E0
 		checkOneTerm(analyzer, "悔", "悔"); // 悔 6094 => 悔 FA3D
-		checkOneTerm(analyzer, "悪", "惡"); // 悪 60AA => 惡 60E1
 		checkOneTerm(analyzer, "悩", "惱"); // 悩 60A9 => 惱 60F1
+		checkOneTerm(analyzer, "悪", "惡"); // 悪 60AA => 惡 60E1
 		checkOneTerm(analyzer, "慨", "慨"); // 慨 6168 => 慨 FA3E
 		checkOneTerm(analyzer, "憎", "憎"); // 憎 618E => 憎 FA3F
 		checkOneTerm(analyzer, "懐", "懷"); // 懐 61D0 => 懷 61F7
@@ -129,9 +142,9 @@ public class TestCJKFoldingFilter extends BaseTokenStreamTestCase
 		checkOneTerm(analyzer, "払", "拂"); // 払 6255 => 拂 62C2
 		checkOneTerm(analyzer, "抜", "拔"); // 抜 629C => 拔 62D4
 		checkOneTerm(analyzer, "択", "擇"); // 択 629E => 擇 64C7
+		checkOneTerm(analyzer, "拝", "拜"); // 拝 62DD => 拜 62DC
 		checkOneTerm(analyzer, "拠", "據"); // 拠 62E0 => 據 64DA
 		checkOneTerm(analyzer, "拡", "擴"); // 拡 62E1 => 擴 64F4
-		checkOneTerm(analyzer, "拝", "拜"); // 拝 62DD => 拜 62DC
 		checkOneTerm(analyzer, "挙", "擧"); // 挙 6319 => 擧 64E7
 		checkOneTerm(analyzer, "挿", "插"); // 挿 633F => 插 63D2
 		checkOneTerm(analyzer, "捜", "搜"); // 捜 635C => 搜 641C
@@ -156,18 +169,11 @@ public class TestCJKFoldingFilter extends BaseTokenStreamTestCase
 		checkOneTerm(analyzer, "検", "檢"); // 検 691C => 檢 6AA2
 		checkOneTerm(analyzer, "楽", "樂"); // 楽 697D => 樂 6A02
 		checkOneTerm(analyzer, "様", "樣"); // 様 69D8 => 樣 6A23
-		checkOneTerm(analyzer, "横", "橫"); // 横 6A2A => 橫 6A6B
-		checkOneTerm(analyzer, "歓", "歡"); // 歓 6B53 => 歡 6B61
-		checkOneTerm(analyzer, "殻", "殼"); // 殻 6BBB => 殼 6BBC
-		checkOneTerm(analyzer, "気", "氣"); // 気 6C17 => 氣 6C23
-		checkOneTerm(analyzer, "海", "海"); // 海 6D77 => 海 FA45
-		checkOneTerm(analyzer, "渇", "渴"); // 渇 6E07 => 渴 6E34
-		checkOneTerm(analyzer, "温", "溫"); // 温 6E29 => 溫 6EAB
-		checkOneTerm(analyzer, "漢", "漢"); // 漢 6F22 => 漢 FA47
 		checkOneTerm(analyzer, "権", "權"); // 権 6A29 => 權 6B0A
 		checkOneTerm(analyzer, "横", "橫"); // 横 6A2A => 橫 6A6B
 		checkOneTerm(analyzer, "欄", "欄"); // 欄 6B04 => 欄 F91D
 		checkOneTerm(analyzer, "欠", "缺"); // 欠 6B20 => 缺 7F3A
+		checkOneTerm(analyzer, "歓", "歡"); // 歓 6B53 => 歡 6B61
 		checkOneTerm(analyzer, "歩", "步"); // 歩 6B69 => 步 6B65
 		checkOneTerm(analyzer, "歯", "齒"); // 歯 6B6F => 齒 9F52
 		checkOneTerm(analyzer, "歴", "歷"); // 歴 6B74 => 歷 6B77
@@ -175,6 +181,7 @@ public class TestCJKFoldingFilter extends BaseTokenStreamTestCase
 		checkOneTerm(analyzer, "殺", "殺"); // 殺 6BBA => 殺 F970
 		checkOneTerm(analyzer, "殻", "殼"); // 殻 6BBB => 殼 6BBC
 		checkOneTerm(analyzer, "毎", "每"); // 毎 6BCE => 每 6BCF
+		checkOneTerm(analyzer, "気", "氣"); // 気 6C17 => 氣 6C23
 		checkOneTerm(analyzer, "沢", "澤"); // 沢 6CA2 => 澤 6FA4
 		checkOneTerm(analyzer, "浜", "濱"); // 浜 6D5C => 濱 6FF1
 		checkOneTerm(analyzer, "海", "海"); // 海 6D77 => 海 FA45
@@ -189,6 +196,8 @@ public class TestCJKFoldingFilter extends BaseTokenStreamTestCase
 		checkOneTerm(analyzer, "満", "滿"); // 満 6E80 => 滿 6EFF
 		checkOneTerm(analyzer, "滝", "瀧"); // 滝 6EDD => 瀧 7027
 		checkOneTerm(analyzer, "滞", "滯"); // 滞 6EDE => 滯 6EEF
+		checkOneTerm(analyzer, "漢", "漢"); // 漢 6F22 => 漢 FA47
+
 		checkOneTerm(analyzer, "瀬", "瀨"); // 瀬 702C => 瀨 7028
 		checkOneTerm(analyzer, "焼", "燒"); // 焼 713C => 燒 71D2
 		checkOneTerm(analyzer, "煮", "煮"); // 煮 716E => 煮 FA48
@@ -208,13 +217,10 @@ public class TestCJKFoldingFilter extends BaseTokenStreamTestCase
 		checkOneTerm(analyzer, "禍", "禍"); // 禍 798D => 禍 FA52
 		checkOneTerm(analyzer, "福", "福"); // 福 798F => 福 FA1B
 		checkOneTerm(analyzer, "秘", "祕"); // 秘 79D8 => 祕 7955
-		checkOneTerm(analyzer, "穏", "穩"); // 穏 7A4F => 穩 7A69
-		checkOneTerm(analyzer, "絵", "繪"); // 絵 7D75 => 繪 7E6A
-		checkOneTerm(analyzer, "縁", "緣"); // 縁 7E01 => 緣 7DE3
-		checkOneTerm(analyzer, "缶", "罐"); // 缶 7F36 => 罐 7F50
 		checkOneTerm(analyzer, "稲", "稻"); // 稲 7A32 => 稻 7A3B
 		checkOneTerm(analyzer, "穀", "穀"); // 穀 7A40 => 穀 FA54
 		checkOneTerm(analyzer, "穂", "穗"); // 穂 7A42 => 穗 7A57
+		checkOneTerm(analyzer, "穏", "穩"); // 穏 7A4F => 穩 7A69
 		checkOneTerm(analyzer, "突", "突"); // 突 7A81 => 突 FA55
 		checkOneTerm(analyzer, "竜", "龍"); // 竜 7ADC => 龍 9F8D
 		checkOneTerm(analyzer, "節", "節"); // 節 7BC0 => 節 FA56
@@ -227,14 +233,16 @@ public class TestCJKFoldingFilter extends BaseTokenStreamTestCase
 		checkOneTerm(analyzer, "続", "續"); // 続 7D9A => 續 7E8C
 		checkOneTerm(analyzer, "総", "總"); // 総 7DCF => 總 7E3D
 		checkOneTerm(analyzer, "緑", "綠"); // 緑 7DD1 => 綠 7DA0
-		checkOneTerm(analyzer, "緒", "緖"); // 緒 7DD2 => 緖 7DD6
 		checkOneTerm(analyzer, "練", "練"); // 練 7DF4 => 練 FA57
+		checkOneTerm(analyzer, "縁", "緣"); // 縁 7E01 => 緣 7DE3
 		checkOneTerm(analyzer, "縄", "繩"); // 縄 7E04 => 繩 7E69
 		checkOneTerm(analyzer, "縦", "縱"); // 縦 7E26 => 縱 7E31
 		checkOneTerm(analyzer, "繁", "繁"); // 繁 7E41 => 繁 FA59
 		checkOneTerm(analyzer, "繊", "纖"); // 繊 7E4A => 纖 7E96
+		checkOneTerm(analyzer, "缶", "罐"); // 缶 7F36 => 罐 7F50
 		checkOneTerm(analyzer, "署", "署"); // 署 7F72 => 署 FA5A
 		checkOneTerm(analyzer, "翻", "飜"); // 翻 7FFB => 飜 98DC
+
 		checkOneTerm(analyzer, "者", "者"); // 者 8005 => 者 FA5B
 		checkOneTerm(analyzer, "聴", "聽"); // 聴 8074 => 聽 807D
 		checkOneTerm(analyzer, "脳", "腦"); // 脳 8133 => 腦 8166
@@ -256,14 +264,14 @@ public class TestCJKFoldingFilter extends BaseTokenStreamTestCase
 		checkOneTerm(analyzer, "覇", "霸"); // 覇 8987 => 霸 9738
 		checkOneTerm(analyzer, "視", "視"); // 視 8996 => 視 FA61
 		checkOneTerm(analyzer, "覚", "覺"); // 覚 899A => 覺 89BA
-		checkOneTerm(analyzer, "観", "觀"); // 観 89B3 => 觀 89C0
 		checkOneTerm(analyzer, "覧", "覽"); // 覧 89A7 => 覽 89BD
-		checkOneTerm(analyzer, "謁", "謁"); // 謁 8B01 => 謁 FA62
+		checkOneTerm(analyzer, "観", "觀"); // 観 89B3 => 觀 89C0
 		checkOneTerm(analyzer, "訳", "譯"); // 訳 8A33 => 譯 8B6F
 		checkOneTerm(analyzer, "証", "證"); // 証 8A3C => 證 8B49
 		checkOneTerm(analyzer, "誉", "譽"); // 誉 8A89 => 譽 8B7D
 		checkOneTerm(analyzer, "読", "讀"); // 読 8AAD => 讀 8B80
 		checkOneTerm(analyzer, "諸", "諸"); // 諸 8AF8 => 諸 FA22
+		checkOneTerm(analyzer, "謁", "謁"); // 謁 8B01 => 謁 FA62
 		checkOneTerm(analyzer, "謡", "謠"); // 謡 8B21 => 謠 8B20
 		checkOneTerm(analyzer, "謹", "謹"); // 謹 8B39 => 謹 FA63
 		checkOneTerm(analyzer, "譲", "讓"); // 譲 8B72 => 讓 8B93
@@ -274,11 +282,12 @@ public class TestCJKFoldingFilter extends BaseTokenStreamTestCase
 		checkOneTerm(analyzer, "転", "轉"); // 転 8EE2 => 轉 8F49
 		checkOneTerm(analyzer, "軽", "輕"); // 軽 8EFD => 輕 8F15
 		checkOneTerm(analyzer, "辺", "邊"); // 辺 8FBA => 邊 908A
+
 		checkOneTerm(analyzer, "逓", "遞"); // 逓 9013 => 遞 905E
 		checkOneTerm(analyzer, "逸", "逸"); // 逸 9038 => 逸 FA67
 		checkOneTerm(analyzer, "遅", "遲"); // 遅 9045 => 遲 9072
-		checkOneTerm(analyzer, "郷", "鄕"); // 郷 90F7 => 鄕 9115
 		checkOneTerm(analyzer, "郎", "郞"); // 郎 90CE => 郞 90DE
+		checkOneTerm(analyzer, "郷", "鄕"); // 郷 90F7 => 鄕 9115
 		checkOneTerm(analyzer, "都", "都"); // 都 90FD => 都 FA26
 		checkOneTerm(analyzer, "酔", "醉"); // 酔 9154 => 醉 9189
 		checkOneTerm(analyzer, "醸", "釀"); // 醸 91B8 => 釀 91C0
