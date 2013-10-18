@@ -34,10 +34,11 @@ public class TestCJKFoldingFilter extends BaseTokenStreamTestCase
 	 */
 	public void testAddlHanVariants() throws Exception
 	{
-		checkOneTerm(analyzer, "緖", "緒"); // 緖 7DD6 (variant) => 緒 7DD2 (std trad) // backwards in Jidong's list
+		checkOneTerm(analyzer, "嶽", "岳"); // 嶽 5DBD (std trad) => 岳 5CB3 (simp) // not in ICU translation
+		checkOneTerm(analyzer, "戱", "戲"); // 戯 6231 (variant) => 戲 6232 (std trad) // not on Jidong's list
 		checkOneTerm(analyzer, "甯", "寧"); // 甯 752F (variant) => 寧 5BE7 (std trad) // not on Jidong's list
 		checkOneTerm(analyzer, "硏", "研"); // 緖 784F (variant) => 研 7814 (std trad) // backwards in Jidong's list
-		checkOneTerm(analyzer, "戱", "戲"); // 戯 6231 (variant) => 戲 6232 (std trad) // not on Jidong's list
+		checkOneTerm(analyzer, "緖", "緒"); // 緖 7DD6 (variant) => 緒 7DD2 (std trad) // backwards in Jidong's list
 	}
 
 	/**
