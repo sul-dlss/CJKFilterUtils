@@ -270,6 +270,7 @@ public class CJKFoldingFilter extends TokenFilter
 		variant2Trad.put(String.valueOf('\u731F'), String.valueOf('\u7375')); // modern 猟 => trad 獵
 		variant2Trad.put(String.valueOf('\u7363'), String.valueOf('\u7378')); // modern 獣 => trad 獸
 		variant2Trad.put(String.valueOf('\u74F6'), String.valueOf('\u7501')); // modern 瓶 => trad 甁
+		variant2Trad.put(String.valueOf('\u752F'), String.valueOf('\u5B81')); // trad 甯 => simp 宁 (not in ICU translation)
 		variant2Trad.put(String.valueOf('\u753B'), String.valueOf('\u756B')); // modern 画 => trad 畫
 		variant2Trad.put(String.valueOf('\u7573'), String.valueOf('\u758A')); // modern 畳 => trad 疊
 		variant2Trad.put(String.valueOf('\u767A'), String.valueOf('\u767C')); // modern 発 => trad 發
