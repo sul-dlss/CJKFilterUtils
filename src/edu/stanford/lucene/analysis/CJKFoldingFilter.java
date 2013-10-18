@@ -178,6 +178,7 @@ public class CJKFoldingFilter extends TokenFilter
 		japaneseMod2Trad.put(String.valueOf('\u5C02'), String.valueOf('\u5C08')); // modern 専 => trad 專
 		japaneseMod2Trad.put(String.valueOf('\u5C4A'), String.valueOf('\u5C46')); // modern 届 => trad 屆
 		japaneseMod2Trad.put(String.valueOf('\u5C64'), String.valueOf('\uFA3B')); // modern 層 => trad 層
+		japaneseMod2Trad.put(String.valueOf('\u5DDE'), String.valueOf('\u6D32')); // modern 州 => trad 洲
 		japaneseMod2Trad.put(String.valueOf('\u5DE3'), String.valueOf('\u5DE2')); // modern 巣 => trad 巢
 		japaneseMod2Trad.put(String.valueOf('\u5E2F'), String.valueOf('\u5E36')); // modern 帯 => trad 帶
 		japaneseMod2Trad.put(String.valueOf('\u5E81'), String.valueOf('\u5EF3')); // modern 庁 => trad 廳
