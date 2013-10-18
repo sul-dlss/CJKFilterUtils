@@ -124,6 +124,7 @@ public class CJKFoldingFilter extends TokenFilter
 		variant2Trad.put(String.valueOf('\u4F1D'), String.valueOf('\u50B3')); // modern 伝 => trad 傳
 		variant2Trad.put(String.valueOf('\u4F75'), String.valueOf('\u5002')); // modern 併 => trad 倂
 		variant2Trad.put(String.valueOf('\u4FAE'), String.valueOf('\uFA30')); // modern 侮 => trad 侮
+
 		variant2Trad.put(String.valueOf('\u5039'), String.valueOf('\u5109')); // modern 倹 => trad 儉
 		variant2Trad.put(String.valueOf('\u507D'), String.valueOf('\u50DE')); // modern 偽 => trad 僞
 		variant2Trad.put(String.valueOf('\u514D'), String.valueOf('\uFA32')); // modern 免 => trad 免
@@ -191,6 +192,7 @@ public class CJKFoldingFilter extends TokenFilter
 		variant2Trad.put(String.valueOf('\u5FB3'), String.valueOf('\u5FB7')); // modern 徳 => trad 德
 		variant2Trad.put(String.valueOf('\u5FB4'), String.valueOf('\u5FB5')); // modern 徴 => trad 徵
 		variant2Trad.put(String.valueOf('\u5FDC'), String.valueOf('\u61C9')); // modern 応 => trad 應
+
 		variant2Trad.put(String.valueOf('\u604B'), String.valueOf('\u6200')); // modern 恋 => trad 戀
 		variant2Trad.put(String.valueOf('\u6052'), String.valueOf('\u6046')); // modern 恒 => trad 恆
 		variant2Trad.put(String.valueOf('\u6075'), String.valueOf('\u60E0')); // modern 恵 => trad 惠
@@ -202,6 +204,7 @@ public class CJKFoldingFilter extends TokenFilter
 		variant2Trad.put(String.valueOf('\u61D0'), String.valueOf('\u61F7')); // modern 懐 => trad 懷
 		variant2Trad.put(String.valueOf('\u61F2'), String.valueOf('\uFA40')); // modern 懲 => trad 懲
 		variant2Trad.put(String.valueOf('\u6226'), String.valueOf('\u6230')); // modern 戦 => trad 戰
+		variant2Trad.put(String.valueOf('\u6231'), String.valueOf('\u6232')); // variant 戯 => trad 戲
 		variant2Trad.put(String.valueOf('\u622F'), String.valueOf('\u6232')); // modern 戯 => trad 戲
 		variant2Trad.put(String.valueOf('\u6238'), String.valueOf('\u6236')); // modern 戸 => trad 戶
 		variant2Trad.put(String.valueOf('\u623B'), String.valueOf('\u623E')); // modern 戻 => trad 戾
@@ -263,6 +266,7 @@ public class CJKFoldingFilter extends TokenFilter
 		variant2Trad.put(String.valueOf('\u6EDD'), String.valueOf('\u7027')); // modern 滝 => trad 瀧
 		variant2Trad.put(String.valueOf('\u6EDE'), String.valueOf('\u6EEF')); // modern 滞 => trad 滯
 		variant2Trad.put(String.valueOf('\u6F22'), String.valueOf('\uFA47')); // modern 漢 => trad 漢
+
 		variant2Trad.put(String.valueOf('\u702C'), String.valueOf('\u7028')); // modern 瀬 => trad 瀨
 		variant2Trad.put(String.valueOf('\u713C'), String.valueOf('\u71D2')); // modern 焼 => trad 燒
 		variant2Trad.put(String.valueOf('\u716E'), String.valueOf('\uFA48')); // modern 煮 => trad 煮
@@ -309,6 +313,7 @@ public class CJKFoldingFilter extends TokenFilter
 		variant2Trad.put(String.valueOf('\u7F36'), String.valueOf('\u7F50')); // modern 缶 => trad 罐
 		variant2Trad.put(String.valueOf('\u7F72'), String.valueOf('\uFA5A')); // modern 署 => trad 署
 		variant2Trad.put(String.valueOf('\u7FFB'), String.valueOf('\u98DC')); // modern 翻 => trad 飜
+
 		variant2Trad.put(String.valueOf('\u8005'), String.valueOf('\uFA5B')); // modern 者 => trad 者
 		variant2Trad.put(String.valueOf('\u8074'), String.valueOf('\u807D')); // modern 聴 => trad 聽
 		variant2Trad.put(String.valueOf('\u8133'), String.valueOf('\u8166')); // modern 脳 => trad 腦
@@ -348,6 +353,7 @@ public class CJKFoldingFilter extends TokenFilter
 		variant2Trad.put(String.valueOf('\u8EE2'), String.valueOf('\u8F49')); // modern 転 => trad 轉
 		variant2Trad.put(String.valueOf('\u8EFD'), String.valueOf('\u8F15')); // modern 軽 => trad 輕
 		variant2Trad.put(String.valueOf('\u8FBA'), String.valueOf('\u908A')); // modern 辺 => trad 邊
+
 		variant2Trad.put(String.valueOf('\u9013'), String.valueOf('\u905E')); // modern 逓 => trad 遞
 		variant2Trad.put(String.valueOf('\u9038'), String.valueOf('\uFA67')); // modern 逸 => trad 逸
 		variant2Trad.put(String.valueOf('\u9045'), String.valueOf('\u9072')); // modern 遅 => trad 遲
