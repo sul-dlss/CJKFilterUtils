@@ -1,3 +1,5 @@
+/** @note Copyright (c) 2013 by The Board of Trustees of the Leland Stanford Junior University.
+ * All rights reserved.  See {file:LICENSE} for details. **/
 package edu.stanford.lucene.analysis;
 
 import java.io.IOException;
@@ -80,7 +82,6 @@ public class CJKFoldingFilter extends TokenFilter
 	 * @param outputPos Index of output where to put the result of the mapping
 	 * @param length    The number of characters to map
 	 * @return length of output
-	 * @lucene.internal
 	 */
 	public static final int mapUnicode(char input[], int inputPos, char output[], int outputPos, int length)
 	{
@@ -171,6 +172,7 @@ public class CJKFoldingFilter extends TokenFilter
 		variant2Trad.put(String.valueOf('\u5909'), String.valueOf('\u8B8A')); // modern 変 => trad 變
 		variant2Trad.put(String.valueOf('\u5965'), String.valueOf('\u5967')); // modern 奥 => trad 奧
 		variant2Trad.put(String.valueOf('\u5968'), String.valueOf('\u596C')); // modern 奨 => trad 奬
+		variant2Trad.put(String.valueOf('\u59EB'), String.valueOf('\u59EC')); // modern 姫 => trad 姬 (by Mieko's request SW-988)
 		variant2Trad.put(String.valueOf('\u5B22'), String.valueOf('\u5B43')); // modern 嬢 => trad 孃
 		variant2Trad.put(String.valueOf('\u5B9F'), String.valueOf('\u5BE6')); // modern 実 => trad 實
 		variant2Trad.put(String.valueOf('\u5BDB'), String.valueOf('\u5BEC')); // modern 寛 => trad 寬

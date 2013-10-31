@@ -1,3 +1,5 @@
+/** @note Copyright (c) 2013 by The Board of Trustees of the Leland Stanford Junior University.
+ * All rights reserved.  See {file:LICENSE} for details. **/
 package edu.stanford.lucene.analysis;
 
 import java.io.*;
@@ -34,13 +36,14 @@ public class TestCJKFoldingFilter extends BaseTokenStreamTestCase
 	 */
 	public void testAddlHanVariants() throws Exception
 	{
-		checkOneTerm(analyzer, "嶽", "岳"); // 嶽 5DBD (std trad) => 岳 5CB3 (simp) // not in ICU translation
-		checkOneTerm(analyzer, "囯", "國"); // 囯 56EF (variant) => 國 570B (std trad) // not on Jidong's list
-		checkOneTerm(analyzer, "戱", "戲"); // 戯 6231 (variant) => 戲 6232 (std trad) // not on Jidong's list
-		checkOneTerm(analyzer, "敎", "教"); // 敎 654E (variant) => 教 6559 (std trad) // not on Jidong's list
-		checkOneTerm(analyzer, "甯", "寧"); // 甯 752F (variant) => 寧 5BE7 (std trad) // not on Jidong's list
-		checkOneTerm(analyzer, "硏", "研"); // 硏 784F (variant) => 研 7814 (std trad) // backwards in Jidong's list
-		checkOneTerm(analyzer, "緖", "緒"); // 緖 7DD6 (variant) => 緒 7DD2 (std trad) // backwards in Jidong's list
+		checkOneTerm(analyzer, "嶽", "岳"); // 嶽 5DBD (std trad) => 岳 5CB3 (simp) - not in ICU translation
+		checkOneTerm(analyzer, "囯", "國"); // 囯 56EF (variant) => 國 570B (std trad) - not on Jidong's list
+		checkOneTerm(analyzer, "戱", "戲"); // 戯 6231 (variant) => 戲 6232 (std trad) - not on Jidong's list
+		checkOneTerm(analyzer, "敎", "教"); // 敎 654E (variant) => 教 6559 (std trad) - not on Jidong's list
+		checkOneTerm(analyzer, "甯", "寧"); // 甯 752F (variant) => 寧 5BE7 (std trad) - not on Jidong's list
+		checkOneTerm(analyzer, "硏", "研"); // 硏 784F (variant) => 研 7814 (std trad) - backwards in Jidong's list
+		checkOneTerm(analyzer, "緖", "緒"); // 緖 7DD6 (variant) => 緒 7DD2 (std trad) - backwards in Jidong's list
+		checkOneTerm(analyzer, "姫", "姬"); // 姫 59EB (modern Japanese) => 姬 59EC (std (trad?)) - by Mieko's request SW-988
 	}
 
 	/**
