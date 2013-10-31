@@ -1,3 +1,5 @@
+/** @note Copyright (c) 2013 by The Board of Trustees of the Leland Stanford Junior University.
+ * All rights reserved.  See {file:LICENSE} for details. **/
 package edu.stanford.lucene.analysis;
 
 import java.io.Reader;
