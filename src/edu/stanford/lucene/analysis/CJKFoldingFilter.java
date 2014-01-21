@@ -24,9 +24,6 @@ public class CJKFoldingFilter extends TokenFilter
 	 private char[] output = new char[512];
 	 private int outputPos;
 
-	/**
-	 * @param input
-	 */
 	protected CJKFoldingFilter(TokenStream input)
 	{
 		super(input);
@@ -44,7 +41,7 @@ public class CJKFoldingFilter extends TokenFilter
 			{
 				final char c = buffer[i];
 				// If no characters actually require rewriting then we
-				// just return token as-is:
+				// just return token as-is
 				if (c >= '\u3000')
 				{
 					mapUnicode(buffer, bufferLen);
@@ -59,7 +56,7 @@ public class CJKFoldingFilter extends TokenFilter
 	}
 
 	/**
-	* Maps Unicode characters per properties file.
+	* Maps Unicode characters per variant2Trad map below.
 	* @param input The string to fold
 	* @param length The number of characters in the input string
 	*/
@@ -75,7 +72,7 @@ public class CJKFoldingFilter extends TokenFilter
 
 
 	/**
-	 * Maps Unicode characters per properties file.
+	 * Maps Unicode characters per variant2Trad map below.
 	 * @param input     The characters to map
 	 * @param inputPos  Index of the first character to map
 	 * @param output    The result of the mapping. Should be of size >= {@code length * 4}.

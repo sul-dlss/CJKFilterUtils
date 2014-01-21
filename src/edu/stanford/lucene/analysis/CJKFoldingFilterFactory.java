@@ -14,9 +14,6 @@ import org.apache.lucene.analysis.util.TokenFilterFactory;
  */
 public class CJKFoldingFilterFactory extends TokenFilterFactory
 {
-	/**
-	 * @param map
-	 */
 	public CJKFoldingFilterFactory(Map<String, String> map)
 	{
 		super(map);
