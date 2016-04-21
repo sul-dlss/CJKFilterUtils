@@ -36,10 +36,10 @@ public class TestCJKFoldingFilterFactory extends BaseTokenStreamFactoryTestCase
 
 	public void testCJKFolded() throws Exception
 	{
-		Reader reader = new StringReader("亜亞悪惡梅梅応應foo");
+		Reader reader = new StringReader("亜亞悪惡応應foo");
 		TokenStream stream = tokenizerFactory("standard").create(reader);
 		CJKFoldingFilterFactory factory = new CJKFoldingFilterFactory(new HashMap<String,String>());
 		stream = factory.create(stream);
-		assertTokenStreamContents(stream, new String[] { "亞", "亞", "惡", "惡", "梅", "梅", "應", "應", "foo" });
+		assertTokenStreamContents(stream, new String[] { "亞", "亞", "惡", "惡", "應", "應", "foo" });
 	}
 }
