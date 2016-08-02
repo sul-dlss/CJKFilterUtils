@@ -1,6 +1,6 @@
 = CJKFoldingFilter
 
-{<img src="https://secure.travis-ci.org/solrmarc/CJKFoldingFilter.png?branch=master" alt="Build Status" />}[http://travis-ci.org/solrmarc/CJKFoldingFilter]
+{<img src="https://secure.travis-ci.org/sul-dlss/CJKFoldingFilter.png?branch=master" alt="Build Status" />}[http://travis-ci.org/sul-dlss/CJKFoldingFilter]
 
 This is a Lucene filter and filter factory (see http://lucene.apache.org )
 to fold certain CJK characters to improve recall.  You should put it in your
