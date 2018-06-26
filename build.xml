@@ -30,6 +30,7 @@
 			<include name="**/*.java" />
 			<classpath refid="classpath" />
 		</javac>
+		<copy file="${src.dir}/edu/stanford/lucene/analysis/variantmap.xml" tofile="${build.dir}/edu/stanford/lucene/analysis/variantmap.xml" overwrite="true" />
 	</target>
 
 	<target name="jar" depends="compile" description="Build custom jar file" >
