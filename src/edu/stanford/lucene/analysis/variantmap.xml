@@ -1956,4 +1956,12 @@
 <variant find="翻" replace="繙" />
 <variant find="濼" replace="泊" />
 <variant find="翽" replace="翙" />
+<variant find="零" replace="零" />
+<variant find="晴" replace="晴" />
+<variant find="逸" replace="逸" />
+<variant find="囹" replace="囹" />
+<variant find="靖" replace="靖" />
+<variant find="玲" replace="玲" />
+<variant find="精" replace="精" />
+<variant find="冷" replace="冷" />
 </variants>

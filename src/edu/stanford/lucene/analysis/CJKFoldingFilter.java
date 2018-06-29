@@ -134,4 +134,6 @@ public class CJKFoldingFilter extends TokenFilter
 			System.err.println("Unable to initialize CJKFoldingFilter: " + e.getMessage());
 		}
 	}
+	
+	
  }
