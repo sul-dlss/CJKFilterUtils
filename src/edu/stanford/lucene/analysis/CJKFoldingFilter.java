@@ -37,7 +37,7 @@ public class CJKFoldingFilter extends TokenFilter
 	{
 		super(input);
 	}
-
+	
 
 	@Override
 	public final boolean incrementToken() throws IOException
@@ -125,15 +125,18 @@ public class CJKFoldingFilter extends TokenFilter
 			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
 	 		org.w3c.dom.Document doc = dBuilder.parse(getClass().getResourceAsStream("variantmap.xml"));
 			//doc.getDocumentElement().normalize();				
-			NodeList nList = doc.getElementsByTagName("variant");
+			NodeList nList = doc.getElementsByTagName("map");
 			for ( int i=0; i<nList.getLength(); i++ ) {
 				Element el = (Element)nList.item(i);
-				variant2Trad.put(el.getAttribute("find"),el.getAttribute("replace"));
+				variant2Trad.put(el.getAttribute("variant"),el.getAttribute("traditional"));
 			}
 		} catch (Exception e ) {
 			System.err.println("Unable to initialize CJKFoldingFilter: " + e.getMessage());
 		}
 	}
+	
+	
+	
 	
 	
  }

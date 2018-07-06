@@ -1,1967 +1,2118 @@
-<variants>
-<variant find="耀" replace="曜" />
-<variant find="瀁" replace="漾" />
-<variant find="倂" replace="竝" />
-<variant find="瀂" replace="澛" />
-<variant find="耂" replace="老" />
-<variant find="考" replace="攷" />
-<variant find="逃" replace="迯" />
-<variant find="倅" replace="伜" />
-<variant find="瀆" replace="涜" />
-<variant find="倈" replace="來" />
-<variant find="耈" replace="耇" />
-<variant find="逈" replace="迥" />
-<variant find="耉" replace="耇" />
-<variant find="瀏" replace="嚠" />
-<variant find="耑" replace="专" />
-<variant find="瀒" replace="涩" />
-<variant find="逓" replace="遞" />
-<variant find="瀓" replace="澂" />
-<variant find="逕" replace="径" />
-<variant find="耗" replace="秏" />
-<variant find="耘" replace="秐" />
-<variant find="耠" replace="秴" />
-<variant find="耢" replace="橯" />
-<variant find="耤" replace="借" />
-<variant find="逥" replace="囘" />
-<variant find="逩" replace="奔" />
-<variant find="瀬" replace="瀨" />
-<variant find="逬" replace="迸" />
-<variant find="耮" replace="橯" />
-<variant find="逮" replace="迨" />
-<variant find="逰" replace="游" />
-<variant find="怱" replace="匆" />
-<variant find="倶" replace="俱" />
-<variant find="耷" replace="耴" />
-<variant find="倹" replace="儉" />
-<variant find="逹" replace="达" />
-<variant find="逺" replace="远" />
-<variant find="逼" replace="偪" />
-<variant find="值" replace="値" />
-<variant find="耿" replace="炅" />
-<variant find="遅" replace="遲" />
-<variant find="遇" replace="迂" />
-<variant find="恊" replace="协" />
-<variant find="灌" replace="潅" />
-<variant find="职" replace="聀" />
-<variant find="遍" replace="徧" />
-<variant find="灎" replace="滟" />
-<variant find="遑" replace="徨" />
-<variant find="遒" replace="逎" />
-<variant find="道" replace="衟" />
-<variant find="灔" replace="滟" />
-<variant find="恖" replace="思" />
-<variant find="停" replace="仃" />
-<variant find="聟" replace="壻" />
-<variant find="遟" replace="迟" />
-<variant find="恠" replace="怪" />
-<variant find="遡" replace="泝" />
-<variant find="灤" replace="栾" />
-<variant find="聨" replace="联" />
-<variant find="灩" replace="滟" />
-<variant find="聪" replace="聡" />
-<variant find="聫" replace="联" />
-<variant find="灮" replace="光" />
-<variant find="聮" replace="联" />
-<variant find="聰" replace="聡" />
-<variant find="聴" replace="聽" />
-<variant find="恵" replace="惠" />
-<variant find="遶" replace="繞" />
-<variant find="恶" replace="噁" />
-<variant find="職" replace="聀" />
-<variant find="偸" replace="偷" />
-<variant find="偹" replace="俻" />
-<variant find="聼" replace="听" />
-<variant find="恿" replace="勈" />
-<variant find="避" replace="辟" />
-<variant find="肀" replace="聿" />
-<variant find="悅" replace="恱" />
-<variant find="肆" replace="亖" />
-<variant find="肈" replace="肇" />
-<variant find="肉" replace="宍" />
-<variant find="邉" replace="边" />
-<variant find="悋" replace="吝" />
-<variant find="悑" replace="怖" />
-<variant find="炔" replace="炅" />
-<variant find="炗" replace="光" />
-<variant find="備" replace="俻" />
-<variant find="傚" replace="俲" />
-<variant find="悛" replace="恂" />
-<variant find="悟" replace="忢" />
-<variant find="悤" replace="匆" />
-<variant find="悦" replace="恱" />
-<variant find="悩" replace="惱" />
-<variant find="悪" replace="噁" />
-<variant find="邫" replace="邦" />
-<variant find="肬" replace="疣" />
-<variant find="肭" replace="朒" />
-<variant find="炰" replace="炮" />
-<variant find="育" replace="毓" />
-<variant find="炲" replace="炱" />
-<variant find="肴" replace="殽" />
-<variant find="悴" replace="忰" />
-<variant find="点" replace="奌" />
-<variant find="肻" replace="肯" />
-<variant find="郁" replace="欝" />
-<variant find="胄" replace="冑" />
-<variant find="郅" replace="胝" />
-<variant find="郉" replace="邢" />
-<variant find="僊" replace="仙" />
-<variant find="胊" replace="朐" />
-<variant find="背" replace="揹" />
-<variant find="働" replace="仂" />
-<variant find="郎" replace="郞" />
-<variant find="胎" replace="孡" />
-<variant find="烖" replace="災" />
-<variant find="惡" replace="噁" />
-<variant find="胡" replace="楜" />
-<variant find="部" replace="卩" />
-<variant find="惩" replace="懲" />
-<variant find="惪" replace="德" />
-<variant find="僭" replace="僣" />
-<variant find="烱" replace="炯" />
-<variant find="胳" replace="肐" />
-<variant find="郶" replace="卩" />
-<variant find="郷" replace="乡" />
-<variant find="胸" replace="胷" />
-<variant find="儁" replace="俊" />
-<variant find="愂" replace="悖" />
-<variant find="脇" replace="胁" />
-<variant find="鄊" replace="乡" />
-<variant find="儌" replace="侥" />
-<variant find="儍" replace="傻" />
-<variant find="儎" replace="傤" />
-<variant find="焏" replace="亟" />
-<variant find="意" replace="悥" />
-<variant find="儓" replace="佁" />
-<variant find="鄕" replace="乡" />
-<variant find="焕" replace="烉" />
-<variant find="儘" replace="侭" />
-<variant find="脚" replace="甪" />
-<variant find="脢" replace="脄" />
-<variant find="愧" replace="媿" />
-<variant find="脧" replace="朘" />
-<variant find="脩" replace="修" />
-<variant find="脬" replace="胞" />
-<variant find="焰" replace="焔" />
-<variant find="脲" replace="尿" />
-<variant find="脳" replace="腦" />
-<variant find="愳" replace="惧" />
-<variant find="焳" replace="焦" />
-<variant find="脵" replace="股" />
-<variant find="儶" replace="㒞" />
-<variant find="愹" replace="愑" />
-<variant find="焼" replace="燒" />
-<variant find="愽" replace="博" />
-<variant find="腁" replace="胼" />
-<variant find="慂" replace="勈" />
-<variant find="酂" replace="鄼" />
-<variant find="酆" replace="鄷" />
-<variant find="酇" replace="鄼" />
-<variant find="酉" replace="丣" />
-<variant find="煊" replace="暄" />
-<variant find="慎" replace="愼" />
-<variant find="児" replace="兒" />
-<variant find="煑" replace="煮" />
-<variant find="酔" replace="醉" />
-<variant find="兔" replace="兎" />
-<variant find="煖" replace="暖" />
-<variant find="慙" replace="惭" />
-<variant find="煛" replace="煚" />
-<variant find="酡" replace="酏" />
-<variant find="煢" replace="焭" />
-<variant find="煥" replace="烉" />
-<variant find="兦" replace="亡" />
-<variant find="照" replace="炤" />
-<variant find="酧" replace="詶" />
-<variant find="兪" replace="俞" />
-<variant find="酬" replace="詶" />
-<variant find="腳" replace="甪" />
-<variant find="其" replace="丌" />
-<variant find="腼" replace="䩄" />
-<variant find="慽" replace="慼" />
-<variant find="煽" replace="扇" />
-<variant find="慿" replace="凭" />
-<variant find="冀" replace="兾" />
-<variant find="膁" replace="肷" />
-<variant find="憅" replace="恸" />
-<variant find="円" replace="圓" />
-<variant find="膆" replace="嗉" />
-<variant find="醆" replace="盏" />
-<variant find="熈" replace="煕" />
-<variant find="醋" replace="酢" />
-<variant find="冒" replace="冐" />
-<variant find="膓" replace="肠" />
-<variant find="膕" replace="腘" />
-<variant find="憖" replace="慭" />
-<variant find="醗" replace="酦" />
-<variant find="憘" replace="喜" />
-<variant find="熙" replace="煕" />
-<variant find="憙" replace="喜" />
-<variant find="膣" replace="腟" />
-<variant find="醤" replace="酱" />
-<variant find="冩" replace="写" />
-<variant find="憩" replace="憇" />
-<variant find="冴" replace="冱" />
-<variant find="醸" replace="釀" />
-<variant find="熺" replace="熹" />
-<variant find="醻" replace="詶" />
-<variant find="醿" replace="醾" />
-<variant find="燄" replace="焔" />
-<variant find="釆" replace="埰" />
-<variant find="釈" replace="釋" />
-<variant find="臈" replace="腊" />
-<variant find="燌" replace="焚" />
-<variant find="野" replace="埜" />
-<variant find="燎" replace="尞" />
-<variant find="懐" replace="懷" />
-<variant find="懒" replace="嬾" />
-<variant find="釒" replace="金" />
-<variant find="臓" replace="臟" />
-<variant find="燕" replace="宴" />
-<variant find="臕" replace="膘" />
-<variant find="凖" replace="准" />
-<variant find="釖" replace="剑" />
-<variant find="燗" replace="烂" />
-<variant find="臙" replace="胭" />
-<variant find="釡" replace="釜" />
-<variant find="凢" replace="凡" />
-<variant find="凣" replace="凡" />
-<variant find="処" replace="處" />
-<variant find="臰" replace="臭" />
-<variant find="懲" replace="懲" />
-<variant find="凴" replace="凭" />
-<variant find="懴" replace="忏" />
-<variant find="懶" replace="嬾" />
-<variant find="燷" replace="燣" />
-<variant find="釼" replace="剑" />
-<variant find="燽" replace="焘" />
-<variant find="凾" replace="函" />
-<variant find="燿" replace="曜" />
-<variant find="鈀" replace="耙" />
-<variant find="刂" replace="刀" />
-<variant find="刄" replace="刃" />
-<variant find="舄" replace="舃" />
-<variant find="刊" replace="刋" />
-<variant find="舎" replace="捨" />
-<variant find="舗" replace="舖" />
-<variant find="戞" replace="戛" />
-<variant find="鈟" replace="釣" />
-<variant find="舣" replace="檥" />
-<variant find="戦" replace="戰" />
-<variant find="刧" replace="刦" />
-<variant find="鈩" replace="炉" />
-<variant find="舩" replace="舡" />
-<variant find="航" replace="桁" />
-<variant find="戮" replace="勠" />
-<variant find="舮" replace="樐" />
-<variant find="戯" replace="戲" />
-<variant find="戱" replace="戲" />
-<variant find="舵" replace="柁" />
-<variant find="戸" replace="戶" />
-<variant find="船" replace="舡" />
-<variant find="刺" replace="制" />
-<variant find="戻" replace="戾" />
-<variant find="舻" replace="樐" />
-<variant find="爼" replace="俎" />
-<variant find="刼" replace="刦" />
-<variant find="戼" replace="卯" />
-<variant find="刾" replace="制" />
-<variant find="爾" replace="尒" />
-<variant find="爿" replace="丬" />
-<variant find="剁" replace="刴" />
-<variant find="鉄" replace="鐵" />
-<variant find="鉅" replace="巨" />
-<variant find="艊" replace="舶" />
-<variant find="鉋" replace="刨" />
-<variant find="牋" replace="椾" />
-<variant find="剏" replace="刱" />
-<variant find="払" replace="拂" />
-<variant find="剙" replace="刱" />
-<variant find="牠" replace="它" />
-<variant find="剣" replace="劍" />
-<variant find="艣" replace="樐" />
-<variant find="剤" replace="劑" />
-<variant find="艤" replace="檥" />
-<variant find="艪" replace="樐" />
-<variant find="艫" replace="樐" />
-<variant find="剰" replace="剩" />
-<variant find="剱" replace="剑" />
-<variant find="鉱" replace="矿" />
-<variant find="牴" replace="扺" />
-<variant find="艴" replace="勃" />
-<variant find="扵" replace="于" />
-<variant find="艶" replace="艳" />
-<variant find="剷" replace="刬" />
-<variant find="艹" replace="艸" />
-<variant find="艺" replace="兿" />
-<variant find="节" replace="節" />
-<variant find="犂" replace="犁" />
-<variant find="劄" replace="剳" />
-<variant find="犇" replace="奔" />
-<variant find="抉" replace="刔" />
-<variant find="芌" replace="芋" />
-<variant find="劔" replace="剑" />
-<variant find="銕" replace="鐵" />
-<variant find="芘" replace="庇" />
-<variant find="犛" replace="氂" />
-<variant find="抜" replace="拔" />
-<variant find="銜" replace="啣" />
-<variant find="択" replace="擇" />
-<variant find="銞" replace="鈞" />
-<variant find="犠" replace="犧" />
-<variant find="劫" replace="刦" />
-<variant find="銭" replace="錢" />
-<variant find="芭" replace="巴" />
-<variant find="犭" replace="犬" />
-<variant find="励" replace="劢" />
-<variant find="抱" replace="抔" />
-<variant find="芲" replace="花" />
-<variant find="労" replace="勞" />
-<variant find="劵" replace="券" />
-<variant find="抵" replace="扺" />
-<variant find="芸" replace="兿" />
-<variant find="効" replace="俲" />
-<variant find="抻" replace="伸" />
-<variant find="銼" replace="剉" />
-<variant find="勄" replace="敏" />
-<variant find="苅" replace="刈" />
-<variant find="拊" replace="抚" />
-<variant find="苎" replace="懞" />
-<variant find="苏" replace="囌" />
-<variant find="拖" replace="拕" />
-<variant find="拚" replace="抃" />
-<variant find="拝" replace="拜" />
-<variant find="拟" replace="儗" />
-<variant find="拠" replace="據" />
-<variant find="拡" replace="擴" />
-<variant find="鋤" replace="耡" />
-<variant find="勦" replace="剿" />
-<variant find="勧" replace="勸" />
-<variant find="苧" replace="懞" />
-<variant find="勲" replace="勳" />
-<variant find="勵" replace="劢" />
-<variant find="拾" replace="十" />
-<variant find="拿" replace="拏" />
-<variant find="茂" replace="楙" />
-<variant find="錄" replace="彔" />
-<variant find="茅" replace="泖" />
-<variant find="挆" replace="挅" />
-<variant find="茆" replace="泖" />
-<variant find="茈" replace="柴" />
-<variant find="挎" replace="抠" />
-<variant find="茑" replace="樢" />
-<variant find="茕" replace="焭" />
-<variant find="挙" replace="举" />
-<variant find="茜" replace="芊" />
-<variant find="猟" replace="獵" />
-<variant find="錬" replace="鍊" />
-<variant find="茭" replace="椒" />
-<variant find="録" replace="彔" />
-<variant find="挲" replace="挱" />
-<variant find="錽" replace="鋄" />
-<variant find="猾" replace="狯" />
-<variant find="挿" replace="扱" />
-<variant find="鍁" replace="杴" />
-<variant find="千" replace="仟" />
-<variant find="荅" replace="答" />
-<variant find="捊" replace="抙" />
-<variant find="卋" replace="世" />
-<variant find="捌" replace="八" />
-<variant find="捍" replace="扞" />
-<variant find="卐" replace="卍" />
-<variant find="卒" replace="卆" />
-<variant find="荔" replace="茘" />
-<variant find="単" replace="單" />
-<variant find="荘" replace="莊" />
-<variant find="鍛" replace="煅" />
-<variant find="捜" replace="搜" />
-<variant find="卝" replace="丱" />
-<variant find="獣" replace="獸" />
-<variant find="卥" replace="卤" />
-<variant find="鍦" replace="鉇" />
-<variant find="即" replace="卽" />
-<variant find="鍳" replace="鉴" />
-<variant find="捴" replace="总" />
-<variant find="鍼" replace="針" />
-<variant find="鍾" replace="鈡" />
-<variant find="玅" replace="妙" />
-<variant find="玆" replace="兹" />
-<variant find="掊" replace="抔" />
-<variant find="鎌" replace="劆" />
-<variant find="莓" replace="苺" />
-<variant find="鎔" replace="熔" />
-<variant find="䎛" replace="㖈" />
-<variant find="厛" replace="厅" />
-<variant find="掞" replace="剡" />
-<variant find="鎮" replace="鎭" />
-<variant find="厰" replace="厂" />
-<variant find="掲" replace="揭" />
-<variant find="厳" replace="嚴" />
-<variant find="去" replace="厺" />
-<variant find="鎿" replace="錼" />
-<variant find="菀" replace="苑" />
-<variant find="鏁" replace="鎖" />
-<variant find="参" replace="叁" />
-<variant find="參" replace="叁" />
-<variant find="揅" replace="圳" />
-<variant find="菇" replace="苽" />
-<variant find="珉" replace="玟" />
-<variant find="菋" replace="苿" />
-<variant find="収" replace="收" />
-<variant find="揎" replace="拴" />
-<variant find="珎" replace="珍" />
-<variant find="菏" replace="渮" />
-<variant find="珏" replace="玨" />
-<variant find="揑" replace="捏" />
-<variant find="插" replace="扱" />
-<variant find="叓" replace="亊" />
-<variant find="鏓" replace="鍃" />
-<variant find="菔" replace="卜" />
-<variant find="叙" replace="敍" />
-<variant find="菝" replace="庇" />
-<variant find="鏟" replace="刬" />
-<variant find="叟" replace="叜" />
-<variant find="菟" replace="莵" />
-<variant find="句" replace="勾" />
-<variant find="珪" replace="圭" />
-<variant find="菫" replace="堇" />
-<variant find="珮" replace="佩" />
-<variant find="菰" replace="苽" />
-<variant find="鏰" replace="錋" />
-<variant find="菴" replace="庵" />
-<variant find="菷" replace="帚" />
-<variant find="揷" replace="扱" />
-<variant find="叹" replace="嘆" />
-<variant find="揺" replace="搖" />
-<variant find="菻" replace="痲" />
-<variant find="搃" replace="总" />
-<variant find="搄" replace="揯" />
-<variant find="萅" replace="旾" />
-<variant find="萆" replace="庇" />
-<variant find="搋" replace="扠" />
-<variant find="同" replace="仝" />
-<variant find="萍" replace="甁" />
-<variant find="萎" replace="荽" />
-<variant find="搔" replace="掻" />
-<variant find="萕" replace="荠" />
-<variant find="鐘" replace="鈡" />
-<variant find="鐚" replace="錏" />
-<variant find="萠" replace="萌" />
-<variant find="鐡" replace="鐵" />
-<variant find="萧" replace="肖" />
-<variant find="搭" replace="搨" />
-<variant find="鐮" replace="劆" />
-<variant find="搯" replace="掏" />
-<variant find="琱" replace="凋" />
-<variant find="萴" replace="荝" />
-<variant find="琴" replace="珡" />
-<variant find="鐶" replace="鈈" />
-<variant find="鐸" replace="鈬" />
-<variant find="鐾" replace="鐴" />
-<variant find="吿" replace="叝" />
-<variant find="鑀" replace="鎄" />
-<variant find="摂" replace="攝" />
-<variant find="摃" replace="扛" />
-<variant find="鑄" replace="鋳" />
-<variant find="瑅" replace="珶" />
-<variant find="摆" replace="䙓" />
-<variant find="瑇" replace="玳" />
-<variant find="呉" replace="吳" />
-<variant find="告" replace="叝" />
-<variant find="呑" replace="吞" />
-<variant find="摒" replace="屏" />
-<variant find="著" replace="著" />
-<variant find="鑚" replace="鉆" />
-<variant find="鑛" replace="矿" />
-<variant find="葢" replace="盖" />
-<variant find="鑤" replace="刨" />
-<variant find="鑪" replace="炉" />
-<variant find="葫" replace="楜" />
-<variant find="葬" replace="塟" />
-<variant find="鑬" replace="鉴" />
-<variant find="摭" replace="拓" />
-<variant find="鑰" replace="鈅" />
-<variant find="鑵" replace="罐" />
-<variant find="鑽" replace="鉆" />
-<variant find="钁" replace="鐝" />
-<variant find="钂" replace="鎲" />
-<variant find="撃" replace="擊" />
-<variant find="蒃" replace="篆" />
-<variant find="撅" replace="掘" />
-<variant find="钅" replace="金" />
-<variant find="璆" replace="瑬" />
-<variant find="璎" replace="珱" />
-<variant find="咒" replace="呪" />
-<variant find="钜" replace="巨" />
-<variant find="钟" replace="鈡" />
-<variant find="璡" replace="琎" />
-<variant find="璢" replace="瑠" />
-<variant find="钥" replace="鈅" />
-<variant find="撦" replace="扯" />
-<variant find="钯" replace="耙" />
-<variant find="咱" replace="偺" />
-<variant find="蒲" replace="莆" />
-<variant find="璵" replace="玙" />
-<variant find="璸" replace="瑸" />
-<variant find="撹" replace="搅" />
-<variant find="钻" replace="鉆" />
-<variant find="璿" replace="璇" />
-<variant find="擀" replace="扞" />
-<variant find="擆" replace="撯" />
-<variant find="铇" replace="刨" />
-<variant find="蓈" replace="稂" />
-<variant find="哌" replace="呱" />
-<variant find="响" replace="響" />
-<variant find="铎" replace="鈬" />
-<variant find="蓑" replace="簑" />
-<variant find="瓔" replace="珱" />
-<variant find="蓖" replace="庇" />
-<variant find="蓡" replace="叁" />
-<variant find="擧" replace="举" />
-<variant find="擬" replace="儗" />
-<variant find="铲" replace="刬" />
-<variant find="蓴" replace="莼" />
-<variant find="瓶" replace="甁" />
-<variant find="铸" replace="鋳" />
-<variant find="擺" replace="䙓" />
-<variant find="蓺" replace="兿" />
-<variant find="哺" replace="呚" />
-<variant find="锄" replace="耡" />
-<variant find="甆" replace="瓷" />
-<variant find="锉" replace="剉" />
-<variant find="攒" replace="攅" />
-<variant find="蔕" replace="蒂" />
-<variant find="唖" replace="哑" />
-<variant find="甚" replace="什" />
-<variant find="甜" replace="甛" />
-<variant find="甞" replace="嘗" />
-<variant find="攟" replace="捃" />
-<variant find="攢" replace="攅" />
-<variant find="甦" replace="囌" />
-<variant find="蔦" replace="樢" />
-<variant find="攨" replace="搲" />
-<variant find="锨" replace="杴" />
-<variant find="蔫" replace="烟" />
-<variant find="甯" replace="寧" />
-<variant find="蔴" replace="痲" />
-<variant find="攴" replace="扑" />
-<variant find="蔵" replace="藏" />
-<variant find="攵" replace="夊" />
-<variant find="蔸" replace="橷" />
-<variant find="唹" replace="唷" />
-<variant find="锺" replace="鈡" />
-<variant find="画" replace="划" />
-<variant find="锻" replace="煅" />
-<variant find="蔽" replace="庇" />
-<variant find="蔿" replace="蒍" />
-<variant find="畂" replace="亩" />
-<variant find="畅" replace="昶" />
-<variant find="畆" replace="亩" />
-<variant find="镇" replace="鎭" />
-<variant find="效" replace="俲" />
-<variant find="蕋" replace="蕊" />
-<variant find="界" replace="堺" />
-<variant find="畍" replace="堺" />
-<variant find="敎" replace="教" />
-<variant find="镎" replace="錼" />
-<variant find="畒" replace="亩" />
-<variant find="蕓" replace="兿" />
-<variant find="啔" replace="启" />
-<variant find="敕" replace="勅" />
-<variant find="镕" replace="熔" />
-<variant find="啗" replace="啖" />
-<variant find="敘" replace="敍" />
-<variant find="留" replace="畄" />
-<variant find="敚" replace="敓" />
-<variant find="蕚" replace="萼" />
-<variant find="镚" replace="錋" />
-<variant find="畧" replace="略" />
-<variant find="敪" replace="敠" />
-<variant find="番" replace="畨" />
-<variant find="畫" replace="划" />
-<variant find="畭" replace="畬" />
-<variant find="蕭" replace="肖" />
-<variant find="镮" replace="鈈" />
-<variant find="畮" replace="亩" />
-<variant find="镰" replace="劆" />
-<variant find="畲" replace="畬" />
-<variant find="畳" replace="疊" />
-<variant find="敳" replace="敱" />
-<variant find="畵" replace="划" />
-<variant find="镸" replace="長" />
-<variant find="敻" replace="夐" />
-<variant find="敽" replace="敺" />
-<variant find="敿" replace="敺" />
-<variant find="疂" replace="叠" />
-<variant find="疃" replace="畽" />
-<variant find="斅" replace="敩" />
-<variant find="斆" replace="敩" />
-<variant find="斈" replace="学" />
-<variant find="斉" replace="亝" />
-<variant find="疉" replace="叠" />
-<variant find="閉" replace="閇" />
-<variant find="疋" replace="匹" />
-<variant find="斎" replace="齋" />
-<variant find="疏" replace="疎" />
-<variant find="薙" replace="剃" />
-<variant find="喞" replace="唧" />
-<variant find="閤" replace="合" />
-<variant find="喧" replace="吅" />
-<variant find="薫" replace="薰" />
-<variant find="薬" replace="藥" />
-<variant find="薮" replace="籔" />
-<variant find="薴" replace="懞" />
-<variant find="斵" replace="斲" />
-<variant find="営" replace="營" />
-<variant find="喻" replace="喩" />
-<variant find="閻" replace="閆" />
-<variant find="闇" replace="晻" />
-<variant find="旉" replace="敷" />
-<variant find="闊" replace="濶" />
-<variant find="闔" replace="合" />
-<variant find="闗" replace="关" />
-<variant find="闘" replace="斗" />
-<variant find="旛" replace="旙" />
-<variant find="藝" replace="兿" />
-<variant find="既" replace="旣" />
-<variant find="藪" replace="籔" />
-<variant find="嗬" replace="呵" />
-<variant find="闭" replace="閇" />
-<variant find="旮" replace="旭" />
-<variant find="旯" replace="旭" />
-<variant find="痳" replace="痲" />
-<variant find="闹" replace="閙" />
-<variant find="痺" replace="痹" />
-<variant find="蘀" replace="萚" />
-<variant find="瘁" replace="疩" />
-<variant find="蘂" replace="蕊" />
-<variant find="瘅" replace="疸" />
-<variant find="嘆" replace="嘆" />
-<variant find="昆" replace="崐" />
-<variant find="蘇" replace="囌" />
-<variant find="瘉" replace="愈" />
-<variant find="阎" replace="閆" />
-<variant find="嘑" replace="呼" />
-<variant find="嘓" replace="啯" />
-<variant find="蘓" replace="囌" />
-<variant find="阔" replace="濶" />
-<variant find="蘔" replace="蘏" />
-<variant find="阖" replace="合" />
-<variant find="蘖" replace="檗" />
-<variant find="蘗" replace="檗" />
-<variant find="昚" replace="愼" />
-<variant find="阜" replace="邑" />
-<variant find="阝" replace="邑" />
-<variant find="春" replace="旾" />
-<variant find="瘦" replace="痩" />
-<variant find="嘨" replace="啸" />
-<variant find="阬" replace="坑" />
-<variant find="阯" replace="址" />
-<variant find="蘯" replace="盪" />
-<variant find="昰" replace="是" />
-<variant find="阱" replace="穽" />
-<variant find="防" replace="埅" />
-<variant find="阳" replace="昜" />
-<variant find="阴" replace="侌" />
-<variant find="嘴" replace="咀" />
-<variant find="阵" replace="塦" />
-<variant find="阶" replace="堦" />
-<variant find="昻" replace="昂" />
-<variant find="昿" replace="旷" />
-<variant find="陃" replace="邴" />
-<variant find="晄" replace="晃" />
-<variant find="癅" replace="瘤" />
-<variant find="噉" replace="啖" />
-<variant find="癉" replace="疸" />
-<variant find="虎" replace="乕" />
-<variant find="虐" replace="乇" />
-<variant find="噐" replace="器" />
-<variant find="陔" replace="垓" />
-<variant find="噕" replace="噅" />
-<variant find="虖" replace="呼" />
-<variant find="虜" replace="虏" />
-<variant find="陜" replace="陕" />
-<variant find="癝" replace="癛" />
-<variant find="陟" replace="徏" />
-<variant find="陣" replace="塦" />
-<variant find="陥" replace="陷" />
-<variant find="陨" replace="殒" />
-<variant find="晩" replace="晚" />
-<variant find="陰" replace="侌" />
-<variant find="晰" replace="晢" />
-<variant find="晴" replace="夝" />
-<variant find="陶" replace="匋" />
-<variant find="発" replace="發" />
-<variant find="険" replace="險" />
-<variant find="陽" replace="昜" />
-<variant find="百" replace="佰" />
-<variant find="暁" replace="曉" />
-<variant find="暅" replace="晅" />
-<variant find="皈" replace="歸" />
-<variant find="暋" replace="忞" />
-<variant find="隋" replace="陏" />
-<variant find="階" replace="堦" />
-<variant find="暎" replace="映" />
-<variant find="皐" replace="皋" />
-<variant find="嚔" replace="嚏" />
-<variant find="隕" replace="殒" />
-<variant find="暗" replace="晻" />
-<variant find="隘" replace="阸" />
-<variant find="隙" replace="郄" />
-<variant find="暜" replace="普" />
-<variant find="隠" replace="隱" />
-<variant find="皡" replace="皞" />
-<variant find="暢" replace="昶" />
-<variant find="隣" replace="邻" />
-<variant find="暦" replace="曆" />
-<variant find="隷" replace="隶" />
-<variant find="暸" replace="了" />
-<variant find="皹" replace="皲" />
-<variant find="嚻" replace="嚣" />
-<variant find="皼" replace="皷" />
-<variant find="难" replace="難" />
-<variant find="曁" replace="暨" />
-<variant find="盅" replace="冲" />
-<variant find="曅" replace="晔" />
-<variant find="囊" replace="嚢" />
-<variant find="蛋" replace="旦" />
-<variant find="盌" replace="椀" />
-<variant find="蛍" replace="螢" />
-<variant find="曍" replace="暤" />
-<variant find="盍" replace="盇" />
-<variant find="雑" replace="雜" />
-<variant find="蛔" replace="蚘" />
-<variant find="雕" replace="凋" />
-<variant find="盘" replace="槃" />
-<variant find="四" replace="亖" />
-<variant find="雝" replace="雍" />
-<variant find="回" replace="囘" />
-<variant find="雠" replace="仇" />
-<variant find="因" replace="囙" />
-<variant find="盡" replace="侭" />
-<variant find="曡" replace="叠" />
-<variant find="団" replace="團" />
-<variant find="難" replace="難" />
-<variant find="盤" replace="槃" />
-<variant find="囬" replace="囘" />
-<variant find="囯" replace="國" />
-<variant find="雰" replace="氛" />
-<variant find="囲" replace="圍" />
-<variant find="図" replace="圖" />
-<variant find="曵" replace="曳" />
-<variant find="曺" replace="曹" />
-<variant find="曾" replace="曽" />
-<variant find="圀" replace="國" />
-<variant find="朁" replace="昝" />
-<variant find="朂" replace="勖" />
-<variant find="霊" replace="靈" />
-<variant find="県" replace="縣" />
-<variant find="霍" replace="癨" />
-<variant find="圎" replace="圓" />
-<variant find="圏" replace="圈" />
-<variant find="霓" replace="蜺" />
-<variant find="蜖" replace="蚘" />
-<variant find="朗" replace="朖" />
-<variant find="霗" replace="零" />
-<variant find="眘" replace="愼" />
-<variant find="霚" replace="雾" />
-<variant find="期" replace="朞" />
-<variant find="真" replace="眞" />
-<variant find="朢" replace="望" />
-<variant find="朦" replace="懞" />
-<variant find="圧" replace="壓" />
-<variant find="眬" replace="朧" />
-<variant find="本" replace="夲" />
-<variant find="札" replace="剳" />
-<variant find="术" replace="朮" />
-<variant find="朶" replace="朵" />
-<variant find="朸" replace="扐" />
-<variant find="蜹" replace="蚋" />
-<variant find="着" replace="著" />
-<variant find="杁" replace="朲" />
-<variant find="杅" replace="圬" />
-<variant find="蝅" replace="蚕" />
-<variant find="靆" replace="叇" />
-<variant find="杇" replace="圬" />
-<variant find="靉" replace="叆" />
-<variant find="蝋" replace="蜡" />
-<variant find="青" replace="靑" />
-<variant find="块" replace="凷" />
-<variant find="静" replace="靓" />
-<variant find="靜" replace="靓" />
-<variant find="靝" replace="靔" />
-<variant find="睠" replace="眷" />
-<variant find="靠" replace="俈" />
-<variant find="睢" replace="眭" />
-<variant find="靦" replace="䩄" />
-<variant find="坯" replace="坏" />
-<variant find="蝰" replace="虺" />
-<variant find="靱" replace="靭" />
-<variant find="蝴" replace="楜" />
-<variant find="坵" replace="丘" />
-<variant find="睿" replace="叡" />
-<variant find="蝿" replace="蝇" />
-<variant find="枀" replace="松" />
-<variant find="螂" replace="蜋" />
-<variant find="鞍" replace="鞌" />
-<variant find="螎" replace="融" />
-<variant find="鞒" replace="橇" />
-<variant find="垜" replace="垛" />
-<variant find="垠" replace="圻" />
-<variant find="螡" replace="蚊" />
-<variant find="鞦" replace="䆋" />
-<variant find="枩" replace="松" />
-<variant find="瞪" replace="眙" />
-<variant find="枱" replace="台" />
-<variant find="螳" replace="螗" />
-<variant find="枴" replace="拐" />
-<variant find="螵" replace="蜱" />
-<variant find="垻" replace="坝" />
-<variant find="鞽" replace="橇" />
-<variant find="埀" replace="垂" />
-<variant find="矁" replace="瞅" />
-<variant find="蟁" replace="蚊" />
-<variant find="柃" replace="岖" />
-<variant find="韆" replace="仟" />
-<variant find="柆" replace="拉" />
-<variant find="矇" replace="懞" />
-<variant find="蟇" replace="蟆" />
-<variant find="韈" replace="袜" />
-<variant find="蟊" replace="蝥" />
-<variant find="韌" replace="靭" />
-<variant find="矏" replace="矈" />
-<variant find="矓" replace="朧" />
-<variant find="埓" replace="埒" />
-<variant find="矙" replace="瞰" />
-<variant find="韜" replace="轁" />
-<variant find="韝" replace="鞲" />
-<variant find="韤" replace="袜" />
-<variant find="韧" replace="靭" />
-<variant find="矩" replace="榘" />
-<variant find="韬" replace="轁" />
-<variant find="韭" replace="艽" />
-<variant find="韮" replace="艽" />
-<variant find="柰" replace="奈" />
-<variant find="査" replace="查" />
-<variant find="柾" replace="柩" />
-<variant find="響" replace="響" />
-<variant find="柿" replace="枾" />
-<variant find="頀" replace="濩" />
-<variant find="蠁" replace="蚃" />
-<variant find="栁" replace="柳" />
-<variant find="栃" replace="杤" />
-<variant find="栄" replace="榮" />
-<variant find="栌" replace="枦" />
-<variant find="蠎" replace="蟒" />
-<variant find="蠏" replace="蟹" />
-<variant find="頒" replace="朌" />
-<variant find="研" replace="圳" />
-<variant find="砕" replace="碎" />
-<variant find="蠡" replace="蟸" />
-<variant find="蠢" replace="惷" />
-<variant find="栢" replace="柏" />
-<variant find="頤" replace="頉" />
-<variant find="頰" replace="頬" />
-<variant find="頴" replace="穎" />
-<variant find="頸" replace="頚" />
-<variant find="頹" replace="穨" />
-<variant find="砹" replace="砈" />
-<variant find="頻" replace="頻" />
-<variant find="頼" replace="賴" />
-<variant find="蠼" replace="蠷" />
-<variant find="頽" replace="穨" />
-<variant find="砿" replace="矿" />
-<variant find="塁" replace="壘" />
-<variant find="衂" replace="䘐" />
-<variant find="硃" replace="朱" />
-<variant find="衄" replace="䘐" />
-<variant find="塊" replace="凷" />
-<variant find="硎" replace="圳" />
-<variant find="硏" replace="圳" />
-<variant find="衒" replace="炫" />
-<variant find="桒" replace="桑" />
-<variant find="術" replace="朮" />
-<variant find="衔" replace="啣" />
-<variant find="顕" replace="顯" />
-<variant find="衕" replace="仝" />
-<variant find="街" replace="亍" />
-<variant find="塗" replace="凃" />
-<variant find="硗" replace="墝" />
-<variant find="桙" replace="圬" />
-<variant find="塚" replace="冢" />
-<variant find="衚" replace="楜" />
-<variant find="衛" replace="卫" />
-<variant find="顛" replace="顚" />
-<variant find="桜" replace="櫻" />
-<variant find="類" replace="类" />
-<variant find="衞" replace="卫" />
-<variant find="桟" replace="棧" />
-<variant find="桠" replace="丫" />
-<variant find="衤" replace="衣" />
-<variant find="桧" replace="栝" />
-<variant find="顧" replace="頋" />
-<variant find="塩" replace="鹽" />
-<variant find="填" replace="塡" />
-<variant find="硬" replace="峺" />
-<variant find="桮" replace="杯" />
-<variant find="塲" replace="场" />
-<variant find="塳" replace="塜" />
-<variant find="硷" replace="堿" />
-<variant find="衹" replace="只" />
-<variant find="桺" replace="柳" />
-<variant find="顾" replace="頋" />
-<variant find="颁" replace="朌" />
-<variant find="碁" replace="棊" />
-<variant find="碇" replace="椗" />
-<variant find="颈" replace="頚" />
-<variant find="颊" replace="頬" />
-<variant find="墍" replace="塈" />
-<variant find="颐" replace="頉" />
-<variant find="频" replace="頻" />
-<variant find="墒" replace="墑" />
-<variant find="颓" replace="穨" />
-<variant find="碕" replace="埼" />
-<variant find="墕" replace="堰" />
-<variant find="颕" replace="穎" />
-<variant find="墖" replace="塔" />
-<variant find="増" replace="增" />
-<variant find="颠" replace="顚" />
-<variant find="颣" replace="纇" />
-<variant find="碥" replace="扁" />
-<variant find="風" replace="凨" />
-<variant find="碪" replace="砧" />
-<variant find="袮" replace="檷" />
-<variant find="墯" replace="堕" />
-<variant find="碯" replace="瑙" />
-<variant find="碱" replace="堿" />
-<variant find="袵" replace="衽" />
-<variant find="墺" replace="圫" />
-<variant find="碻" replace="确" />
-<variant find="飄" replace="飃" />
-<variant find="磆" replace="滑" />
-<variant find="飇" replace="飆" />
-<variant find="飈" replace="飆" />
-<variant find="壊" replace="壞" />
-<variant find="棋" replace="棊" />
-<variant find="壌" replace="壤" />
-<variant find="风" replace="凨" />
-<variant find="磒" replace="殒" />
-<variant find="飘" replace="飃" />
-<variant find="裙" replace="帬" />
-<variant find="飚" replace="飆" />
-<variant find="飜" replace="繙" />
-<variant find="裠" replace="帬" />
-<variant find="磠" replace="硵" />
-<variant find="飠" replace="食" />
-<variant find="裤" replace="絝" />
-<variant find="裥" replace="繝" />
-<variant find="壪" replace="塆" />
-<variant find="飫" replace="秗" />
-<variant find="飬" replace="养" />
-<variant find="棬" replace="桊" />
-<variant find="飰" replace="飯" />
-<variant find="壱" replace="一" />
-<variant find="売" replace="賣" />
-<variant find="飲" replace="飮" />
-<variant find="裵" replace="裴" />
-<variant find="壷" replace="壶" />
-<variant find="磸" replace="矴" />
-<variant find="壹" replace="一" />
-<variant find="棹" replace="桌" />
-<variant find="磽" replace="墝" />
-<variant find="夀" replace="壽" />
-<variant find="豈" replace="岂" />
-<variant find="餁" replace="飪" />
-<variant find="車" replace="車" />
-<variant find="餂" replace="甛" />
-<variant find="賈" replace="賈" />
-<variant find="礄" replace="硚" />
-<variant find="礆" replace="堿" />
-<variant find="句" replace="勾" />
-<variant find="龜" replace="亀" />
-<variant find="备" replace="俻" />
-<variant find="龜" replace="亀" />
-<variant find="餈" replace="粢" />
-<variant find="変" replace="變" />
-<variant find="懶" replace="嬾" />
-<variant find="癩" replace="癞" />
-<variant find="褎" replace="袖" />
-<variant find="椏" replace="丫" />
-<variant find="羅" replace="啰" />
-<variant find="餐" replace="喰" />
-<variant find="蘿" replace="萝" />
-<variant find="褒" replace="襃" />
-<variant find="褓" replace="䍀" />
-<variant find="邏" replace="逻" />
-<variant find="樂" replace="乐" />
-<variant find="夘" replace="卯" />
-<variant find="餚" replace="殽" />
-<variant find="駱" replace="駱" />
-<variant find="亂" replace="乱" />
-<variant find="夛" replace="多" />
-<variant find="検" replace="檢" />
-<variant find="夜" replace="亱" />
-<variant find="欄" replace="栏" />
-<variant find="餝" replace="飾" />
-<variant find="爛" replace="烂" />
-<variant find="蘭" replace="兰" />
-<variant find="礠" replace="磁" />
-<variant find="餠" replace="餅" />
-<variant find="鸞" replace="鵉" />
-<variant find="嵐" replace="岚" />
-<variant find="濫" replace="滥" />
-<variant find="夣" replace="夢" />
-<variant find="藍" replace="蓝" />
-<variant find="襤" replace="䍀" />
-<variant find="臘" replace="腊" />
-<variant find="餧" replace="喂" />
-<variant find="蠟" replace="蜡" />
-<variant find="館" replace="舘" />
-<variant find="朗" replace="朖" />
-<variant find="夫" replace="伕" />
-<variant find="褫" replace="裭" />
-<variant find="郎" replace="郞" />
-<variant find="來" replace="來" />
-<variant find="勞" replace="劳" />
-<variant find="擄" replace="掳" />
-<variant find="櫓" replace="樐" />
-<variant find="爐" replace="炉" />
-<variant find="褲" replace="絝" />
-<variant find="盧" replace="卢" />
-<variant find="褴" replace="䍀" />
-<variant find="蘆" replace="芦" />
-<variant find="椶" replace="棕" />
-<variant find="虜" replace="虏" />
-<variant find="夸" replace="侉" />
-<variant find="魯" replace="魯" />
-<variant find="餹" replace="糖" />
-<variant find="鷺" replace="鷺" />
-<variant find="礻" replace="示" />
-<variant find="祿" replace="祿" />
-<variant find="綠" replace="綠" />
-<variant find="錄" replace="彔" />
-<variant find="論" replace="論" />
-<variant find="奁" replace="匳" />
-<variant find="襁" replace="繈" />
-<variant find="祂" replace="他" />
-<variant find="壟" replace="垄" />
-<variant find="楂" replace="查" />
-<variant find="籠" replace="笼" />
-<variant find="聾" replace="聋" />
-<variant find="襇" replace="繝" />
-<variant find="賂" replace="賂" />
-<variant find="襉" replace="繝" />
-<variant find="壘" replace="垒" />
-<variant find="饊" replace="糤" />
-<variant find="屢" replace="屡" />
-<variant find="樓" replace="楼" />
-<variant find="襌" replace="褝" />
-<variant find="楍" replace="夲" />
-<variant find="淚" replace="泪" />
-<variant find="縷" replace="縷" />
-<variant find="凜" replace="凛" />
-<variant find="襕" replace="幱" />
-<variant find="楕" replace="椭" />
-<variant find="稜" replace="棱" />
-<variant find="綾" replace="綾" />
-<variant find="祗" replace="只" />
-<variant find="楚" replace="椘" />
-<variant find="讀" replace="讀" />
-<variant find="樂" replace="乐" />
-<variant find="諾" replace="諾" />
-<variant find="饟" replace="餉" />
-<variant find="寧" replace="宁" />
-<variant find="楠" replace="枏" />
-<variant find="祢" replace="檷" />
-<variant find="異" replace="异" />
-<variant find="饣" replace="食" />
-<variant find="襤" replace="䍀" />
-<variant find="楦" replace="楥" />
-<variant find="復" replace="复" />
-<variant find="襧" replace="檷" />
-<variant find="奨" replace="奬" />
-<variant find="奩" replace="匳" />
-<variant find="數" replace="数" />
-<variant find="參" replace="叁" />
-<variant find="饫" replace="秗" />
-<variant find="葉" replace="叶" />
-<variant find="饮" replace="飮" />
-<variant find="說" replace="說" />
-<variant find="殺" replace="杀" />
-<variant find="拾" replace="十" />
-<variant find="楳" replace="梅" />
-<variant find="襴" replace="幱" />
-<variant find="奶" replace="儞" />
-<variant find="祸" replace="禍" />
-<variant find="兩" replace="兩" />
-<variant find="糧" replace="粮" />
-<variant find="楽" replace="樂" />
-<variant find="諒" replace="諒" />
-<variant find="勵" replace="劢" />
-<variant find="西" replace="襾" />
-<variant find="馀" replace="余" />
-<variant find="呂" replace="吕" />
-<variant find="禀" replace="廩" />
-<variant find="覀" replace="襾" />
-<variant find="廬" replace="庐" />
-<variant find="濾" replace="滤" />
-<variant find="礪" replace="砺" />
-<variant find="閭" replace="閭" />
-<variant find="覆" replace="复" />
-<variant find="榆" replace="楡" />
-<variant find="馆" replace="舘" />
-<variant find="覇" replace="霸" />
-<variant find="驪" replace="驪" />
-<variant find="麗" replace="丽" />
-<variant find="覉" replace="羁" />
-<variant find="覊" replace="羁" />
-<variant find="曆" replace="历" />
-<variant find="歷" replace="历" />
-<variant find="禍" replace="禍" />
-<variant find="轢" replace="轢" />
-<variant find="憐" replace="怜" />
-<variant find="規" replace="槻" />
-<variant find="戀" replace="恋" />
-<variant find="撚" replace="捻" />
-<variant find="漣" replace="涟" />
-<variant find="煉" replace="炼" />
-<variant find="馓" replace="糤" />
-<variant find="璉" replace="琏" />
-<variant find="秊" replace="年" />
-<variant find="視" replace="視" />
-<variant find="聯" replace="联" />
-<variant find="輦" replace="輦" />
-<variant find="蓮" replace="莲" />
-<variant find="覚" replace="斍" />
-<variant find="連" replace="连" />
-<variant find="鍊" replace="炼" />
-<variant find="說" replace="說" />
-<variant find="廉" replace="亷" />
-<variant find="殮" replace="殓" />
-<variant find="禥" replace="祺" />
-<variant find="榦" replace="乹" />
-<variant find="簾" replace="帘" />
-<variant find="覧" replace="覽" />
-<variant find="獵" replace="猎" />
-<variant find="寧" replace="宁" />
-<variant find="嶺" replace="岭" />
-<variant find="妬" replace="妒" />
-<variant find="瑩" replace="瑩" />
-<variant find="禰" replace="檷" />
-<variant find="鈴" replace="鈴" />
-<variant find="㦳" replace="㘽" />
-<variant find="妳" replace="儞" />
-<variant find="靈" replace="灵" />
-<variant find="観" replace="覌" />
-<variant find="領" replace="領" />
-<variant find="禮" replace="礼" />
-<variant find="覸" replace="覵" />
-<variant find="隸" replace="隶" />
-<variant find="惡" replace="噁" />
-<variant find="覺" replace="斍" />
-<variant find="覻" replace="覷" />
-<variant find="覼" replace="覙" />
-<variant find="樂" replace="乐" />
-<variant find="燎" replace="尞" />
-<variant find="觀" replace="覌" />
-<variant find="私" replace="厶" />
-<variant find="療" replace="疗" />
-<variant find="观" replace="覌" />
-<variant find="遼" replace="辽" />
-<variant find="龍" replace="尨" />
-<variant find="规" replace="槻" />
-<variant find="駄" replace="馱" />
-<variant find="駅" replace="驛" />
-<variant find="暈" replace="晕" />
-<variant find="槅" replace="核" />
-<variant find="駆" replace="敺" />
-<variant find="视" replace="視" />
-<variant find="秇" replace="兿" />
-<variant find="劉" replace="刘" />
-<variant find="駈" replace="敺" />
-<variant find="觉" replace="斍" />
-<variant find="姊" replace="姉" />
-<variant find="秊" replace="年" />
-<variant find="秋" replace="䆋" />
-<variant find="始" replace="乨" />
-<variant find="留" replace="畄" />
-<variant find="紐" replace="紐" />
-<variant find="類" replace="类" />
-<variant find="戮" replace="勠" />
-<variant find="角" replace="甪" />
-<variant find="陸" replace="陆" />
-<variant find="倫" replace="伦" />
-<variant find="觔" replace="斤" />
-<variant find="槔" replace="桕" />
-<variant find="崙" replace="仑" />
-<variant find="淪" replace="沦" />
-<variant find="輪" replace="輪" />
-<variant find="様" replace="樣" />
-<variant find="慄" replace="慄" />
-<variant find="槙" replace="槇" />
-<variant find="姙" replace="妊" />
-<variant find="觝" replace="扺" />
-<variant find="槞" replace="栊" />
-<variant find="駞" replace="駝" />
-<variant find="槟" replace="梹" />
-<variant find="槣" replace="敧" />
-<variant find="裏" replace="裏" />
-<variant find="姧" replace="奸" />
-<variant find="觧" replace="解" />
-<variant find="裡" replace="裏" />
-<variant find="槪" replace="概" />
-<variant find="離" replace="离" />
-<variant find="姫" replace="姬" />
-<variant find="溺" replace="尿" />
-<variant find="燐" replace="燐" />
-<variant find="駮" replace="駁" />
-<variant find="藺" replace="蔺" />
-<variant find="隣" replace="邻" />
-<variant find="鱗" replace="鱗" />
-<variant find="觵" replace="觥" />
-<variant find="臨" replace="临" />
-<variant find="槶" replace="椢" />
-<variant find="姸" replace="妍" />
-<variant find="狀" replace="状" />
-<variant find="識" replace="識" />
-<variant find="槼" replace="椝" />
-<variant find="刺" replace="制" />
-<variant find="稀" replace="希" />
-<variant find="訁" replace="言" />
-<variant find="騃" replace="呆" />
-<variant find="輻" replace="輻" />
-<variant find="騈" replace="駢" />
-<variant find="見" replace="見" />
-<variant find="廓" replace="度" />
-<variant find="塚" replace="冢" />
-<variant find="﨑" replace="埼" />
-<variant find="騒" replace="騷" />
-<variant find="晴" replace="夝" />
-<variant find="験" replace="驗" />
-<variant find="娚" replace="喃" />
-<variant find="娟" replace="姢" />
-<variant find="稟" replace="廩" />
-<variant find="騣" replace="騌" />
-<variant find="権" replace="權" />
-<variant find="飯" replace="飯" />
-<variant find="飼" replace="飼" />
-<variant find="樫" replace="柽" />
-<variant find="館" replace="舘" />
-<variant find="鶴" replace="鶴" />
-<variant find="娯" replace="娛" />
-<variant find="稲" replace="稻" />
-<variant find="訳" replace="譯" />
-<variant find="樳" replace="桪" />
-<variant find="訴" replace="愬" />
-<variant find="訶" replace="呵" />
-<variant find="稽" replace="乩" />
-<variant find="樽" replace="墫" />
-<variant find="樿" replace="椫" />
-<variant find="稿" replace="稾" />
-<variant find="穀" replace="穀" />
-<variant find="婀" replace="娿" />
-<variant find="穂" replace="穗" />
-<variant find="驅" replace="敺" />
-<variant find="橅" replace="模" />
-<variant find="驇" replace="騺" />
-<variant find="穉" replace="稚" />
-<variant find="橊" replace="榴" />
-<variant find="穏" replace="穩" />
-<variant find="穐" replace="䆋" />
-<variant find="驒" replace="騨" />
-<variant find="穞" replace="稆" />
-<variant find="婣" replace="姻" />
-<variant find="橦" replace="幢" />
-<variant find="詧" replace="察" />
-<variant find="驩" replace="懽" />
-<variant find="橰" replace="桕" />
-<variant find="穰" replace="穣" />
-<variant find="驱" replace="敺" />
-<variant find="橹" replace="樐" />
-<variant find="詻" replace="咯" />
-<variant find="詾" replace="訩" />
-<variant find="婿" replace="壻" />
-<variant find="檆" replace="枮" />
-<variant find="誇" replace="侉" />
-<variant find="檇" replace="槜" />
-<variant find="媍" replace="妇" />
-<variant find="檏" replace="朴" />
-<variant find="誒" replace="唉" />
-<variant find="窗" replace="窓" />
-<variant find="檘" replace="檗" />
-<variant find="檜" replace="栝" />
-<variant find="檪" replace="栎" />
-<variant find="骫" replace="骪" />
-<variant find="読" replace="讀" />
-<variant find="媮" replace="婾" />
-<variant find="窰" replace="窑" />
-<variant find="檳" replace="梹" />
-<variant find="骵" replace="体" />
-<variant find="櫁" replace="樒" />
-<variant find="櫂" replace="桌" />
-<variant find="竃" replace="灶" />
-<variant find="髄" replace="膸" />
-<variant find="竆" replace="穷" />
-<variant find="櫉" replace="橱" />
-<variant find="髌" replace="膑" />
-<variant find="嫐" replace="喃" />
-<variant find="竒" replace="奇" />
-<variant find="櫓" replace="樐" />
-<variant find="髓" replace="膸" />
-<variant find="嫔" replace="娦" />
-<variant find="髕" replace="膑" />
-<variant find="髗" replace="胪" />
-<variant find="髙" replace="高" />
-<variant find="竜" replace="尨" />
-<variant find="諠" replace="吅" />
-<variant find="髡" replace="髠" />
-<variant find="竢" replace="俟" />
-<variant find="髣" replace="仿" />
-<variant find="髦" replace="氂" />
-<variant find="櫨" replace="枦" />
-<variant find="髪" replace="髮" />
-<variant find="諫" replace="諌" />
-<variant find="諮" replace="咨" />
-<variant find="髯" replace="髥" />
-<variant find="櫱" replace="檗" />
-<variant find="髴" replace="佛" />
-<variant find="諸" replace="諸" />
-<variant find="竸" replace="竞" />
-<variant find="嫺" replace="娴" />
-<variant find="櫽" replace="檼" />
-<variant find="謁" replace="謁" />
-<variant find="嬃" replace="媭" />
-<variant find="鬃" replace="騌" />
-<variant find="欄" replace="栏" />
-<variant find="欅" replace="榉" />
-<variant find="笆" replace="巴" />
-<variant find="鬍" replace="楜" />
-<variant find="欑" replace="櫕" />
-<variant find="笑" replace="咲" />
-<variant find="謔" replace="嚯" />
-<variant find="欗" replace="栏" />
-<variant find="欠" replace="缺" />
-<variant find="嬢" replace="孃" />
-<variant find="欢" replace="懽" />
-<variant find="欣" replace="䜣" />
-<variant find="鬦" replace="斗" />
-<variant find="笧" replace="冊" />
-<variant find="鬧" replace="閙" />
-<variant find="嬪" replace="娦" />
-<variant find="鬪" replace="斗" />
-<variant find="鬫" replace="闞" />
-<variant find="鬬" replace="斗" />
-<variant find="嬭" replace="儞" />
-<variant find="鬰" replace="欝" />
-<variant find="鬱" replace="欝" />
-<variant find="笶" replace="矢" />
-<variant find="欸" replace="唉" />
-<variant find="謹" replace="謹" />
-<variant find="鬹" replace="鬶" />
-<variant find="笺" replace="椾" />
-<variant find="鬻" replace="粥" />
-<variant find="謼" replace="呼" />
-<variant find="筇" replace="笻" />
-<variant find="等" replace="朩" />
-<variant find="歉" replace="缺" />
-<variant find="筋" replace="斤" />
-<variant find="譌" replace="訛" />
-<variant find="歎" replace="嘆" />
-<variant find="歓" replace="懽" />
-<variant find="譔" replace="撰" />
-<variant find="譛" replace="譖" />
-<variant find="譜" replace="諩" />
-<variant find="筞" replace="策" />
-<variant find="孠" replace="嗣" />
-<variant find="歡" replace="懽" />
-<variant find="止" replace="只" />
-<variant find="歧" replace="岐" />
-<variant find="歩" replace="步" />
-<variant find="譪" replace="蔼" />
-<variant find="譭" replace="毀" />
-<variant find="歯" replace="齒" />
-<variant find="筰" replace="笮" />
-<variant find="譱" replace="善" />
-<variant find="譲" replace="讓" />
-<variant find="歲" replace="亗" />
-<variant find="歳" replace="亗" />
-<variant find="歴" replace="歷" />
-<variant find="孵" replace="孚" />
-<variant find="孶" replace="孳" />
-<variant find="歺" replace="歹" />
-<variant find="筺" replace="筐" />
-<variant find="孽" replace="孼" />
-<variant find="孾" replace="婴" />
-<variant find="筿" replace="筱" />
-<variant find="殀" replace="夭" />
-<variant find="宂" replace="冗" />
-<variant find="箂" replace="筙" />
-<variant find="讋" replace="詟" />
-<variant find="箋" replace="椾" />
-<variant find="讌" replace="宴" />
-<variant find="讍" replace="諤" />
-<variant find="讎" replace="仇" />
-<variant find="讏" replace="讆" />
-<variant find="讐" replace="仇" />
-<variant find="算" replace="祘" />
-<variant find="讙" replace="懽" />
-<variant find="箚" replace="剳" />
-<variant find="讚" replace="讃" />
-<variant find="宜" replace="冝" />
-<variant find="実" replace="實" />
-<variant find="箟" replace="箆" />
-<variant find="箠" replace="棰" />
-<variant find="讠" replace="言" />
-<variant find="讬" replace="托" />
-<variant find="殭" replace="僵" />
-<variant find="鮮" replace="尟" />
-<variant find="殱" replace="歼" />
-<variant find="殺" replace="杀" />
-<variant find="殻" replace="殼" />
-<variant find="宼" replace="冦" />
-<variant find="宾" replace="賓" />
-<variant find="節" replace="節" />
-<variant find="鯁" replace="骾" />
-<variant find="寃" replace="冤" />
-<variant find="诃" replace="呵" />
-<variant find="密" replace="宻" />
-<variant find="寇" replace="冦" />
-<variant find="毉" replace="医" />
-<variant find="诉" replace="愬" />
-<variant find="鯋" replace="鯊" />
-<variant find="富" replace="冨" />
-<variant find="毎" replace="每" />
-<variant find="比" replace="夶" />
-<variant find="寕" replace="宁" />
-<variant find="鯗" replace="鮝" />
-<variant find="毘" replace="毗" />
-<variant find="篚" replace="棐" />
-<variant find="寛" replace="寬" />
-<variant find="篛" replace="箬" />
-<variant find="鯛" replace="鮉" />
-<variant find="寜" replace="宁" />
-<variant find="篠" replace="筱" />
-<variant find="篦" replace="箆" />
-<variant find="篪" replace="竾" />
-<variant find="篭" replace="笼" />
-<variant find="鯰" replace="鮎" />
-<variant find="篲" replace="彗" />
-<variant find="寳" replace="宝" />
-<variant find="诶" replace="唉" />
-<variant find="诸" replace="諸" />
-<variant find="鯹" replace="鮏" />
-<variant find="対" replace="對" />
-<variant find="鰀" replace="鯇" />
-<variant find="専" replace="專" />
-<variant find="簈" replace="箳" />
-<variant find="谉" replace="讅" />
-<variant find="氊" replace="毡" />
-<variant find="鰍" replace="鰌" />
-<variant find="谏" replace="諌" />
-<variant find="谑" replace="嚯" />
-<variant find="鰑" replace="鯣" />
-<variant find="谒" replace="謁" />
-<variant find="簒" replace="篡" />
-<variant find="尓" replace="尒" />
-<variant find="尔" replace="尒" />
-<variant find="簔" replace="簑" />
-<variant find="気" replace="氣" />
-<variant find="谘" replace="咨" />
-<variant find="簘" replace="箫" />
-<variant find="尚" replace="尙" />
-<variant find="尜" replace="嘎" />
-<variant find="尠" replace="尟" />
-<variant find="尦" replace="尥" />
-<variant find="谨" replace="謹" />
-<variant find="簪" replace="兂" />
-<variant find="尫" replace="尪" />
-<variant find="尭" replace="堯" />
-<variant find="鰮" replace="鰛" />
-<variant find="谱" replace="諩" />
-<variant find="谷" replace="穀" />
-<variant find="氷" replace="冰" />
-<variant find="鰺" replace="鯵" />
-<variant find="尽" replace="侭" />
-<variant find="氽" replace="尿" />
-<variant find="谿" replace="嵠" />
-<variant find="层" replace="層" />
-<variant find="汉" replace="漢" />
-<variant find="豊" replace="豐" />
-<variant find="鱍" replace="鮁" />
-<variant find="籏" replace="簱" />
-<variant find="鱑" replace="鰉" />
-<variant find="鱔" replace="鱓" />
-<variant find="籖" replace="签" />
-<variant find="籘" replace="籐" />
-<variant find="汚" replace="汙" />
-<variant find="屛" replace="屏" />
-<variant find="籛" replace="篯" />
-<variant find="象" replace="像" />
-<variant find="鱢" replace="鯵" />
-<variant find="豣" replace="豜" />
-<variant find="層" replace="層" />
-<variant find="屭" replace="屃" />
-<variant find="籭" replace="簛" />
-<variant find="鱮" replace="魣" />
-<variant find="汴" replace="汳" />
-<variant find="鱶" replace="鮝" />
-<variant find="豺" replace="犲" />
-<variant find="鱻" replace="尟" />
-<variant find="屻" replace="屶" />
-<variant find="岀" replace="出" />
-<variant find="岁" replace="亗" />
-<variant find="沅" replace="厵" />
-<variant find="沉" replace="沈" />
-<variant find="貉" replace="狢" />
-<variant find="貊" replace="獏" />
-<variant find="粋" replace="粹" />
-<variant find="貌" replace="皃" />
-<variant find="貎" replace="猊" />
-<variant find="粓" replace="泔" />
-<variant find="貔" replace="豼" />
-<variant find="岗" replace="冈" />
-<variant find="貘" replace="獏" />
-<variant find="粛" replace="肅" />
-<variant find="鲜" replace="尟" />
-<variant find="鲠" replace="骾" />
-<variant find="沢" replace="澤" />
-<variant find="貮" replace="二" />
-<variant find="沲" replace="沱" />
-<variant find="貳" replace="二" />
-<variant find="岴" replace="岖" />
-<variant find="鲶" replace="鮎" />
-<variant find="鲷" replace="鮉" />
-<variant find="鲹" replace="鯵" />
-<variant find="岺" replace="岭" />
-<variant find="峀" replace="岫" />
-<variant find="鳁" replace="鰛" />
-<variant find="鳅" replace="鰌" />
-<variant find="賉" replace="卹" />
-<variant find="糉" replace="粽" />
-<variant find="賊" replace="戝" />
-<variant find="糊" replace="楜" />
-<variant find="糍" replace="粢" />
-<variant find="泐" replace="氻" />
-<variant find="賓" replace="賓" />
-<variant find="賔" replace="賓" />
-<variant find="賙" replace="周" />
-<variant find="賛" replace="讃" />
-<variant find="鳝" replace="鱓" />
-<variant find="糠" replace="穅" />
-<variant find="賤" replace="賎" />
-<variant find="峩" replace="峨" />
-<variant find="質" replace="貭" />
-<variant find="鳫" replace="雁" />
-<variant find="賬" replace="帐" />
-<variant find="糭" replace="粽" />
-<variant find="鳮" replace="雞" />
-<variant find="泯" replace="冺" />
-<variant find="鳯" replace="凤" />
-<variant find="峯" replace="峄" />
-<variant find="糯" replace="粫" />
-<variant find="峰" replace="峄" />
-<variant find="糸" replace="絲" />
-<variant find="糹" replace="丝" />
-<variant find="泺" replace="泊" />
-<variant find="糾" replace="糺" />
-<variant find="贈" replace="贈" />
-<variant find="鴈" replace="雁" />
-<variant find="崈" replace="崇" />
-<variant find="贊" replace="讃" />
-<variant find="崋" replace="华" />
-<variant find="洌" replace="冽" />
-<variant find="崎" replace="埼" />
-<variant find="崑" replace="崐" />
-<variant find="崖" replace="崕" />
-<variant find="崗" replace="冈" />
-<variant find="崘" replace="仑" />
-<variant find="紙" replace="帋" />
-<variant find="崠" replace="岽" />
-<variant find="紥" replace="扎" />
-<variant find="账" replace="帐" />
-<variant find="质" replace="貭" />
-<variant find="洪" replace="洚" />
-<variant find="鴬" replace="莺" />
-<variant find="贰" replace="二" />
-<variant find="贱" replace="賎" />
-<variant find="洴" replace="泙" />
-<variant find="贼" replace="戝" />
-<variant find="浄" replace="净" />
-<variant find="鵄" replace="鴟" />
-<variant find="鵆" replace="鴴" />
-<variant find="嵇" replace="嵆" />
-<variant find="経" replace="經" />
-<variant find="浏" replace="嚠" />
-<variant find="絏" replace="紲" />
-<variant find="赒" replace="周" />
-<variant find="嵒" replace="岩" />
-<variant find="絖" replace="絋" />
-<variant find="嵚" replace="崟" />
-<variant find="嵛" replace="崳" />
-<variant find="浜" replace="濱" />
-<variant find="嵜" replace="埼" />
-<variant find="赞" replace="讃" />
-<variant find="鵞" replace="鵝" />
-<variant find="赠" replace="贈" />
-<variant find="浤" replace="汯" />
-<variant find="鵰" replace="凋" />
-<variant find="赱" replace="走" />
-<variant find="嵳" replace="嵯" />
-<variant find="絵" replace="繪" />
-<variant find="鵶" replace="鴉" />
-<variant find="涂" replace="凃" />
-<variant find="綂" replace="統" />
-<variant find="趂" replace="趁" />
-<variant find="嶋" replace="岛" />
-<variant find="嶌" replace="岛" />
-<variant find="鶏" replace="鷄" />
-<variant find="嶔" replace="崟" />
-<variant find="涕" replace="洟" />
-<variant find="涙" replace="淚" />
-<variant find="継" replace="繼" />
-<variant find="続" replace="續" />
-<variant find="涚" replace="涗" />
-<variant find="綢" replace="䌷" />
-<variant find="趦" replace="趑" />
-<variant find="嶨" replace="峃" />
-<variant find="鶫" replace="鶇" />
-<variant find="綯" replace="絝" />
-<variant find="綵" replace="䌽" />
-<variant find="綷" replace="紣" />
-<variant find="涸" replace="凅" />
-<variant find="趺" replace="呋" />
-<variant find="綻" replace="搖" />
-<variant find="嶽" replace="岳" />
-<variant find="綽" replace="淖" />
-<variant find="鷀" replace="鶿" />
-<variant find="巌" replace="岩" />
-<variant find="総" replace="總" />
-<variant find="鷏" replace="鷆" />
-<variant find="緐" replace="繁" />
-<variant find="巓" replace="巅" />
-<variant find="緖" replace="緒" />
-<variant find="跖" replace="趵" />
-<variant find="跗" replace="呋" />
-<variant find="州" replace="洲" />
-<variant find="鷡" replace="鵐" />
-<variant find="巣" replace="巢" />
-<variant find="鷥" replace="鴎" />
-<variant find="淫" replace="婬" />
-<variant find="鷰" replace="宴" />
-<variant find="練" replace="練" />
-<variant find="鷴" replace="鷳" />
-<variant find="巵" replace="卮" />
-<variant find="跷" replace="屩" />
-<variant find="巹" replace="卺" />
-<variant find="跺" replace="跥" />
-<variant find="巻" replace="卷" />
-<variant find="巽" replace="巺" />
-<variant find="縁" replace="緣" />
-<variant find="縂" replace="总" />
-<variant find="縄" replace="繩" />
-<variant find="清" replace="淸" />
-<variant find="渇" replace="渴" />
-<variant find="済" replace="濟" />
-<variant find="踈" replace="疎" />
-<variant find="渉" replace="涉" />
-<variant find="鸊" replace="䴙" />
-<variant find="上" replace="丄" />
-<variant find="下" replace="丅" />
-<variant find="渋" replace="涩" />
-<variant find="渎" replace="涜" />
-<variant find="渓" replace="嵠" />
-<variant find="渕" replace="淵" />
-<variant find="縕" replace="緼" />
-<variant find="渖" replace="沈" />
-<variant find="鸖" replace="鶴" />
-<variant find="丗" replace="世" />
-<variant find="縚" replace="絛" />
-<variant find="縝" replace="稹" />
-<variant find="鸞" replace="鵉" />
-<variant find="丠" replace="丘" />
-<variant find="両" replace="兩" />
-<variant find="渢" replace="沨" />
-<variant find="並" replace="竝" />
-<variant find="縦" replace="緃" />
-<variant find="踩" replace="跴" />
-<variant find="踪" replace="踨" />
-<variant find="渫" replace="泄" />
-<variant find="帯" replace="帶" />
-<variant find="帰" replace="歸" />
-<variant find="縱" replace="緃" />
-<variant find="帲" replace="帡" />
-<variant find="鸶" replace="鴎" />
-<variant find="績" replace="勣" />
-<variant find="鸾" replace="鵉" />
-<variant find="乆" replace="久" />
-<variant find="幇" replace="帮" />
-<variant find="繇" replace="徭" />
-<variant find="繊" replace="纖" />
-<variant find="繋" replace="係" />
-<variant find="繍" replace="綉" />
-<variant find="繖" replace="伞" />
-<variant find="乗" replace="乘" />
-<variant find="鹚" replace="鶿" />
-<variant find="幚" replace="帮" />
-<variant find="繛" replace="淖" />
-<variant find="湟" replace="况" />
-<variant find="繢" replace="繪" />
-<variant find="幤" replace="币" />
-<variant find="蹤" replace="踨" />
-<variant find="繦" replace="繈" />
-<variant find="蹮" replace="跹" />
-<variant find="蹯" replace="畨" />
-<variant find="干" replace="乹" />
-<variant find="并" replace="竝" />
-<variant find="幷" replace="竝" />
-<variant find="鹸" replace="堿" />
-<variant find="幹" replace="乹" />
-<variant find="幺" replace="么" />
-<variant find="蹺" replace="屩" />
-<variant find="蹻" replace="屩" />
-<variant find="鹼" replace="堿" />
-<variant find="湼" replace="涅" />
-<variant find="幽" replace="凼" />
-<variant find="乾" replace="乹" />
-<variant find="満" replace="滿" />
-<variant find="庁" replace="廳" />
-<variant find="亁" replace="乹" />
-<variant find="麁" replace="粗" />
-<variant find="広" replace="廣" />
-<variant find="麄" replace="粗" />
-<variant find="庅" replace="么" />
-<variant find="予" replace="豫" />
-<variant find="纊" replace="絋" />
-<variant find="事" replace="亊" />
-<variant find="溌" replace="泼" />
-<variant find="纎" replace="縴" />
-<variant find="亐" replace="于" />
-<variant find="源" replace="厵" />
-<variant find="麑" replace="猊" />
-<variant find="纒" replace="纏" />
-<variant find="亓" replace="丌" />
-<variant find="麓" replace="梺" />
-<variant find="井" replace="丼" />
-<variant find="店" replace="坫" />
-<variant find="躗" replace="讆" />
-<variant find="纘" replace="纉" />
-<variant find="躛" replace="讆" />
-<variant find="亜" replace="亞" />
-<variant find="庞" replace="厖" />
-<variant find="纟" replace="丝" />
-<variant find="纠" replace="糺" />
-<variant find="溦" replace="湄" />
-<variant find="座" replace="坐" />
-<variant find="纩" replace="絋" />
-<variant find="溪" replace="嵠" />
-<variant find="麪" replace="面" />
-<variant find="躭" replace="耽" />
-<variant find="溮" replace="浉" />
-<variant find="溯" replace="泝" />
-<variant find="亯" replace="享" />
-<variant find="亰" replace="京" />
-<variant find="躰" replace="体" />
-<variant find="躲" replace="躱" />
-<variant find="溳" replace="涢" />
-<variant find="纵" replace="緃" />
-<variant find="躷" replace="矮" />
-<variant find="纸" replace="帋" />
-<variant find="麹" replace="麴" />
-<variant find="溺" replace="尿" />
-<variant find="麺" replace="面" />
-<variant find="麻" replace="痲" />
-<variant find="庻" replace="庶" />
-<variant find="庽" replace="寓" />
-<variant find="亾" replace="亡" />
-<variant find="庿" replace="庙" />
-<variant find="廃" replace="廢" />
-<variant find="练" replace="練" />
-<variant find="軄" replace="聀" />
-<variant find="軆" replace="体" />
-<variant find="廉" replace="亷" />
-<variant find="廎" replace="庼" />
-<variant find="仏" replace="佛" />
-<variant find="廏" replace="厩" />
-<variant find="廐" replace="厩" />
-<variant find="黒" replace="黑" />
-<variant find="廓" replace="度" />
-<variant find="黙" replace="默" />
-<variant find="滙" replace="匯" />
-<variant find="滛" replace="婬" />
-<variant find="滝" replace="瀧" />
-<variant find="點" replace="奌" />
-<variant find="転" replace="轉" />
-<variant find="滦" replace="栾" />
-<variant find="绩" replace="勣" />
-<variant find="仭" replace="仞" />
-<variant find="仮" replace="假" />
-<variant find="廰" replace="厅" />
-<variant find="绰" replace="淖" />
-<variant find="黰" replace="鬒" />
-<variant find="廵" replace="巡" />
-<variant find="绸" replace="䌷" />
-<variant find="绹" replace="絝" />
-<variant find="廻" replace="囘" />
-<variant find="黻" replace="芾" />
-<variant find="廼" replace="乃" />
-<variant find="仼" replace="任" />
-<variant find="軽" replace="輕" />
-<variant find="廽" replace="囘" />
-<variant find="绽" replace="搖" />
-<variant find="廾" replace="卄" />
-<variant find="廿" replace="卄" />
-<variant find="軿" replace="帡" />
-<variant find="鼂" replace="晁" />
-<variant find="鼄" replace="蛛" />
-<variant find="鼅" replace="蜘" />
-<variant find="漆" replace="柒" />
-<variant find="弉" replace="奘" />
-<variant find="漉" replace="淥" />
-<variant find="漊" replace="溇" />
-<variant find="缊" replace="緼" />
-<variant find="缋" replace="繪" />
-<variant find="弌" replace="一" />
-<variant find="鼌" replace="晁" />
-<variant find="弍" replace="二" />
-<variant find="伍" replace="五" />
-<variant find="弐" replace="二" />
-<variant find="缐" replace="綫" />
-<variant find="漑" replace="溉" />
-<variant find="鼑" replace="鼎" />
-<variant find="鼓" replace="皷" />
-<variant find="鼔" replace="皷" />
-<variant find="輙" replace="輒" />
-<variant find="輛" replace="輌" />
-<variant find="缜" replace="稹" />
-<variant find="伝" replace="傳" />
-<variant find="鼡" replace="鼠" />
-<variant find="漢" replace="漢" />
-<variant find="鼢" replace="蚡" />
-<variant find="輧" replace="帡" />
-<variant find="輩" replace="軰" />
-<variant find="缵" replace="纉" />
-<variant find="缶" replace="罐" />
-<variant find="缷" replace="卸" />
-<variant find="輺" replace="輜" />
-<variant find="弾" replace="彈" />
-<variant find="缾" replace="甁" />
-<variant find="轀" replace="輼" />
-<variant find="罂" replace="甖" />
-<variant find="彂" replace="发" />
-<variant find="潄" replace="漱" />
-<variant find="罇" replace="墫" />
-<variant find="齇" replace="齄" />
-<variant find="潊" replace="溆" />
-<variant find="齊" replace="亝" />
-<variant find="彊" replace="強" />
-<variant find="罌" replace="甖" />
-<variant find="低" replace="仾" />
-<variant find="齏" replace="韲" />
-<variant find="齐" replace="亝" />
-<variant find="彑" replace="彐" />
-<variant find="齑" replace="韲" />
-<variant find="罔" replace="罓" />
-<variant find="录" replace="彔" />
-<variant find="罗" replace="啰" />
-<variant find="彚" replace="匯" />
-<variant find="彜" replace="彛" />
-<variant find="彝" replace="彛" />
-<variant find="彞" replace="彛" />
-<variant find="轟" replace="軣" />
-<variant find="你" replace="伲" />
-<variant find="彠" replace="彟" />
-<variant find="齢" replace="齡" />
-<variant find="潢" replace="洸" />
-<variant find="罦" replace="罘" />
-<variant find="潨" replace="潀" />
-<variant find="彩" replace="䌽" />
-<variant find="彫" replace="凋" />
-<variant find="彬" replace="份" />
-<variant find="置" replace="寘" />
-<variant find="轰" replace="軣" />
-<variant find="彲" replace="彨" />
-<variant find="併" replace="竝" />
-<variant find="彷" replace="仿" />
-<variant find="罸" replace="罚" />
-<variant find="羀" replace="罶" />
-<variant find="澁" replace="涩" />
-<variant find="羂" replace="罥" />
-<variant find="羃" replace="冪" />
-<variant find="徃" replace="往" />
-<variant find="澄" replace="澂" />
-<variant find="羅" replace="啰" />
-<variant find="辆" replace="輌" />
-<variant find="徇" replace="侚" />
-<variant find="羇" replace="羁" />
-<variant find="辈" replace="軰" />
-<variant find="龍" replace="尨" />
-<variant find="龐" replace="厖" />
-<variant find="澑" replace="溜" />
-<variant find="辒" replace="輼" />
-<variant find="従" replace="從" />
-<variant find="澔" replace="浩" />
-<variant find="徕" replace="來" />
-<variant find="龙" replace="尨" />
-<variant find="澙" replace="潟" />
-<variant find="龜" replace="亀" />
-<variant find="羝" replace="扺" />
-<variant find="龝" replace="䆋" />
-<variant find="龞" replace="鱉" />
-<variant find="龟" replace="亀" />
-<variant find="徠" replace="來" />
-<variant find="辠" replace="罪" />
-<variant find="価" replace="價" />
-<variant find="龢" replace="和" />
-<variant find="澣" replace="浣" />
-<variant find="辣" replace="辢" />
-<variant find="辧" replace="弁" />
-<variant find="辨" replace="弁" />
-<variant find="侫" replace="佞" />
-<variant find="徬" replace="仿" />
-<variant find="澰" replace="潋" />
-<variant find="徳" replace="德" />
-<variant find="徴" replace="徵" />
-<variant find="辶" replace="辵" />
-<variant find="澹" replace="淡" />
-<variant find="羹" replace="羮" />
-<variant find="辺" replace="邊" />
-<variant find="徺" replace="侥" />
-<variant find="忄" replace="心" />
-<variant find="翅" replace="翄" />
-<variant find="濇" replace="涩" />
-<variant find="忈" replace="仁" />
-<variant find="濔" replace="沵" />
-<variant find="濚" replace="溁" />
-<variant find="濛" replace="懞" />
-<variant find="応" replace="應" />
-<variant find="濜" replace="浕" />
-<variant find="濞" replace="淠" />
-<variant find="翠" replace="翆" />
-<variant find="信" replace="伩" />
-<variant find="迤" replace="迆" />
-<variant find="俥" replace="伡" />
-<variant find="迪" replace="廸" />
-<variant find="俫" replace="來" />
-<variant find="翬" replace="翚" />
-<variant find="迬" replace="往" />
-<variant find="迭" replace="叠" />
-<variant find="迳" replace="径" />
-<variant find="濳" replace="潛" />
-<variant find="迴" replace="囘" />
-<variant find="濵" replace="濱" />
-<variant find="翶" replace="翱" />
-<variant find="迺" replace="乃" />
-<variant find="忻" replace="䜣" />
-<variant find="翻" replace="繙" />
-<variant find="濼" replace="泊" />
-<variant find="翽" replace="翙" />
-<variant find="零" replace="零" />
-<variant find="晴" replace="晴" />
-<variant find="逸" replace="逸" />
-<variant find="囹" replace="囹" />
-<variant find="靖" replace="靖" />
-<variant find="玲" replace="玲" />
-<variant find="精" replace="精" />
-<variant find="冷" replace="冷" />
+<variants>  
+  <map variant="耀" traditional="曜" />
+  <map variant="瀁" traditional="漾" />
+  <map variant="倂" traditional="竝" />
+  <map variant="瀂" traditional="澛" />
+  <map variant="耂" traditional="老" />
+  <map variant="考" traditional="攷" />
+  <map variant="逃" traditional="迯" />
+  <map variant="倅" traditional="伜" />
+  <map variant="瀆" traditional="涜" />
+  <map variant="倈" traditional="來" />
+  <map variant="耈" traditional="耇" />
+  <map variant="逈" traditional="迥" />
+  <map variant="耉" traditional="耇" />
+  <map variant="瀏" traditional="嚠" />
+  <map variant="耑" traditional="专" />
+  <map variant="瀒" traditional="涩" />
+  <map variant="逓" traditional="遞" />
+  <map variant="瀓" traditional="澂" />
+  <map variant="逕" traditional="径" />
+  <map variant="耗" traditional="秏" />
+  <map variant="耘" traditional="秐" />
+  <map variant="耠" traditional="秴" />
+  <map variant="耢" traditional="橯" />
+  <map variant="耤" traditional="借" />
+  <map variant="逥" traditional="囘" />
+  <map variant="逩" traditional="奔" />
+  <map variant="瀬" traditional="瀨" />
+  <map variant="逬" traditional="迸" />
+  <map variant="耮" traditional="橯" />
+  <map variant="逮" traditional="迨" />
+  <map variant="逰" traditional="游" />
+  <map variant="怱" traditional="匆" />
+  <map variant="倶" traditional="俱" />
+  <map variant="耷" traditional="耴" />
+  <map variant="倹" traditional="儉" />
+  <map variant="逹" traditional="达" />
+  <map variant="逺" traditional="远" />
+  <map variant="逼" traditional="偪" />
+  <map variant="值" traditional="値" />
+  <map variant="耿" traditional="炅" />
+  <map variant="遅" traditional="遲" />
+  <map variant="遇" traditional="迂" />
+  <map variant="恊" traditional="协" />
+  <map variant="灌" traditional="潅" />
+  <map variant="职" traditional="聀" />
+  <map variant="遍" traditional="徧" />
+  <map variant="灎" traditional="滟" />
+  <map variant="遑" traditional="徨" />
+  <map variant="遒" traditional="逎" />
+  <map variant="道" traditional="衟" />
+  <map variant="灔" traditional="滟" />
+  <map variant="恖" traditional="思" />
+  <map variant="停" traditional="仃" />
+  <map variant="聟" traditional="壻" />
+  <map variant="遟" traditional="迟" />
+  <map variant="恠" traditional="怪" />
+  <map variant="遡" traditional="泝" />
+  <map variant="灤" traditional="栾" />
+  <map variant="聨" traditional="联" />
+  <map variant="灩" traditional="滟" />
+  <map variant="聪" traditional="聡" />
+  <map variant="聫" traditional="联" />
+  <map variant="灮" traditional="光" />
+  <map variant="聮" traditional="联" />
+  <map variant="聰" traditional="聡" />
+  <map variant="聴" traditional="聽" />
+  <map variant="恵" traditional="惠" />
+  <map variant="遶" traditional="繞" />
+  <map variant="恶" traditional="噁" />
+  <map variant="職" traditional="聀" />
+  <map variant="偸" traditional="偷" />
+  <map variant="偹" traditional="俻" />
+  <map variant="聼" traditional="听" />
+  <map variant="恿" traditional="勈" />
+  <map variant="避" traditional="辟" />
+  <map variant="肀" traditional="聿" />
+  <map variant="悅" traditional="恱" />
+  <map variant="肆" traditional="亖" />
+  <map variant="肈" traditional="肇" />
+  <map variant="肉" traditional="宍" />
+  <map variant="邉" traditional="边" />
+  <map variant="悋" traditional="吝" />
+  <map variant="悑" traditional="怖" />
+  <map variant="炔" traditional="炅" />
+  <map variant="炗" traditional="光" />
+  <map variant="備" traditional="俻" />
+  <map variant="傚" traditional="俲" />
+  <map variant="悛" traditional="恂" />
+  <map variant="悟" traditional="忢" />
+  <map variant="悤" traditional="匆" />
+  <map variant="悦" traditional="恱" />
+  <map variant="悩" traditional="惱" />
+  <map variant="悪" traditional="噁" />
+  <map variant="邫" traditional="邦" />
+  <map variant="肬" traditional="疣" />
+  <map variant="肭" traditional="朒" />
+  <map variant="炰" traditional="炮" />
+  <map variant="育" traditional="毓" />
+  <map variant="炲" traditional="炱" />
+  <map variant="肴" traditional="殽" />
+  <map variant="悴" traditional="忰" />
+  <map variant="点" traditional="奌" />
+  <map variant="肻" traditional="肯" />
+  <map variant="郁" traditional="欝" />
+  <map variant="胄" traditional="冑" />
+  <map variant="郅" traditional="胝" />
+  <map variant="郉" traditional="邢" />
+  <map variant="僊" traditional="仙" />
+  <map variant="胊" traditional="朐" />
+  <map variant="背" traditional="揹" />
+  <map variant="働" traditional="仂" />
+  <map variant="郎" traditional="郞" />
+  <map variant="胎" traditional="孡" />
+  <map variant="烖" traditional="災" />
+  <map variant="惡" traditional="噁" />
+  <map variant="胡" traditional="楜" />
+  <map variant="部" traditional="卩" />
+  <map variant="惩" traditional="懲" />
+  <map variant="惪" traditional="德" />
+  <map variant="僭" traditional="僣" />
+  <map variant="烱" traditional="炯" />
+  <map variant="胳" traditional="肐" />
+  <map variant="郶" traditional="卩" />
+  <map variant="郷" traditional="乡" />
+  <map variant="胸" traditional="胷" />
+  <map variant="儁" traditional="俊" />
+  <map variant="愂" traditional="悖" />
+  <map variant="脇" traditional="胁" />
+  <map variant="鄊" traditional="乡" />
+  <map variant="儌" traditional="侥" />
+  <map variant="儍" traditional="傻" />
+  <map variant="儎" traditional="傤" />
+  <map variant="焏" traditional="亟" />
+  <map variant="意" traditional="悥" />
+  <map variant="儓" traditional="佁" />
+  <map variant="鄕" traditional="乡" />
+  <map variant="焕" traditional="烉" />
+  <map variant="儘" traditional="侭" />
+  <map variant="脚" traditional="甪" />
+  <map variant="脢" traditional="脄" />
+  <map variant="愧" traditional="媿" />
+  <map variant="脧" traditional="朘" />
+  <map variant="脩" traditional="修" />
+  <map variant="脬" traditional="胞" />
+  <map variant="焰" traditional="焔" />
+  <map variant="脲" traditional="尿" />
+  <map variant="脳" traditional="腦" />
+  <map variant="愳" traditional="惧" />
+  <map variant="焳" traditional="焦" />
+  <map variant="脵" traditional="股" />
+  <map variant="儶" traditional="㒞" />
+  <map variant="愹" traditional="愑" />
+  <map variant="焼" traditional="燒" />
+  <map variant="愽" traditional="博" />
+  <map variant="腁" traditional="胼" />
+  <map variant="慂" traditional="勈" />
+  <map variant="酂" traditional="鄼" />
+  <map variant="酆" traditional="鄷" />
+  <map variant="酇" traditional="鄼" />
+  <map variant="酉" traditional="丣" />
+  <map variant="煊" traditional="暄" />
+  <map variant="慎" traditional="愼" />
+  <map variant="児" traditional="兒" />
+  <map variant="煑" traditional="煮" />
+  <map variant="酔" traditional="醉" />
+  <map variant="兔" traditional="兎" />
+  <map variant="煖" traditional="暖" />
+  <map variant="慙" traditional="惭" />
+  <map variant="煛" traditional="煚" />
+  <map variant="酡" traditional="酏" />
+  <map variant="煢" traditional="焭" />
+  <map variant="煥" traditional="烉" />
+  <map variant="兦" traditional="亡" />
+  <map variant="照" traditional="炤" />
+  <map variant="酧" traditional="詶" />
+  <map variant="兪" traditional="俞" />
+  <map variant="酬" traditional="詶" />
+  <map variant="腳" traditional="甪" />
+  <map variant="其" traditional="丌" />
+  <map variant="腼" traditional="䩄" />
+  <map variant="慽" traditional="慼" />
+  <map variant="煽" traditional="扇" />
+  <map variant="慿" traditional="凭" />
+  <map variant="冀" traditional="兾" />
+  <map variant="膁" traditional="肷" />
+  <map variant="憅" traditional="恸" />
+  <map variant="円" traditional="圓" />
+  <map variant="膆" traditional="嗉" />
+  <map variant="醆" traditional="盏" />
+  <map variant="熈" traditional="煕" />
+  <map variant="醋" traditional="酢" />
+  <map variant="冒" traditional="冐" />
+  <map variant="膓" traditional="肠" />
+  <map variant="膕" traditional="腘" />
+  <map variant="憖" traditional="慭" />
+  <map variant="醗" traditional="酦" />
+  <map variant="憘" traditional="喜" />
+  <map variant="熙" traditional="煕" />
+  <map variant="憙" traditional="喜" />
+  <map variant="膣" traditional="腟" />
+  <map variant="醤" traditional="酱" />
+  <map variant="冩" traditional="写" />
+  <map variant="憩" traditional="憇" />
+  <map variant="冴" traditional="冱" />
+  <map variant="醸" traditional="釀" />
+  <map variant="熺" traditional="熹" />
+  <map variant="醻" traditional="詶" />
+  <map variant="醿" traditional="醾" />
+  <map variant="燄" traditional="焔" />
+  <map variant="釆" traditional="埰" />
+  <map variant="釈" traditional="釋" />
+  <map variant="臈" traditional="腊" />
+  <map variant="燌" traditional="焚" />
+  <map variant="野" traditional="埜" />
+  <map variant="燎" traditional="尞" />
+  <map variant="懐" traditional="懷" />
+  <map variant="懒" traditional="嬾" />
+  <map variant="釒" traditional="金" />
+  <map variant="臓" traditional="臟" />
+  <map variant="燕" traditional="宴" />
+  <map variant="臕" traditional="膘" />
+  <map variant="凖" traditional="准" />
+  <map variant="釖" traditional="剑" />
+  <map variant="燗" traditional="烂" />
+  <map variant="臙" traditional="胭" />
+  <map variant="釡" traditional="釜" />
+  <map variant="凢" traditional="凡" />
+  <map variant="凣" traditional="凡" />
+  <map variant="処" traditional="處" />
+  <map variant="臰" traditional="臭" />
+  <map variant="懲" traditional="懲" />
+  <map variant="凴" traditional="凭" />
+  <map variant="懴" traditional="忏" />
+  <map variant="懶" traditional="嬾" />
+  <map variant="燷" traditional="燣" />
+  <map variant="釼" traditional="剑" />
+  <map variant="燽" traditional="焘" />
+  <map variant="凾" traditional="函" />
+  <map variant="燿" traditional="曜" />
+  <map variant="鈀" traditional="耙" />
+  <map variant="刂" traditional="刀" />
+  <map variant="刄" traditional="刃" />
+  <map variant="舄" traditional="舃" />
+  <map variant="刊" traditional="刋" />
+  <map variant="舎" traditional="捨" />
+  <map variant="舗" traditional="舖" />
+  <map variant="戞" traditional="戛" />
+  <map variant="鈟" traditional="釣" />
+  <map variant="舣" traditional="檥" />
+  <map variant="戦" traditional="戰" />
+  <map variant="刧" traditional="刦" />
+  <map variant="鈩" traditional="炉" />
+  <map variant="舩" traditional="舡" />
+  <map variant="航" traditional="桁" />
+  <map variant="戮" traditional="勠" />
+  <map variant="舮" traditional="樐" />
+  <map variant="戯" traditional="戲" />
+  <map variant="戱" traditional="戲" />
+  <map variant="舵" traditional="柁" />
+  <map variant="戸" traditional="戶" />
+  <map variant="船" traditional="舡" />
+  <map variant="刺" traditional="制" />
+  <map variant="戻" traditional="戾" />
+  <map variant="舻" traditional="樐" />
+  <map variant="爼" traditional="俎" />
+  <map variant="刼" traditional="刦" />
+  <map variant="戼" traditional="卯" />
+  <map variant="刾" traditional="制" />
+  <map variant="爾" traditional="尒" />
+  <map variant="爿" traditional="丬" />
+  <map variant="剁" traditional="刴" />
+  <map variant="鉄" traditional="鐵" />
+  <map variant="鉅" traditional="巨" />
+  <map variant="艊" traditional="舶" />
+  <map variant="鉋" traditional="刨" />
+  <map variant="牋" traditional="椾" />
+  <map variant="剏" traditional="刱" />
+  <map variant="払" traditional="拂" />
+  <map variant="剙" traditional="刱" />
+  <map variant="牠" traditional="它" />
+  <map variant="剣" traditional="劍" />
+  <map variant="艣" traditional="樐" />
+  <map variant="剤" traditional="劑" />
+  <map variant="艤" traditional="檥" />
+  <map variant="艪" traditional="樐" />
+  <map variant="艫" traditional="樐" />
+  <map variant="剰" traditional="剩" />
+  <map variant="剱" traditional="剑" />
+  <map variant="鉱" traditional="矿" />
+  <map variant="牴" traditional="扺" />
+  <map variant="艴" traditional="勃" />
+  <map variant="扵" traditional="于" />
+  <map variant="艶" traditional="艳" />
+  <map variant="剷" traditional="刬" />
+  <map variant="艹" traditional="艸" />
+  <map variant="艺" traditional="兿" />
+  <map variant="节" traditional="節" />
+  <map variant="犂" traditional="犁" />
+  <map variant="劄" traditional="剳" />
+  <map variant="犇" traditional="奔" />
+  <map variant="抉" traditional="刔" />
+  <map variant="芌" traditional="芋" />
+  <map variant="劔" traditional="剑" />
+  <map variant="銕" traditional="鐵" />
+  <map variant="芘" traditional="庇" />
+  <map variant="犛" traditional="氂" />
+  <map variant="抜" traditional="拔" />
+  <map variant="銜" traditional="啣" />
+  <map variant="択" traditional="擇" />
+  <map variant="銞" traditional="鈞" />
+  <map variant="犠" traditional="犧" />
+  <map variant="劫" traditional="刦" />
+  <map variant="銭" traditional="錢" />
+  <map variant="芭" traditional="巴" />
+  <map variant="犭" traditional="犬" />
+  <map variant="励" traditional="劢" />
+  <map variant="抱" traditional="抔" />
+  <map variant="芲" traditional="花" />
+  <map variant="労" traditional="勞" />
+  <map variant="劵" traditional="券" />
+  <map variant="抵" traditional="扺" />
+  <map variant="芸" traditional="兿" />
+  <map variant="効" traditional="俲" />
+  <map variant="抻" traditional="伸" />
+  <map variant="銼" traditional="剉" />
+  <map variant="勄" traditional="敏" />
+  <map variant="苅" traditional="刈" />
+  <map variant="拊" traditional="抚" />
+  <map variant="苎" traditional="懞" />
+  <map variant="苏" traditional="囌" />
+  <map variant="拖" traditional="拕" />
+  <map variant="拚" traditional="抃" />
+  <map variant="拝" traditional="拜" />
+  <map variant="拟" traditional="儗" />
+  <map variant="拠" traditional="據" />
+  <map variant="拡" traditional="擴" />
+  <map variant="鋤" traditional="耡" />
+  <map variant="勦" traditional="剿" />
+  <map variant="勧" traditional="勸" />
+  <map variant="苧" traditional="懞" />
+  <map variant="勲" traditional="勳" />
+  <map variant="勵" traditional="劢" />
+  <map variant="拾" traditional="十" />
+  <map variant="拿" traditional="拏" />
+  <map variant="茂" traditional="楙" />
+  <map variant="錄" traditional="彔" />
+  <map variant="茅" traditional="泖" />
+  <map variant="挆" traditional="挅" />
+  <map variant="茆" traditional="泖" />
+  <map variant="茈" traditional="柴" />
+  <map variant="挎" traditional="抠" />
+  <map variant="茑" traditional="樢" />
+  <map variant="茕" traditional="焭" />
+  <map variant="挙" traditional="举" />
+  <map variant="茜" traditional="芊" />
+  <map variant="猟" traditional="獵" />
+  <map variant="錬" traditional="鍊" />
+  <map variant="茭" traditional="椒" />
+  <map variant="録" traditional="彔" />
+  <map variant="挲" traditional="挱" />
+  <map variant="錽" traditional="鋄" />
+  <map variant="猾" traditional="狯" />
+  <map variant="挿" traditional="扱" />
+  <map variant="鍁" traditional="杴" />
+  <map variant="千" traditional="仟" />
+  <map variant="荅" traditional="答" />
+  <map variant="捊" traditional="抙" />
+  <map variant="卋" traditional="世" />
+  <map variant="捌" traditional="八" />
+  <map variant="捍" traditional="扞" />
+  <map variant="卐" traditional="卍" />
+  <map variant="卒" traditional="卆" />
+  <map variant="荔" traditional="茘" />
+  <map variant="単" traditional="單" />
+  <map variant="荘" traditional="莊" />
+  <map variant="鍛" traditional="煅" />
+  <map variant="捜" traditional="搜" />
+  <map variant="卝" traditional="丱" />
+  <map variant="獣" traditional="獸" />
+  <map variant="卥" traditional="卤" />
+  <map variant="鍦" traditional="鉇" />
+  <map variant="即" traditional="卽" />
+  <map variant="鍳" traditional="鉴" />
+  <map variant="捴" traditional="总" />
+  <map variant="鍼" traditional="針" />
+  <map variant="鍾" traditional="鈡" />
+  <map variant="玅" traditional="妙" />
+  <map variant="玆" traditional="兹" />
+  <map variant="掊" traditional="抔" />
+  <map variant="鎌" traditional="劆" />
+  <map variant="莓" traditional="苺" />
+  <map variant="鎔" traditional="熔" />
+  <map variant="䎛" traditional="㖈" />
+  <map variant="厛" traditional="厅" />
+  <map variant="掞" traditional="剡" />
+  <map variant="鎮" traditional="鎭" />
+  <map variant="厰" traditional="厂" />
+  <map variant="掲" traditional="揭" />
+  <map variant="厳" traditional="嚴" />
+  <map variant="去" traditional="厺" />
+  <map variant="鎿" traditional="錼" />
+  <map variant="菀" traditional="苑" />
+  <map variant="鏁" traditional="鎖" />
+  <map variant="参" traditional="叁" />
+  <map variant="參" traditional="叁" />
+  <map variant="揅" traditional="圳" />
+  <map variant="菇" traditional="苽" />
+  <map variant="珉" traditional="玟" />
+  <map variant="菋" traditional="苿" />
+  <map variant="収" traditional="收" />
+  <map variant="揎" traditional="拴" />
+  <map variant="珎" traditional="珍" />
+  <map variant="菏" traditional="渮" />
+  <map variant="珏" traditional="玨" />
+  <map variant="揑" traditional="捏" />
+  <map variant="插" traditional="扱" />
+  <map variant="叓" traditional="亊" />
+  <map variant="鏓" traditional="鍃" />
+  <map variant="菔" traditional="卜" />
+  <map variant="叙" traditional="敍" />
+  <map variant="菝" traditional="庇" />
+  <map variant="鏟" traditional="刬" />
+  <map variant="叟" traditional="叜" />
+  <map variant="菟" traditional="莵" />
+  <map variant="句" traditional="勾" />
+  <map variant="珪" traditional="圭" />
+  <map variant="菫" traditional="堇" />
+  <map variant="珮" traditional="佩" />
+  <map variant="菰" traditional="苽" />
+  <map variant="鏰" traditional="錋" />
+  <map variant="菴" traditional="庵" />
+  <map variant="菷" traditional="帚" />
+  <map variant="揷" traditional="扱" />
+  <map variant="叹" traditional="嘆" />
+  <map variant="揺" traditional="搖" />
+  <map variant="菻" traditional="痲" />
+  <map variant="搃" traditional="总" />
+  <map variant="搄" traditional="揯" />
+  <map variant="萅" traditional="旾" />
+  <map variant="萆" traditional="庇" />
+  <map variant="搋" traditional="扠" />
+  <map variant="同" traditional="仝" />
+  <map variant="萍" traditional="甁" />
+  <map variant="萎" traditional="荽" />
+  <map variant="搔" traditional="掻" />
+  <map variant="萕" traditional="荠" />
+  <map variant="鐘" traditional="鈡" />
+  <map variant="鐚" traditional="錏" />
+  <map variant="萠" traditional="萌" />
+  <map variant="鐡" traditional="鐵" />
+  <map variant="萧" traditional="肖" />
+  <map variant="搭" traditional="搨" />
+  <map variant="鐮" traditional="劆" />
+  <map variant="搯" traditional="掏" />
+  <map variant="琱" traditional="凋" />
+  <map variant="萴" traditional="荝" />
+  <map variant="琴" traditional="珡" />
+  <map variant="鐶" traditional="鈈" />
+  <map variant="鐸" traditional="鈬" />
+  <map variant="鐾" traditional="鐴" />
+  <map variant="吿" traditional="叝" />
+  <map variant="鑀" traditional="鎄" />
+  <map variant="摂" traditional="攝" />
+  <map variant="摃" traditional="扛" />
+  <map variant="鑄" traditional="鋳" />
+  <map variant="瑅" traditional="珶" />
+  <map variant="摆" traditional="䙓" />
+  <map variant="瑇" traditional="玳" />
+  <map variant="呉" traditional="吳" />
+  <map variant="告" traditional="叝" />
+  <map variant="呑" traditional="吞" />
+  <map variant="摒" traditional="屏" />
+  <map variant="著" traditional="著" />
+  <map variant="鑚" traditional="鉆" />
+  <map variant="鑛" traditional="矿" />
+  <map variant="葢" traditional="盖" />
+  <map variant="鑤" traditional="刨" />
+  <map variant="鑪" traditional="炉" />
+  <map variant="葫" traditional="楜" />
+  <map variant="葬" traditional="塟" />
+  <map variant="鑬" traditional="鉴" />
+  <map variant="摭" traditional="拓" />
+  <map variant="鑰" traditional="鈅" />
+  <map variant="鑵" traditional="罐" />
+  <map variant="鑽" traditional="鉆" />
+  <map variant="钁" traditional="鐝" />
+  <map variant="钂" traditional="鎲" />
+  <map variant="撃" traditional="擊" />
+  <map variant="蒃" traditional="篆" />
+  <map variant="撅" traditional="掘" />
+  <map variant="钅" traditional="金" />
+  <map variant="璆" traditional="瑬" />
+  <map variant="璎" traditional="珱" />
+  <map variant="咒" traditional="呪" />
+  <map variant="钜" traditional="巨" />
+  <map variant="钟" traditional="鈡" />
+  <map variant="璡" traditional="琎" />
+  <map variant="璢" traditional="瑠" />
+  <map variant="钥" traditional="鈅" />
+  <map variant="撦" traditional="扯" />
+  <map variant="钯" traditional="耙" />
+  <map variant="咱" traditional="偺" />
+  <map variant="蒲" traditional="莆" />
+  <map variant="璵" traditional="玙" />
+  <map variant="璸" traditional="瑸" />
+  <map variant="撹" traditional="搅" />
+  <map variant="钻" traditional="鉆" />
+  <map variant="璿" traditional="璇" />
+  <map variant="擀" traditional="扞" />
+  <map variant="擆" traditional="撯" />
+  <map variant="铇" traditional="刨" />
+  <map variant="蓈" traditional="稂" />
+  <map variant="哌" traditional="呱" />
+  <map variant="响" traditional="響" />
+  <map variant="铎" traditional="鈬" />
+  <map variant="蓑" traditional="簑" />
+  <map variant="瓔" traditional="珱" />
+  <map variant="蓖" traditional="庇" />
+  <map variant="蓡" traditional="叁" />
+  <map variant="擧" traditional="举" />
+  <map variant="擬" traditional="儗" />
+  <map variant="铲" traditional="刬" />
+  <map variant="蓴" traditional="莼" />
+  <map variant="瓶" traditional="甁" />
+  <map variant="铸" traditional="鋳" />
+  <map variant="擺" traditional="䙓" />
+  <map variant="蓺" traditional="兿" />
+  <map variant="哺" traditional="呚" />
+  <map variant="锄" traditional="耡" />
+  <map variant="甆" traditional="瓷" />
+  <map variant="锉" traditional="剉" />
+  <map variant="攒" traditional="攅" />
+  <map variant="蔕" traditional="蒂" />
+  <map variant="唖" traditional="哑" />
+  <map variant="甚" traditional="什" />
+  <map variant="甜" traditional="甛" />
+  <map variant="甞" traditional="嘗" />
+  <map variant="攟" traditional="捃" />
+  <map variant="攢" traditional="攅" />
+  <map variant="甦" traditional="囌" />
+  <map variant="蔦" traditional="樢" />
+  <map variant="攨" traditional="搲" />
+  <map variant="锨" traditional="杴" />
+  <map variant="蔫" traditional="烟" />
+  <map variant="甯" traditional="寧" />
+  <map variant="蔴" traditional="痲" />
+  <map variant="攴" traditional="扑" />
+  <map variant="蔵" traditional="藏" />
+  <map variant="攵" traditional="夊" />
+  <map variant="蔸" traditional="橷" />
+  <map variant="唹" traditional="唷" />
+  <map variant="锺" traditional="鈡" />
+  <map variant="画" traditional="划" />
+  <map variant="锻" traditional="煅" />
+  <map variant="蔽" traditional="庇" />
+  <map variant="蔿" traditional="蒍" />
+  <map variant="畂" traditional="亩" />
+  <map variant="畅" traditional="昶" />
+  <map variant="畆" traditional="亩" />
+  <map variant="镇" traditional="鎭" />
+  <map variant="效" traditional="俲" />
+  <map variant="蕋" traditional="蕊" />
+  <map variant="界" traditional="堺" />
+  <map variant="畍" traditional="堺" />
+  <map variant="敎" traditional="教" />
+  <map variant="镎" traditional="錼" />
+  <map variant="畒" traditional="亩" />
+  <map variant="蕓" traditional="兿" />
+  <map variant="啔" traditional="启" />
+  <map variant="敕" traditional="勅" />
+  <map variant="镕" traditional="熔" />
+  <map variant="啗" traditional="啖" />
+  <map variant="敘" traditional="敍" />
+  <map variant="留" traditional="畄" />
+  <map variant="敚" traditional="敓" />
+  <map variant="蕚" traditional="萼" />
+  <map variant="镚" traditional="錋" />
+  <map variant="畧" traditional="略" />
+  <map variant="敪" traditional="敠" />
+  <map variant="番" traditional="畨" />
+  <map variant="畫" traditional="划" />
+  <map variant="畭" traditional="畬" />
+  <map variant="蕭" traditional="肖" />
+  <map variant="镮" traditional="鈈" />
+  <map variant="畮" traditional="亩" />
+  <map variant="镰" traditional="劆" />
+  <map variant="畲" traditional="畬" />
+  <map variant="畳" traditional="疊" />
+  <map variant="敳" traditional="敱" />
+  <map variant="畵" traditional="划" />
+  <map variant="镸" traditional="長" />
+  <map variant="敻" traditional="夐" />
+  <map variant="敽" traditional="敺" />
+  <map variant="敿" traditional="敺" />
+  <map variant="疂" traditional="叠" />
+  <map variant="疃" traditional="畽" />
+  <map variant="斅" traditional="敩" />
+  <map variant="斆" traditional="敩" />
+  <map variant="斈" traditional="学" />
+  <map variant="斉" traditional="亝" />
+  <map variant="疉" traditional="叠" />
+  <map variant="閉" traditional="閇" />
+  <map variant="疋" traditional="匹" />
+  <map variant="斎" traditional="齋" />
+  <map variant="疏" traditional="疎" />
+  <map variant="薙" traditional="剃" />
+  <map variant="喞" traditional="唧" />
+  <map variant="閤" traditional="合" />
+  <map variant="喧" traditional="吅" />
+  <map variant="薫" traditional="薰" />
+  <map variant="薬" traditional="藥" />
+  <map variant="薮" traditional="籔" />
+  <map variant="薴" traditional="懞" />
+  <map variant="斵" traditional="斲" />
+  <map variant="営" traditional="營" />
+  <map variant="喻" traditional="喩" />
+  <map variant="閻" traditional="閆" />
+  <map variant="闇" traditional="晻" />
+  <map variant="旉" traditional="敷" />
+  <map variant="闊" traditional="濶" />
+  <map variant="闔" traditional="合" />
+  <map variant="闗" traditional="关" />
+  <map variant="闘" traditional="斗" />
+  <map variant="旛" traditional="旙" />
+  <map variant="藝" traditional="兿" />
+  <map variant="既" traditional="旣" />
+  <map variant="藪" traditional="籔" />
+  <map variant="嗬" traditional="呵" />
+  <map variant="闭" traditional="閇" />
+  <map variant="旮" traditional="旭" />
+  <map variant="旯" traditional="旭" />
+  <map variant="痳" traditional="痲" />
+  <map variant="闹" traditional="閙" />
+  <map variant="痺" traditional="痹" />
+  <map variant="蘀" traditional="萚" />
+  <map variant="瘁" traditional="疩" />
+  <map variant="蘂" traditional="蕊" />
+  <map variant="瘅" traditional="疸" />
+  <map variant="嘆" traditional="嘆" />
+  <map variant="昆" traditional="崐" />
+  <map variant="蘇" traditional="囌" />
+  <map variant="瘉" traditional="愈" />
+  <map variant="阎" traditional="閆" />
+  <map variant="嘑" traditional="呼" />
+  <map variant="嘓" traditional="啯" />
+  <map variant="蘓" traditional="囌" />
+  <map variant="阔" traditional="濶" />
+  <map variant="蘔" traditional="蘏" />
+  <map variant="阖" traditional="合" />
+  <map variant="蘖" traditional="檗" />
+  <map variant="蘗" traditional="檗" />
+  <map variant="昚" traditional="愼" />
+  <map variant="阜" traditional="邑" />
+  <map variant="阝" traditional="邑" />
+  <map variant="春" traditional="旾" />
+  <map variant="瘦" traditional="痩" />
+  <map variant="嘨" traditional="啸" />
+  <map variant="阬" traditional="坑" />
+  <map variant="阯" traditional="址" />
+  <map variant="蘯" traditional="盪" />
+  <map variant="昰" traditional="是" />
+  <map variant="阱" traditional="穽" />
+  <map variant="防" traditional="埅" />
+  <map variant="阳" traditional="昜" />
+  <map variant="阴" traditional="侌" />
+  <map variant="嘴" traditional="咀" />
+  <map variant="阵" traditional="塦" />
+  <map variant="阶" traditional="堦" />
+  <map variant="昻" traditional="昂" />
+  <map variant="昿" traditional="旷" />
+  <map variant="陃" traditional="邴" />
+  <map variant="晄" traditional="晃" />
+  <map variant="癅" traditional="瘤" />
+  <map variant="噉" traditional="啖" />
+  <map variant="癉" traditional="疸" />
+  <map variant="虎" traditional="乕" />
+  <map variant="虐" traditional="乇" />
+  <map variant="噐" traditional="器" />
+  <map variant="陔" traditional="垓" />
+  <map variant="噕" traditional="噅" />
+  <map variant="虖" traditional="呼" />
+  <map variant="虜" traditional="虏" />
+  <map variant="陜" traditional="陕" />
+  <map variant="癝" traditional="癛" />
+  <map variant="陟" traditional="徏" />
+  <map variant="陣" traditional="塦" />
+  <map variant="陥" traditional="陷" />
+  <map variant="陨" traditional="殒" />
+  <map variant="晩" traditional="晚" />
+  <map variant="陰" traditional="侌" />
+  <map variant="晰" traditional="晢" />
+  <map variant="晴" traditional="夝" />
+  <map variant="陶" traditional="匋" />
+  <map variant="発" traditional="發" />
+  <map variant="険" traditional="險" />
+  <map variant="陽" traditional="昜" />
+  <map variant="百" traditional="佰" />
+  <map variant="暁" traditional="曉" />
+  <map variant="暅" traditional="晅" />
+  <map variant="皈" traditional="歸" />
+  <map variant="暋" traditional="忞" />
+  <map variant="隋" traditional="陏" />
+  <map variant="階" traditional="堦" />
+  <map variant="暎" traditional="映" />
+  <map variant="皐" traditional="皋" />
+  <map variant="嚔" traditional="嚏" />
+  <map variant="隕" traditional="殒" />
+  <map variant="暗" traditional="晻" />
+  <map variant="隘" traditional="阸" />
+  <map variant="隙" traditional="郄" />
+  <map variant="暜" traditional="普" />
+  <map variant="隠" traditional="隱" />
+  <map variant="皡" traditional="皞" />
+  <map variant="暢" traditional="昶" />
+  <map variant="隣" traditional="邻" />
+  <map variant="暦" traditional="曆" />
+  <map variant="隷" traditional="隶" />
+  <map variant="暸" traditional="了" />
+  <map variant="皹" traditional="皲" />
+  <map variant="嚻" traditional="嚣" />
+  <map variant="皼" traditional="皷" />
+  <map variant="难" traditional="難" />
+  <map variant="曁" traditional="暨" />
+  <map variant="盅" traditional="冲" />
+  <map variant="曅" traditional="晔" />
+  <map variant="囊" traditional="嚢" />
+  <map variant="蛋" traditional="旦" />
+  <map variant="盌" traditional="椀" />
+  <map variant="蛍" traditional="螢" />
+  <map variant="曍" traditional="暤" />
+  <map variant="盍" traditional="盇" />
+  <map variant="雑" traditional="雜" />
+  <map variant="蛔" traditional="蚘" />
+  <map variant="雕" traditional="凋" />
+  <map variant="盘" traditional="槃" />
+  <map variant="四" traditional="亖" />
+  <map variant="雝" traditional="雍" />
+  <map variant="回" traditional="囘" />
+  <map variant="雠" traditional="仇" />
+  <map variant="因" traditional="囙" />
+  <map variant="盡" traditional="侭" />
+  <map variant="曡" traditional="叠" />
+  <map variant="団" traditional="團" />
+  <map variant="難" traditional="難" />
+  <map variant="盤" traditional="槃" />
+  <map variant="囬" traditional="囘" />
+  <map variant="囯" traditional="國" />
+  <map variant="雰" traditional="氛" />
+  <map variant="囲" traditional="圍" />
+  <map variant="図" traditional="圖" />
+  <map variant="曵" traditional="曳" />
+  <map variant="曺" traditional="曹" />
+  <map variant="曾" traditional="曽" />
+  <map variant="圀" traditional="國" />
+  <map variant="朁" traditional="昝" />
+  <map variant="朂" traditional="勖" />
+  <map variant="霊" traditional="靈" />
+  <map variant="県" traditional="縣" />
+  <map variant="霍" traditional="癨" />
+  <map variant="圎" traditional="圓" />
+  <map variant="圏" traditional="圈" />
+  <map variant="霓" traditional="蜺" />
+  <map variant="蜖" traditional="蚘" />
+  <map variant="朗" traditional="朖" />
+  <map variant="霗" traditional="零" />
+  <map variant="眘" traditional="愼" />
+  <map variant="霚" traditional="雾" />
+  <map variant="期" traditional="朞" />
+  <map variant="真" traditional="眞" />
+  <map variant="朢" traditional="望" />
+  <map variant="朦" traditional="懞" />
+  <map variant="圧" traditional="壓" />
+  <map variant="眬" traditional="朧" />
+  <map variant="本" traditional="夲" />
+  <map variant="札" traditional="剳" />
+  <map variant="术" traditional="朮" />
+  <map variant="朶" traditional="朵" />
+  <map variant="朸" traditional="扐" />
+  <map variant="蜹" traditional="蚋" />
+  <map variant="着" traditional="著" />
+  <map variant="杁" traditional="朲" />
+  <map variant="杅" traditional="圬" />
+  <map variant="蝅" traditional="蚕" />
+  <map variant="靆" traditional="叇" />
+  <map variant="杇" traditional="圬" />
+  <map variant="靉" traditional="叆" />
+  <map variant="蝋" traditional="蜡" />
+  <map variant="青" traditional="靑" />
+  <map variant="块" traditional="凷" />
+  <map variant="静" traditional="靓" />
+  <map variant="靜" traditional="靓" />
+  <map variant="靝" traditional="靔" />
+  <map variant="睠" traditional="眷" />
+  <map variant="靠" traditional="俈" />
+  <map variant="睢" traditional="眭" />
+  <map variant="靦" traditional="䩄" />
+  <map variant="坯" traditional="坏" />
+  <map variant="蝰" traditional="虺" />
+  <map variant="靱" traditional="靭" />
+  <map variant="蝴" traditional="楜" />
+  <map variant="坵" traditional="丘" />
+  <map variant="睿" traditional="叡" />
+  <map variant="蝿" traditional="蝇" />
+  <map variant="枀" traditional="松" />
+  <map variant="螂" traditional="蜋" />
+  <map variant="鞍" traditional="鞌" />
+  <map variant="螎" traditional="融" />
+  <map variant="鞒" traditional="橇" />
+  <map variant="垜" traditional="垛" />
+  <map variant="垠" traditional="圻" />
+  <map variant="螡" traditional="蚊" />
+  <map variant="鞦" traditional="䆋" />
+  <map variant="枩" traditional="松" />
+  <map variant="瞪" traditional="眙" />
+  <map variant="枱" traditional="台" />
+  <map variant="螳" traditional="螗" />
+  <map variant="枴" traditional="拐" />
+  <map variant="螵" traditional="蜱" />
+  <map variant="垻" traditional="坝" />
+  <map variant="鞽" traditional="橇" />
+  <map variant="埀" traditional="垂" />
+  <map variant="矁" traditional="瞅" />
+  <map variant="蟁" traditional="蚊" />
+  <map variant="柃" traditional="岖" />
+  <map variant="韆" traditional="仟" />
+  <map variant="柆" traditional="拉" />
+  <map variant="矇" traditional="懞" />
+  <map variant="蟇" traditional="蟆" />
+  <map variant="韈" traditional="袜" />
+  <map variant="蟊" traditional="蝥" />
+  <map variant="韌" traditional="靭" />
+  <map variant="矏" traditional="矈" />
+  <map variant="矓" traditional="朧" />
+  <map variant="埓" traditional="埒" />
+  <map variant="矙" traditional="瞰" />
+  <map variant="韜" traditional="轁" />
+  <map variant="韝" traditional="鞲" />
+  <map variant="韤" traditional="袜" />
+  <map variant="韧" traditional="靭" />
+  <map variant="矩" traditional="榘" />
+  <map variant="韬" traditional="轁" />
+  <map variant="韭" traditional="艽" />
+  <map variant="韮" traditional="艽" />
+  <map variant="柰" traditional="奈" />
+  <map variant="査" traditional="查" />
+  <map variant="柾" traditional="柩" />
+  <map variant="響" traditional="響" />
+  <map variant="柿" traditional="枾" />
+  <map variant="頀" traditional="濩" />
+  <map variant="蠁" traditional="蚃" />
+  <map variant="栁" traditional="柳" />
+  <map variant="栃" traditional="杤" />
+  <map variant="栄" traditional="榮" />
+  <map variant="栌" traditional="枦" />
+  <map variant="蠎" traditional="蟒" />
+  <map variant="蠏" traditional="蟹" />
+  <map variant="頒" traditional="朌" />
+  <map variant="研" traditional="圳" />
+  <map variant="砕" traditional="碎" />
+  <map variant="蠡" traditional="蟸" />
+  <map variant="蠢" traditional="惷" />
+  <map variant="栢" traditional="柏" />
+  <map variant="頤" traditional="頉" />
+  <map variant="頰" traditional="頬" />
+  <map variant="頴" traditional="穎" />
+  <map variant="頸" traditional="頚" />
+  <map variant="頹" traditional="穨" />
+  <map variant="砹" traditional="砈" />
+  <map variant="頻" traditional="頻" />
+  <map variant="頼" traditional="賴" />
+  <map variant="蠼" traditional="蠷" />
+  <map variant="頽" traditional="穨" />
+  <map variant="砿" traditional="矿" />
+  <map variant="塁" traditional="壘" />
+  <map variant="衂" traditional="䘐" />
+  <map variant="硃" traditional="朱" />
+  <map variant="衄" traditional="䘐" />
+  <map variant="塊" traditional="凷" />
+  <map variant="硎" traditional="圳" />
+  <map variant="硏" traditional="圳" />
+  <map variant="衒" traditional="炫" />
+  <map variant="桒" traditional="桑" />
+  <map variant="術" traditional="朮" />
+  <map variant="衔" traditional="啣" />
+  <map variant="顕" traditional="顯" />
+  <map variant="衕" traditional="仝" />
+  <map variant="街" traditional="亍" />
+  <map variant="塗" traditional="凃" />
+  <map variant="硗" traditional="墝" />
+  <map variant="桙" traditional="圬" />
+  <map variant="塚" traditional="冢" />
+  <map variant="衚" traditional="楜" />
+  <map variant="衛" traditional="卫" />
+  <map variant="顛" traditional="顚" />
+  <map variant="桜" traditional="櫻" />
+  <map variant="類" traditional="类" />
+  <map variant="衞" traditional="卫" />
+  <map variant="桟" traditional="棧" />
+  <map variant="桠" traditional="丫" />
+  <map variant="衤" traditional="衣" />
+  <map variant="桧" traditional="栝" />
+  <map variant="顧" traditional="頋" />
+  <map variant="塩" traditional="鹽" />
+  <map variant="填" traditional="塡" />
+  <map variant="硬" traditional="峺" />
+  <map variant="桮" traditional="杯" />
+  <map variant="塲" traditional="场" />
+  <map variant="塳" traditional="塜" />
+  <map variant="硷" traditional="堿" />
+  <map variant="衹" traditional="只" />
+  <map variant="桺" traditional="柳" />
+  <map variant="顾" traditional="頋" />
+  <map variant="颁" traditional="朌" />
+  <map variant="碁" traditional="棊" />
+  <map variant="碇" traditional="椗" />
+  <map variant="颈" traditional="頚" />
+  <map variant="颊" traditional="頬" />
+  <map variant="墍" traditional="塈" />
+  <map variant="颐" traditional="頉" />
+  <map variant="频" traditional="頻" />
+  <map variant="墒" traditional="墑" />
+  <map variant="颓" traditional="穨" />
+  <map variant="碕" traditional="埼" />
+  <map variant="墕" traditional="堰" />
+  <map variant="颕" traditional="穎" />
+  <map variant="墖" traditional="塔" />
+  <map variant="増" traditional="增" />
+  <map variant="颠" traditional="顚" />
+  <map variant="颣" traditional="纇" />
+  <map variant="碥" traditional="扁" />
+  <map variant="風" traditional="凨" />
+  <map variant="碪" traditional="砧" />
+  <map variant="袮" traditional="檷" />
+  <map variant="墯" traditional="堕" />
+  <map variant="碯" traditional="瑙" />
+  <map variant="碱" traditional="堿" />
+  <map variant="袵" traditional="衽" />
+  <map variant="墺" traditional="圫" />
+  <map variant="碻" traditional="确" />
+  <map variant="飄" traditional="飃" />
+  <map variant="磆" traditional="滑" />
+  <map variant="飇" traditional="飆" />
+  <map variant="飈" traditional="飆" />
+  <map variant="壊" traditional="壞" />
+  <map variant="棋" traditional="棊" />
+  <map variant="壌" traditional="壤" />
+  <map variant="风" traditional="凨" />
+  <map variant="磒" traditional="殒" />
+  <map variant="飘" traditional="飃" />
+  <map variant="裙" traditional="帬" />
+  <map variant="飚" traditional="飆" />
+  <map variant="飜" traditional="繙" />
+  <map variant="裠" traditional="帬" />
+  <map variant="磠" traditional="硵" />
+  <map variant="飠" traditional="食" />
+  <map variant="裤" traditional="絝" />
+  <map variant="裥" traditional="繝" />
+  <map variant="壪" traditional="塆" />
+  <map variant="飫" traditional="秗" />
+  <map variant="飬" traditional="养" />
+  <map variant="棬" traditional="桊" />
+  <map variant="飰" traditional="飯" />
+  <map variant="壱" traditional="一" />
+  <map variant="売" traditional="賣" />
+  <map variant="飲" traditional="飮" />
+  <map variant="裵" traditional="裴" />
+  <map variant="壷" traditional="壶" />
+  <map variant="磸" traditional="矴" />
+  <map variant="壹" traditional="一" />
+  <map variant="棹" traditional="桌" />
+  <map variant="磽" traditional="墝" />
+  <map variant="夀" traditional="壽" />
+  <map variant="豈" traditional="豈" />
+  <map variant="餁" traditional="飪" />
+  <map variant="更" traditional="更" />
+  <map variant="車" traditional="車" />
+  <map variant="餂" traditional="甛" />
+  <map variant="賈" traditional="賈" />
+  <map variant="礄" traditional="硚" />
+  <map variant="滑" traditional="滑" />
+  <map variant="串" traditional="串" />
+  <map variant="礆" traditional="堿" />
+  <map variant="句" traditional="句" />
+  <map variant="龜" traditional="龜" />
+  <map variant="备" traditional="俻" />
+  <map variant="龜" traditional="龜" />
+  <map variant="餈" traditional="粢" />
+  <map variant="変" traditional="變" />
+  <map variant="契" traditional="契" />
+  <map variant="金" traditional="金" />
+  <map variant="喇" traditional="喇" />
+  <map variant="奈" traditional="奈" />
+  <map variant="懶" traditional="懶" />
+  <map variant="癩" traditional="癞" />
+  <map variant="褎" traditional="袖" />
+  <map variant="椏" traditional="丫" />
+  <map variant="羅" traditional="羅" />
+  <map variant="餐" traditional="喰" />
+  <map variant="蘿" traditional="蘿" />
+  <map variant="螺" traditional="螺" />
+  <map variant="褒" traditional="襃" />
+  <map variant="裸" traditional="裸" />
+  <map variant="褓" traditional="䍀" />
+  <map variant="邏" traditional="邏" />
+  <map variant="樂" traditional="樂" />
+  <map variant="洛" traditional="洛" />
+  <map variant="烙" traditional="烙" />
+  <map variant="珞" traditional="珞" />
+  <map variant="夘" traditional="卯" />
+  <map variant="落" traditional="落" />
+  <map variant="酪" traditional="酪" />
+  <map variant="餚" traditional="殽" />
+  <map variant="駱" traditional="駱" />
+  <map variant="亂" traditional="亂" />
+  <map variant="夛" traditional="多" />
+  <map variant="検" traditional="檢" />
+  <map variant="夜" traditional="亱" />
+  <map variant="卵" traditional="卵" />
+  <map variant="欄" traditional="栏" />
+  <map variant="餝" traditional="飾" />
+  <map variant="爛" traditional="烂" />
+  <map variant="蘭" traditional="蘭" />
+  <map variant="礠" traditional="磁" />
+  <map variant="餠" traditional="餅" />
+  <map variant="鸞" traditional="鸞" />
+  <map variant="嵐" traditional="嵐" />
+  <map variant="濫" traditional="濫" />
+  <map variant="夣" traditional="夢" />
+  <map variant="藍" traditional="蓝" />
+  <map variant="襤" traditional="襤" />
+  <map variant="拉" traditional="拉" />
+  <map variant="臘" traditional="臘" />
+  <map variant="餧" traditional="喂" />
+  <map variant="蠟" traditional="蜡" />
+  <map variant="館" traditional="舘" />
+  <map variant="朗" traditional="朖" />
+  <map variant="浪" traditional="浪" />
+  <map variant="夫" traditional="伕" />
+  <map variant="褫" traditional="裭" />
+  <map variant="狼" traditional="狼" />
+  <map variant="郎" traditional="郞" />
+  <map variant="來" traditional="來" />
+  <map variant="冷" traditional="冷" />
+  <map variant="勞" traditional="勞" />
+  <map variant="擄" traditional="擄" />
+  <map variant="櫓" traditional="櫓" />
+  <map variant="爐" traditional="炉" />
+  <map variant="褲" traditional="絝" />
+  <map variant="盧" traditional="盧" />
+  <map variant="褴" traditional="䍀" />
+  <map variant="老" traditional="老" />
+  <map variant="蘆" traditional="芦" />
+  <map variant="椶" traditional="棕" />
+  <map variant="虜" traditional="虏" />
+  <map variant="路" traditional="路" />
+  <map variant="夸" traditional="侉" />
+  <map variant="露" traditional="露" />
+  <map variant="魯" traditional="魯" />
+  <map variant="餹" traditional="糖" />
+  <map variant="鷺" traditional="鷺" />
+  <map variant="礻" traditional="示" />
+  <map variant="碌" traditional="碌" />
+  <map variant="祿" traditional="祿" />
+  <map variant="綠" traditional="綠" />
+  <map variant="菉" traditional="菉" />
+  <map variant="錄" traditional="彔" />
+  <map variant="鹿" traditional="鹿" />
+  <map variant="論" traditional="論" />
+  <map variant="奁" traditional="匳" />
+  <map variant="襁" traditional="繈" />
+  <map variant="祂" traditional="他" />
+  <map variant="壟" traditional="壟" />
+  <map variant="楂" traditional="查" />
+  <map variant="弄" traditional="弄" />
+  <map variant="籠" traditional="笼" />
+  <map variant="聾" traditional="聋" />
+  <map variant="牢" traditional="牢" />
+  <map variant="襇" traditional="繝" />
+  <map variant="磊" traditional="磊" />
+  <map variant="賂" traditional="賂" />
+  <map variant="襉" traditional="繝" />
+  <map variant="雷" traditional="雷" />
+  <map variant="壘" traditional="壘" />
+  <map variant="饊" traditional="糤" />
+  <map variant="屢" traditional="屢" />
+  <map variant="樓" traditional="樓" />
+  <map variant="襌" traditional="褝" />
+  <map variant="楍" traditional="夲" />
+  <map variant="淚" traditional="淚" />
+  <map variant="漏" traditional="漏" />
+  <map variant="累" traditional="累" />
+  <map variant="縷" traditional="縷" />
+  <map variant="陋" traditional="陋" />
+  <map variant="勒" traditional="勒" />
+  <map variant="肋" traditional="肋" />
+  <map variant="凜" traditional="凜" />
+  <map variant="襕" traditional="幱" />
+  <map variant="楕" traditional="椭" />
+  <map variant="凌" traditional="凌" />
+  <map variant="稜" traditional="稜" />
+  <map variant="綾" traditional="綾" />
+  <map variant="祗" traditional="只" />
+  <map variant="菱" traditional="菱" />
+  <map variant="陵" traditional="陵" />
+  <map variant="楚" traditional="椘" />
+  <map variant="讀" traditional="讀" />
+  <map variant="拏" traditional="拏" />
+  <map variant="樂" traditional="樂" />
+  <map variant="諾" traditional="諾" />
+  <map variant="丹" traditional="丹" />
+  <map variant="饟" traditional="餉" />
+  <map variant="寧" traditional="寧" />
+  <map variant="楠" traditional="枏" />
+  <map variant="怒" traditional="怒" />
+  <map variant="率" traditional="率" />
+  <map variant="祢" traditional="檷" />
+  <map variant="異" traditional="異" />
+  <map variant="饣" traditional="食" />
+  <map variant="北" traditional="北" />
+  <map variant="襤" traditional="䍀" />
+  <map variant="磻" traditional="磻" />
+  <map variant="便" traditional="便" />
+  <map variant="楦" traditional="楥" />
+  <map variant="復" traditional="復" />
+  <map variant="襧" traditional="檷" />
+  <map variant="不" traditional="不" />
+  <map variant="奨" traditional="奬" />
+  <map variant="泌" traditional="泌" />
+  <map variant="奩" traditional="匳" />
+  <map variant="數" traditional="數" />
+  <map variant="索" traditional="索" />
+  <map variant="參" traditional="參" />
+  <map variant="饫" traditional="秗" />
+  <map variant="塞" traditional="塞" />
+  <map variant="省" traditional="省" />
+  <map variant="葉" traditional="葉" />
+  <map variant="饮" traditional="飮" />
+  <map variant="說" traditional="說" />
+  <map variant="殺" traditional="杀" />
+  <map variant="辰" traditional="辰" />
+  <map variant="沈" traditional="沈" />
+  <map variant="拾" traditional="十" />
+  <map variant="楳" traditional="梅" />
+  <map variant="襴" traditional="幱" />
+  <map variant="若" traditional="若" />
+  <map variant="掠" traditional="掠" />
+  <map variant="奶" traditional="儞" />
+  <map variant="略" traditional="略" />
+  <map variant="亮" traditional="亮" />
+  <map variant="祸" traditional="禍" />
+  <map variant="兩" traditional="兩" />
+  <map variant="凉" traditional="凉" />
+  <map variant="梁" traditional="梁" />
+  <map variant="糧" traditional="粮" />
+  <map variant="良" traditional="良" />
+  <map variant="楽" traditional="樂" />
+  <map variant="諒" traditional="諒" />
+  <map variant="量" traditional="量" />
+  <map variant="勵" traditional="勵" />
+  <map variant="西" traditional="襾" />
+  <map variant="馀" traditional="余" />
+  <map variant="呂" traditional="呂" />
+  <map variant="禀" traditional="廩" />
+  <map variant="覀" traditional="襾" />
+  <map variant="女" traditional="女" />
+  <map variant="廬" traditional="廬" />
+  <map variant="旅" traditional="旅" />
+  <map variant="濾" traditional="濾" />
+  <map variant="礪" traditional="砺" />
+  <map variant="閭" traditional="閭" />
+  <map variant="覆" traditional="复" />
+  <map variant="榆" traditional="楡" />
+  <map variant="馆" traditional="舘" />
+  <map variant="覇" traditional="霸" />
+  <map variant="驪" traditional="驪" />
+  <map variant="麗" traditional="麗" />
+  <map variant="覉" traditional="羁" />
+  <map variant="黎" traditional="黎" />
+  <map variant="覊" traditional="羁" />
+  <map variant="力" traditional="力" />
+  <map variant="曆" traditional="曆" />
+  <map variant="歷" traditional="歷" />
+  <map variant="禍" traditional="禍" />
+  <map variant="轢" traditional="轢" />
+  <map variant="年" traditional="年" />
+  <map variant="憐" traditional="憐" />
+  <map variant="規" traditional="槻" />
+  <map variant="戀" traditional="戀" />
+  <map variant="撚" traditional="撚" />
+  <map variant="漣" traditional="漣" />
+  <map variant="煉" traditional="炼" />
+  <map variant="馓" traditional="糤" />
+  <map variant="璉" traditional="琏" />
+  <map variant="秊" traditional="秊" />
+  <map variant="視" traditional="視" />
+  <map variant="練" traditional="練" />
+  <map variant="聯" traditional="联" />
+  <map variant="輦" traditional="輦" />
+  <map variant="蓮" traditional="莲" />
+  <map variant="覚" traditional="斍" />
+  <map variant="連" traditional="连" />
+  <map variant="鍊" traditional="鍊" />
+  <map variant="列" traditional="列" />
+  <map variant="劣" traditional="劣" />
+  <map variant="咽" traditional="咽" />
+  <map variant="烈" traditional="烈" />
+  <map variant="裂" traditional="裂" />
+  <map variant="說" traditional="說" />
+  <map variant="廉" traditional="廉" />
+  <map variant="念" traditional="念" />
+  <map variant="捻" traditional="捻" />
+  <map variant="殮" traditional="殮" />
+  <map variant="禥" traditional="祺" />
+  <map variant="榦" traditional="乹" />
+  <map variant="簾" traditional="簾" />
+  <map variant="覧" traditional="覽" />
+  <map variant="獵" traditional="猎" />
+  <map variant="令" traditional="令" />
+  <map variant="囹" traditional="囹" />
+  <map variant="寧" traditional="寧" />
+  <map variant="嶺" traditional="嶺" />
+  <map variant="妬" traditional="妒" />
+  <map variant="怜" traditional="怜" />
+  <map variant="玲" traditional="玲" />
+  <map variant="瑩" traditional="瑩" />
+  <map variant="羚" traditional="羚" />
+  <map variant="禰" traditional="檷" />
+  <map variant="聆" traditional="聆" />
+  <map variant="鈴" traditional="鈴" />
+  <map variant="零" traditional="零" />
+  <map variant="㦳" traditional="㘽" />
+  <map variant="妳" traditional="儞" />
+  <map variant="靈" traditional="灵" />
+  <map variant="観" traditional="覌" />
+  <map variant="領" traditional="領" />
+  <map variant="例" traditional="例" />
+  <map variant="禮" traditional="礼" />
+  <map variant="醴" traditional="醴" />
+  <map variant="覸" traditional="覵" />
+  <map variant="隸" traditional="隸" />
+  <map variant="惡" traditional="惡" />
+  <map variant="覺" traditional="斍" />
+  <map variant="了" traditional="了" />
+  <map variant="覻" traditional="覷" />
+  <map variant="僚" traditional="僚" />
+  <map variant="覼" traditional="覙" />
+  <map variant="寮" traditional="寮" />
+  <map variant="尿" traditional="尿" />
+  <map variant="料" traditional="料" />
+  <map variant="樂" traditional="樂" />
+  <map variant="燎" traditional="燎" />
+  <map variant="觀" traditional="覌" />
+  <map variant="私" traditional="厶" />
+  <map variant="療" traditional="疗" />
+  <map variant="观" traditional="覌" />
+  <map variant="蓼" traditional="蓼" />
+  <map variant="遼" traditional="辽" />
+  <map variant="龍" traditional="龍" />
+  <map variant="规" traditional="槻" />
+  <map variant="駄" traditional="馱" />
+  <map variant="駅" traditional="驛" />
+  <map variant="暈" traditional="暈" />
+  <map variant="槅" traditional="核" />
+  <map variant="駆" traditional="敺" />
+  <map variant="视" traditional="視" />
+  <map variant="阮" traditional="阮" />
+  <map variant="秇" traditional="兿" />
+  <map variant="劉" traditional="劉" />
+  <map variant="駈" traditional="敺" />
+  <map variant="杻" traditional="杻" />
+  <map variant="觉" traditional="斍" />
+  <map variant="柳" traditional="柳" />
+  <map variant="姊" traditional="姉" />
+  <map variant="秊" traditional="年" />
+  <map variant="流" traditional="流" />
+  <map variant="秋" traditional="䆋" />
+  <map variant="始" traditional="乨" />
+  <map variant="溜" traditional="溜" />
+  <map variant="琉" traditional="琉" />
+  <map variant="留" traditional="畄" />
+  <map variant="硫" traditional="硫" />
+  <map variant="紐" traditional="紐" />
+  <map variant="類" traditional="类" />
+  <map variant="六" traditional="六" />
+  <map variant="戮" traditional="戮" />
+  <map variant="角" traditional="甪" />
+  <map variant="陸" traditional="陸" />
+  <map variant="倫" traditional="倫" />
+  <map variant="觔" traditional="斤" />
+  <map variant="槔" traditional="桕" />
+  <map variant="崙" traditional="崙" />
+  <map variant="淪" traditional="淪" />
+  <map variant="輪" traditional="輪" />
+  <map variant="様" traditional="樣" />
+  <map variant="律" traditional="律" />
+  <map variant="慄" traditional="慄" />
+  <map variant="槙" traditional="槇" />
+  <map variant="姙" traditional="妊" />
+  <map variant="栗" traditional="栗" />
+  <map variant="率" traditional="率" />
+  <map variant="觝" traditional="扺" />
+  <map variant="利" traditional="利" />
+  <map variant="槞" traditional="栊" />
+  <map variant="駞" traditional="駝" />
+  <map variant="吏" traditional="吏" />
+  <map variant="槟" traditional="梹" />
+  <map variant="履" traditional="履" />
+  <map variant="易" traditional="易" />
+  <map variant="李" traditional="李" />
+  <map variant="梨" traditional="梨" />
+  <map variant="槣" traditional="敧" />
+  <map variant="泥" traditional="泥" />
+  <map variant="理" traditional="理" />
+  <map variant="痢" traditional="痢" />
+  <map variant="罹" traditional="罹" />
+  <map variant="裏" traditional="裏" />
+  <map variant="姧" traditional="奸" />
+  <map variant="觧" traditional="解" />
+  <map variant="裡" traditional="裏" />
+  <map variant="里" traditional="里" />
+  <map variant="槪" traditional="概" />
+  <map variant="離" traditional="离" />
+  <map variant="姫" traditional="姬" />
+  <map variant="匿" traditional="匿" />
+  <map variant="溺" traditional="溺" />
+  <map variant="吝" traditional="吝" />
+  <map variant="燐" traditional="燐" />
+  <map variant="駮" traditional="駁" />
+  <map variant="璘" traditional="璘" />
+  <map variant="藺" traditional="蔺" />
+  <map variant="隣" traditional="隣" />
+  <map variant="鱗" traditional="鱗" />
+  <map variant="麟" traditional="麟" />
+  <map variant="林" traditional="林" />
+  <map variant="觵" traditional="觥" />
+  <map variant="淋" traditional="淋" />
+  <map variant="臨" traditional="臨" />
+  <map variant="槶" traditional="椢" />
+  <map variant="立" traditional="立" />
+  <map variant="姸" traditional="妍" />
+  <map variant="笠" traditional="笠" />
+  <map variant="粒" traditional="粒" />
+  <map variant="狀" traditional="状" />
+  <map variant="炙" traditional="炙" />
+  <map variant="識" traditional="識" />
+  <map variant="槼" traditional="椝" />
+  <map variant="什" traditional="什" />
+  <map variant="茶" traditional="茶" />
+  <map variant="刺" traditional="刺" />
+  <map variant="稀" traditional="希" />
+  <map variant="切" traditional="切" />
+  <map variant="訁" traditional="言" />
+  <map variant="度" traditional="度" />
+  <map variant="拓" traditional="拓" />
+  <map variant="騃" traditional="呆" />
+  <map variant="糖" traditional="糖" />
+  <map variant="宅" traditional="宅" />
+  <map variant="洞" traditional="洞" />
+  <map variant="暴" traditional="暴" />
+  <map variant="輻" traditional="輻" />
+  <map variant="騈" traditional="駢" />
+  <map variant="行" traditional="行" />
+  <map variant="降" traditional="降" />
+  <map variant="見" traditional="見" />
+  <map variant="廓" traditional="廓" />
+  <map variant="兀" traditional="兀" />
+  <map variant="嗀" traditional="嗀" />
+  <map variant="塚" traditional="冢" />
+  <map variant="﨑" traditional="埼" />
+  <map variant="騒" traditional="騷" />
+  <map variant="晴" traditional="晴" />
+  <map variant="験" traditional="驗" />
+  <map variant="凞" traditional="凞" />
+  <map variant="猪" traditional="猪" />
+  <map variant="益" traditional="益" />
+  <map variant="礼" traditional="礼" />
+  <map variant="神" traditional="神" />
+  <map variant="娚" traditional="喃" />
+  <map variant="靖" traditional="靖" />
+  <map variant="精" traditional="精" />
+  <map variant="羽" traditional="羽" />
+  <map variant="娟" traditional="姢" />
+  <map variant="稟" traditional="廩" />
+  <map variant="蘒" traditional="蘒" />
+  <map variant="騣" traditional="騌" />
+  <map variant="逸" traditional="逸" />
+  <map variant="権" traditional="權" />
+  <map variant="飯" traditional="飯" />
+  <map variant="飼" traditional="飼" />
+  <map variant="樫" traditional="柽" />
+  <map variant="館" traditional="舘" />
+  <map variant="鶴" traditional="鶴" />
+  <map variant="娯" traditional="娛" />
+  <map variant="僧" traditional="僧" />
+  <map variant="稲" traditional="稻" />
+  <map variant="訳" traditional="譯" />
+  <map variant="樳" traditional="桪" />
+  <map variant="訴" traditional="愬" />
+  <map variant="訶" traditional="呵" />
+  <map variant="屮" traditional="屮" />
+  <map variant="稽" traditional="乩" />
+  <map variant="樽" traditional="墫" />
+  <map variant="樿" traditional="椫" />
+  <map variant="稿" traditional="稾" />
+  <map variant="穀" traditional="穀" />
+  <map variant="婀" traditional="娿" />
+  <map variant="穂" traditional="穗" />
+  <map variant="既" traditional="旣" />
+  <map variant="驅" traditional="敺" />
+  <map variant="橅" traditional="模" />
+  <map variant="渚" traditional="渚" />
+  <map variant="驇" traditional="騺" />
+  <map variant="穉" traditional="稚" />
+  <map variant="爫" traditional="爫" />
+  <map variant="橊" traditional="榴" />
+  <map variant="琢" traditional="琢" />
+  <map variant="社" traditional="社" />
+  <map variant="祈" traditional="祈" />
+  <map variant="穏" traditional="穩" />
+  <map variant="祐" traditional="祐" />
+  <map variant="穐" traditional="䆋" />
+  <map variant="祖" traditional="祖" />
+  <map variant="祝" traditional="祝" />
+  <map variant="驒" traditional="騨" />
+  <map variant="禎" traditional="禎" />
+  <map variant="縉" traditional="縉" />
+  <map variant="艹" traditional="艹" />
+  <map variant="穞" traditional="稆" />
+  <map variant="艹" traditional="艹" />
+  <map variant="婣" traditional="姻" />
+  <map variant="橦" traditional="幢" />
+  <map variant="辶" traditional="辶" />
+  <map variant="詧" traditional="察" />
+  <map variant="驩" traditional="懽" />
+  <map variant="恵" traditional="惠" />
+  <map variant="橰" traditional="桕" />
+  <map variant="穰" traditional="穣" />
+  <map variant="驱" traditional="敺" />
+  <map variant="橹" traditional="樐" />
+  <map variant="詻" traditional="咯" />
+  <map variant="詾" traditional="訩" />
+  <map variant="婿" traditional="壻" />
+  <map variant="檆" traditional="枮" />
+  <map variant="誇" traditional="侉" />
+  <map variant="檇" traditional="槜" />
+  <map variant="媍" traditional="妇" />
+  <map variant="檏" traditional="朴" />
+  <map variant="誒" traditional="唉" />
+  <map variant="窗" traditional="窓" />
+  <map variant="檘" traditional="檗" />
+  <map variant="檜" traditional="栝" />
+  <map variant="檪" traditional="栎" />
+  <map variant="骫" traditional="骪" />
+  <map variant="読" traditional="讀" />
+  <map variant="媮" traditional="婾" />
+  <map variant="窰" traditional="窑" />
+  <map variant="檳" traditional="梹" />
+  <map variant="骵" traditional="体" />
+  <map variant="櫁" traditional="樒" />
+  <map variant="櫂" traditional="桌" />
+  <map variant="竃" traditional="灶" />
+  <map variant="髄" traditional="膸" />
+  <map variant="竆" traditional="穷" />
+  <map variant="櫉" traditional="橱" />
+  <map variant="髌" traditional="膑" />
+  <map variant="嫐" traditional="喃" />
+  <map variant="竒" traditional="奇" />
+  <map variant="櫓" traditional="樐" />
+  <map variant="髓" traditional="膸" />
+  <map variant="嫔" traditional="娦" />
+  <map variant="髕" traditional="膑" />
+  <map variant="髗" traditional="胪" />
+  <map variant="髙" traditional="高" />
+  <map variant="竜" traditional="尨" />
+  <map variant="諠" traditional="吅" />
+  <map variant="髡" traditional="髠" />
+  <map variant="竢" traditional="俟" />
+  <map variant="髣" traditional="仿" />
+  <map variant="髦" traditional="氂" />
+  <map variant="櫨" traditional="枦" />
+  <map variant="髪" traditional="髮" />
+  <map variant="諫" traditional="諌" />
+  <map variant="諮" traditional="咨" />
+  <map variant="髯" traditional="髥" />
+  <map variant="櫱" traditional="檗" />
+  <map variant="髴" traditional="佛" />
+  <map variant="諸" traditional="諸" />
+  <map variant="竸" traditional="竞" />
+  <map variant="嫺" traditional="娴" />
+  <map variant="櫽" traditional="檼" />
+  <map variant="謁" traditional="謁" />
+  <map variant="嬃" traditional="媭" />
+  <map variant="鬃" traditional="騌" />
+  <map variant="欄" traditional="栏" />
+  <map variant="欅" traditional="榉" />
+  <map variant="笆" traditional="巴" />
+  <map variant="鬍" traditional="楜" />
+  <map variant="欑" traditional="櫕" />
+  <map variant="笑" traditional="咲" />
+  <map variant="謔" traditional="嚯" />
+  <map variant="欗" traditional="栏" />
+  <map variant="欠" traditional="缺" />
+  <map variant="嬢" traditional="孃" />
+  <map variant="欢" traditional="懽" />
+  <map variant="欣" traditional="䜣" />
+  <map variant="鬦" traditional="斗" />
+  <map variant="笧" traditional="冊" />
+  <map variant="鬧" traditional="閙" />
+  <map variant="嬪" traditional="娦" />
+  <map variant="鬪" traditional="斗" />
+  <map variant="鬫" traditional="闞" />
+  <map variant="鬬" traditional="斗" />
+  <map variant="嬭" traditional="儞" />
+  <map variant="鬰" traditional="欝" />
+  <map variant="鬱" traditional="欝" />
+  <map variant="笶" traditional="矢" />
+  <map variant="欸" traditional="唉" />
+  <map variant="謹" traditional="謹" />
+  <map variant="鬹" traditional="鬶" />
+  <map variant="笺" traditional="椾" />
+  <map variant="鬻" traditional="粥" />
+  <map variant="謼" traditional="呼" />
+  <map variant="筇" traditional="笻" />
+  <map variant="等" traditional="朩" />
+  <map variant="歉" traditional="缺" />
+  <map variant="筋" traditional="斤" />
+  <map variant="譌" traditional="訛" />
+  <map variant="歎" traditional="嘆" />
+  <map variant="歓" traditional="懽" />
+  <map variant="譔" traditional="撰" />
+  <map variant="譛" traditional="譖" />
+  <map variant="譜" traditional="諩" />
+  <map variant="筞" traditional="策" />
+  <map variant="孠" traditional="嗣" />
+  <map variant="歡" traditional="懽" />
+  <map variant="止" traditional="只" />
+  <map variant="歧" traditional="岐" />
+  <map variant="歩" traditional="步" />
+  <map variant="譪" traditional="蔼" />
+  <map variant="譭" traditional="毀" />
+  <map variant="歯" traditional="齒" />
+  <map variant="筰" traditional="笮" />
+  <map variant="譱" traditional="善" />
+  <map variant="譲" traditional="讓" />
+  <map variant="歲" traditional="亗" />
+  <map variant="歳" traditional="亗" />
+  <map variant="歴" traditional="歷" />
+  <map variant="孵" traditional="孚" />
+  <map variant="孶" traditional="孳" />
+  <map variant="歺" traditional="歹" />
+  <map variant="筺" traditional="筐" />
+  <map variant="孽" traditional="孼" />
+  <map variant="孾" traditional="婴" />
+  <map variant="筿" traditional="筱" />
+  <map variant="殀" traditional="夭" />
+  <map variant="宂" traditional="冗" />
+  <map variant="箂" traditional="筙" />
+  <map variant="讋" traditional="詟" />
+  <map variant="箋" traditional="椾" />
+  <map variant="讌" traditional="宴" />
+  <map variant="讍" traditional="諤" />
+  <map variant="讎" traditional="仇" />
+  <map variant="讏" traditional="讆" />
+  <map variant="讐" traditional="仇" />
+  <map variant="算" traditional="祘" />
+  <map variant="讙" traditional="懽" />
+  <map variant="箚" traditional="剳" />
+  <map variant="讚" traditional="讃" />
+  <map variant="宜" traditional="冝" />
+  <map variant="実" traditional="實" />
+  <map variant="箟" traditional="箆" />
+  <map variant="箠" traditional="棰" />
+  <map variant="讠" traditional="言" />
+  <map variant="讬" traditional="托" />
+  <map variant="殭" traditional="僵" />
+  <map variant="鮮" traditional="尟" />
+  <map variant="殱" traditional="歼" />
+  <map variant="殺" traditional="杀" />
+  <map variant="殻" traditional="殼" />
+  <map variant="宼" traditional="冦" />
+  <map variant="宾" traditional="賓" />
+  <map variant="節" traditional="節" />
+  <map variant="鯁" traditional="骾" />
+  <map variant="寃" traditional="冤" />
+  <map variant="诃" traditional="呵" />
+  <map variant="密" traditional="宻" />
+  <map variant="寇" traditional="冦" />
+  <map variant="毉" traditional="医" />
+  <map variant="诉" traditional="愬" />
+  <map variant="鯋" traditional="鯊" />
+  <map variant="富" traditional="冨" />
+  <map variant="毎" traditional="每" />
+  <map variant="比" traditional="夶" />
+  <map variant="寕" traditional="宁" />
+  <map variant="鯗" traditional="鮝" />
+  <map variant="毘" traditional="毗" />
+  <map variant="篚" traditional="棐" />
+  <map variant="寛" traditional="寬" />
+  <map variant="篛" traditional="箬" />
+  <map variant="鯛" traditional="鮉" />
+  <map variant="寜" traditional="宁" />
+  <map variant="篠" traditional="筱" />
+  <map variant="篦" traditional="箆" />
+  <map variant="篪" traditional="竾" />
+  <map variant="篭" traditional="笼" />
+  <map variant="鯰" traditional="鮎" />
+  <map variant="篲" traditional="彗" />
+  <map variant="寳" traditional="宝" />
+  <map variant="诶" traditional="唉" />
+  <map variant="诸" traditional="諸" />
+  <map variant="鯹" traditional="鮏" />
+  <map variant="対" traditional="對" />
+  <map variant="鰀" traditional="鯇" />
+  <map variant="専" traditional="專" />
+  <map variant="簈" traditional="箳" />
+  <map variant="谉" traditional="讅" />
+  <map variant="氊" traditional="毡" />
+  <map variant="鰍" traditional="鰌" />
+  <map variant="谏" traditional="諌" />
+  <map variant="谑" traditional="嚯" />
+  <map variant="鰑" traditional="鯣" />
+  <map variant="谒" traditional="謁" />
+  <map variant="簒" traditional="篡" />
+  <map variant="尓" traditional="尒" />
+  <map variant="尔" traditional="尒" />
+  <map variant="簔" traditional="簑" />
+  <map variant="気" traditional="氣" />
+  <map variant="谘" traditional="咨" />
+  <map variant="簘" traditional="箫" />
+  <map variant="尚" traditional="尙" />
+  <map variant="尜" traditional="嘎" />
+  <map variant="尠" traditional="尟" />
+  <map variant="尦" traditional="尥" />
+  <map variant="谨" traditional="謹" />
+  <map variant="簪" traditional="兂" />
+  <map variant="尫" traditional="尪" />
+  <map variant="尭" traditional="堯" />
+  <map variant="鰮" traditional="鰛" />
+  <map variant="谱" traditional="諩" />
+  <map variant="谷" traditional="穀" />
+  <map variant="氷" traditional="冰" />
+  <map variant="鰺" traditional="鯵" />
+  <map variant="尽" traditional="侭" />
+  <map variant="氽" traditional="尿" />
+  <map variant="谿" traditional="嵠" />
+  <map variant="层" traditional="層" />
+  <map variant="汉" traditional="漢" />
+  <map variant="豊" traditional="豐" />
+  <map variant="鱍" traditional="鮁" />
+  <map variant="籏" traditional="簱" />
+  <map variant="鱑" traditional="鰉" />
+  <map variant="鱔" traditional="鱓" />
+  <map variant="籖" traditional="签" />
+  <map variant="籘" traditional="籐" />
+  <map variant="汚" traditional="汙" />
+  <map variant="屛" traditional="屏" />
+  <map variant="籛" traditional="篯" />
+  <map variant="象" traditional="像" />
+  <map variant="鱢" traditional="鯵" />
+  <map variant="豣" traditional="豜" />
+  <map variant="層" traditional="層" />
+  <map variant="屭" traditional="屃" />
+  <map variant="籭" traditional="簛" />
+  <map variant="鱮" traditional="魣" />
+  <map variant="汴" traditional="汳" />
+  <map variant="鱶" traditional="鮝" />
+  <map variant="豺" traditional="犲" />
+  <map variant="鱻" traditional="尟" />
+  <map variant="屻" traditional="屶" />
+  <map variant="岀" traditional="出" />
+  <map variant="岁" traditional="亗" />
+  <map variant="沅" traditional="厵" />
+  <map variant="沉" traditional="沈" />
+  <map variant="貉" traditional="狢" />
+  <map variant="貊" traditional="獏" />
+  <map variant="粋" traditional="粹" />
+  <map variant="貌" traditional="皃" />
+  <map variant="貎" traditional="猊" />
+  <map variant="粓" traditional="泔" />
+  <map variant="貔" traditional="豼" />
+  <map variant="岗" traditional="冈" />
+  <map variant="貘" traditional="獏" />
+  <map variant="粛" traditional="肅" />
+  <map variant="鲜" traditional="尟" />
+  <map variant="鲠" traditional="骾" />
+  <map variant="沢" traditional="澤" />
+  <map variant="貮" traditional="二" />
+  <map variant="沲" traditional="沱" />
+  <map variant="貳" traditional="二" />
+  <map variant="岴" traditional="岖" />
+  <map variant="鲶" traditional="鮎" />
+  <map variant="鲷" traditional="鮉" />
+  <map variant="鲹" traditional="鯵" />
+  <map variant="岺" traditional="岭" />
+  <map variant="峀" traditional="岫" />
+  <map variant="鳁" traditional="鰛" />
+  <map variant="鳅" traditional="鰌" />
+  <map variant="賉" traditional="卹" />
+  <map variant="糉" traditional="粽" />
+  <map variant="賊" traditional="戝" />
+  <map variant="糊" traditional="楜" />
+  <map variant="糍" traditional="粢" />
+  <map variant="泐" traditional="氻" />
+  <map variant="賓" traditional="賓" />
+  <map variant="賔" traditional="賓" />
+  <map variant="賙" traditional="周" />
+  <map variant="賛" traditional="讃" />
+  <map variant="鳝" traditional="鱓" />
+  <map variant="糠" traditional="穅" />
+  <map variant="賤" traditional="賎" />
+  <map variant="峩" traditional="峨" />
+  <map variant="質" traditional="貭" />
+  <map variant="鳫" traditional="雁" />
+  <map variant="賬" traditional="帐" />
+  <map variant="糭" traditional="粽" />
+  <map variant="鳮" traditional="雞" />
+  <map variant="泯" traditional="冺" />
+  <map variant="鳯" traditional="凤" />
+  <map variant="峯" traditional="峄" />
+  <map variant="糯" traditional="粫" />
+  <map variant="峰" traditional="峄" />
+  <map variant="糸" traditional="絲" />
+  <map variant="糹" traditional="丝" />
+  <map variant="泺" traditional="泊" />
+  <map variant="糾" traditional="糺" />
+  <map variant="贈" traditional="贈" />
+  <map variant="鴈" traditional="雁" />
+  <map variant="崈" traditional="崇" />
+  <map variant="贊" traditional="讃" />
+  <map variant="崋" traditional="华" />
+  <map variant="洌" traditional="冽" />
+  <map variant="崎" traditional="埼" />
+  <map variant="崑" traditional="崐" />
+  <map variant="崖" traditional="崕" />
+  <map variant="崗" traditional="冈" />
+  <map variant="崘" traditional="仑" />
+  <map variant="紙" traditional="帋" />
+  <map variant="崠" traditional="岽" />
+  <map variant="紥" traditional="扎" />
+  <map variant="账" traditional="帐" />
+  <map variant="质" traditional="貭" />
+  <map variant="洪" traditional="洚" />
+  <map variant="鴬" traditional="莺" />
+  <map variant="贰" traditional="二" />
+  <map variant="贱" traditional="賎" />
+  <map variant="洴" traditional="泙" />
+  <map variant="贼" traditional="戝" />
+  <map variant="浄" traditional="净" />
+  <map variant="鵄" traditional="鴟" />
+  <map variant="鵆" traditional="鴴" />
+  <map variant="嵇" traditional="嵆" />
+  <map variant="経" traditional="經" />
+  <map variant="浏" traditional="嚠" />
+  <map variant="絏" traditional="紲" />
+  <map variant="赒" traditional="周" />
+  <map variant="嵒" traditional="岩" />
+  <map variant="絖" traditional="絋" />
+  <map variant="嵚" traditional="崟" />
+  <map variant="嵛" traditional="崳" />
+  <map variant="浜" traditional="濱" />
+  <map variant="嵜" traditional="埼" />
+  <map variant="赞" traditional="讃" />
+  <map variant="鵞" traditional="鵝" />
+  <map variant="赠" traditional="贈" />
+  <map variant="浤" traditional="汯" />
+  <map variant="鵰" traditional="凋" />
+  <map variant="赱" traditional="走" />
+  <map variant="嵳" traditional="嵯" />
+  <map variant="絵" traditional="繪" />
+  <map variant="鵶" traditional="鴉" />
+  <map variant="涂" traditional="凃" />
+  <map variant="綂" traditional="統" />
+  <map variant="趂" traditional="趁" />
+  <map variant="嶋" traditional="岛" />
+  <map variant="嶌" traditional="岛" />
+  <map variant="鶏" traditional="鷄" />
+  <map variant="嶔" traditional="崟" />
+  <map variant="涕" traditional="洟" />
+  <map variant="涙" traditional="淚" />
+  <map variant="継" traditional="繼" />
+  <map variant="続" traditional="續" />
+  <map variant="涚" traditional="涗" />
+  <map variant="綢" traditional="䌷" />
+  <map variant="趦" traditional="趑" />
+  <map variant="嶨" traditional="峃" />
+  <map variant="鶫" traditional="鶇" />
+  <map variant="綯" traditional="絝" />
+  <map variant="綵" traditional="䌽" />
+  <map variant="綷" traditional="紣" />
+  <map variant="涸" traditional="凅" />
+  <map variant="趺" traditional="呋" />
+  <map variant="綻" traditional="搖" />
+  <map variant="嶽" traditional="岳" />
+  <map variant="綽" traditional="淖" />
+  <map variant="鷀" traditional="鶿" />
+  <map variant="巌" traditional="岩" />
+  <map variant="総" traditional="總" />
+  <map variant="鷏" traditional="鷆" />
+  <map variant="緐" traditional="繁" />
+  <map variant="巓" traditional="巅" />
+  <map variant="緖" traditional="緒" />
+  <map variant="跖" traditional="趵" />
+  <map variant="跗" traditional="呋" />
+  <map variant="州" traditional="洲" />
+  <map variant="鷡" traditional="鵐" />
+  <map variant="巣" traditional="巢" />
+  <map variant="鷥" traditional="鴎" />
+  <map variant="淫" traditional="婬" />
+  <map variant="鷰" traditional="宴" />
+  <map variant="練" traditional="練" />
+  <map variant="鷴" traditional="鷳" />
+  <map variant="巵" traditional="卮" />
+  <map variant="跷" traditional="屩" />
+  <map variant="巹" traditional="卺" />
+  <map variant="跺" traditional="跥" />
+  <map variant="巻" traditional="卷" />
+  <map variant="巽" traditional="巺" />
+  <map variant="縁" traditional="緣" />
+  <map variant="縂" traditional="总" />
+  <map variant="縄" traditional="繩" />
+  <map variant="清" traditional="淸" />
+  <map variant="渇" traditional="渴" />
+  <map variant="済" traditional="濟" />
+  <map variant="踈" traditional="疎" />
+  <map variant="渉" traditional="涉" />
+  <map variant="鸊" traditional="䴙" />
+  <map variant="上" traditional="丄" />
+  <map variant="下" traditional="丅" />
+  <map variant="渋" traditional="涩" />
+  <map variant="渎" traditional="涜" />
+  <map variant="渓" traditional="嵠" />
+  <map variant="渕" traditional="淵" />
+  <map variant="縕" traditional="緼" />
+  <map variant="渖" traditional="沈" />
+  <map variant="鸖" traditional="鶴" />
+  <map variant="丗" traditional="世" />
+  <map variant="縚" traditional="絛" />
+  <map variant="縝" traditional="稹" />
+  <map variant="鸞" traditional="鵉" />
+  <map variant="丠" traditional="丘" />
+  <map variant="両" traditional="兩" />
+  <map variant="渢" traditional="沨" />
+  <map variant="並" traditional="竝" />
+  <map variant="縦" traditional="緃" />
+  <map variant="踩" traditional="跴" />
+  <map variant="踪" traditional="踨" />
+  <map variant="渫" traditional="泄" />
+  <map variant="帯" traditional="帶" />
+  <map variant="帰" traditional="歸" />
+  <map variant="縱" traditional="緃" />
+  <map variant="帲" traditional="帡" />
+  <map variant="鸶" traditional="鴎" />
+  <map variant="績" traditional="勣" />
+  <map variant="鸾" traditional="鵉" />
+  <map variant="乆" traditional="久" />
+  <map variant="幇" traditional="帮" />
+  <map variant="繇" traditional="徭" />
+  <map variant="繊" traditional="纖" />
+  <map variant="繋" traditional="係" />
+  <map variant="繍" traditional="綉" />
+  <map variant="繖" traditional="伞" />
+  <map variant="乗" traditional="乘" />
+  <map variant="鹚" traditional="鶿" />
+  <map variant="幚" traditional="帮" />
+  <map variant="繛" traditional="淖" />
+  <map variant="湟" traditional="况" />
+  <map variant="繢" traditional="繪" />
+  <map variant="幤" traditional="币" />
+  <map variant="蹤" traditional="踨" />
+  <map variant="繦" traditional="繈" />
+  <map variant="蹮" traditional="跹" />
+  <map variant="蹯" traditional="畨" />
+  <map variant="干" traditional="乹" />
+  <map variant="并" traditional="竝" />
+  <map variant="幷" traditional="竝" />
+  <map variant="鹸" traditional="堿" />
+  <map variant="幹" traditional="乹" />
+  <map variant="幺" traditional="么" />
+  <map variant="蹺" traditional="屩" />
+  <map variant="蹻" traditional="屩" />
+  <map variant="鹼" traditional="堿" />
+  <map variant="湼" traditional="涅" />
+  <map variant="幽" traditional="凼" />
+  <map variant="乾" traditional="乹" />
+  <map variant="満" traditional="滿" />
+  <map variant="庁" traditional="廳" />
+  <map variant="亁" traditional="乹" />
+  <map variant="麁" traditional="粗" />
+  <map variant="広" traditional="廣" />
+  <map variant="麄" traditional="粗" />
+  <map variant="庅" traditional="么" />
+  <map variant="予" traditional="豫" />
+  <map variant="纊" traditional="絋" />
+  <map variant="事" traditional="亊" />
+  <map variant="溌" traditional="泼" />
+  <map variant="纎" traditional="縴" />
+  <map variant="亐" traditional="于" />
+  <map variant="源" traditional="厵" />
+  <map variant="麑" traditional="猊" />
+  <map variant="纒" traditional="纏" />
+  <map variant="亓" traditional="丌" />
+  <map variant="麓" traditional="梺" />
+  <map variant="井" traditional="丼" />
+  <map variant="店" traditional="坫" />
+  <map variant="躗" traditional="讆" />
+  <map variant="纘" traditional="纉" />
+  <map variant="躛" traditional="讆" />
+  <map variant="亜" traditional="亞" />
+  <map variant="庞" traditional="厖" />
+  <map variant="纟" traditional="丝" />
+  <map variant="纠" traditional="糺" />
+  <map variant="溦" traditional="湄" />
+  <map variant="座" traditional="坐" />
+  <map variant="纩" traditional="絋" />
+  <map variant="溪" traditional="嵠" />
+  <map variant="麪" traditional="面" />
+  <map variant="躭" traditional="耽" />
+  <map variant="溮" traditional="浉" />
+  <map variant="溯" traditional="泝" />
+  <map variant="亯" traditional="享" />
+  <map variant="亰" traditional="京" />
+  <map variant="躰" traditional="体" />
+  <map variant="躲" traditional="躱" />
+  <map variant="溳" traditional="涢" />
+  <map variant="纵" traditional="緃" />
+  <map variant="躷" traditional="矮" />
+  <map variant="纸" traditional="帋" />
+  <map variant="麹" traditional="麴" />
+  <map variant="溺" traditional="尿" />
+  <map variant="麺" traditional="面" />
+  <map variant="麻" traditional="痲" />
+  <map variant="庻" traditional="庶" />
+  <map variant="庽" traditional="寓" />
+  <map variant="亾" traditional="亡" />
+  <map variant="庿" traditional="庙" />
+  <map variant="廃" traditional="廢" />
+  <map variant="练" traditional="練" />
+  <map variant="軄" traditional="聀" />
+  <map variant="軆" traditional="体" />
+  <map variant="廉" traditional="亷" />
+  <map variant="廎" traditional="庼" />
+  <map variant="仏" traditional="佛" />
+  <map variant="廏" traditional="厩" />
+  <map variant="廐" traditional="厩" />
+  <map variant="黒" traditional="黑" />
+  <map variant="廓" traditional="度" />
+  <map variant="黙" traditional="默" />
+  <map variant="滙" traditional="匯" />
+  <map variant="滛" traditional="婬" />
+  <map variant="滝" traditional="瀧" />
+  <map variant="點" traditional="奌" />
+  <map variant="転" traditional="轉" />
+  <map variant="滦" traditional="栾" />
+  <map variant="绩" traditional="勣" />
+  <map variant="仭" traditional="仞" />
+  <map variant="仮" traditional="假" />
+  <map variant="廰" traditional="厅" />
+  <map variant="绰" traditional="淖" />
+  <map variant="黰" traditional="鬒" />
+  <map variant="廵" traditional="巡" />
+  <map variant="绸" traditional="䌷" />
+  <map variant="绹" traditional="絝" />
+  <map variant="廻" traditional="囘" />
+  <map variant="黻" traditional="芾" />
+  <map variant="廼" traditional="乃" />
+  <map variant="仼" traditional="任" />
+  <map variant="軽" traditional="輕" />
+  <map variant="廽" traditional="囘" />
+  <map variant="绽" traditional="搖" />
+  <map variant="廾" traditional="卄" />
+  <map variant="廿" traditional="卄" />
+  <map variant="軿" traditional="帡" />
+  <map variant="鼂" traditional="晁" />
+  <map variant="鼄" traditional="蛛" />
+  <map variant="鼅" traditional="蜘" />
+  <map variant="漆" traditional="柒" />
+  <map variant="弉" traditional="奘" />
+  <map variant="漉" traditional="淥" />
+  <map variant="漊" traditional="溇" />
+  <map variant="缊" traditional="緼" />
+  <map variant="缋" traditional="繪" />
+  <map variant="弌" traditional="一" />
+  <map variant="鼌" traditional="晁" />
+  <map variant="弍" traditional="二" />
+  <map variant="伍" traditional="五" />
+  <map variant="弐" traditional="二" />
+  <map variant="缐" traditional="綫" />
+  <map variant="漑" traditional="溉" />
+  <map variant="鼑" traditional="鼎" />
+  <map variant="鼓" traditional="皷" />
+  <map variant="鼔" traditional="皷" />
+  <map variant="輙" traditional="輒" />
+  <map variant="輛" traditional="輌" />
+  <map variant="缜" traditional="稹" />
+  <map variant="伝" traditional="傳" />
+  <map variant="鼡" traditional="鼠" />
+  <map variant="漢" traditional="漢" />
+  <map variant="鼢" traditional="蚡" />
+  <map variant="輧" traditional="帡" />
+  <map variant="輩" traditional="軰" />
+  <map variant="缵" traditional="纉" />
+  <map variant="缶" traditional="罐" />
+  <map variant="缷" traditional="卸" />
+  <map variant="輺" traditional="輜" />
+  <map variant="弾" traditional="彈" />
+  <map variant="缾" traditional="甁" />
+  <map variant="轀" traditional="輼" />
+  <map variant="罂" traditional="甖" />
+  <map variant="彂" traditional="发" />
+  <map variant="潄" traditional="漱" />
+  <map variant="罇" traditional="墫" />
+  <map variant="齇" traditional="齄" />
+  <map variant="潊" traditional="溆" />
+  <map variant="齊" traditional="亝" />
+  <map variant="彊" traditional="強" />
+  <map variant="罌" traditional="甖" />
+  <map variant="低" traditional="仾" />
+  <map variant="齏" traditional="韲" />
+  <map variant="齐" traditional="亝" />
+  <map variant="彑" traditional="彐" />
+  <map variant="齑" traditional="韲" />
+  <map variant="罔" traditional="罓" />
+  <map variant="录" traditional="彔" />
+  <map variant="罗" traditional="啰" />
+  <map variant="彚" traditional="匯" />
+  <map variant="彜" traditional="彛" />
+  <map variant="彝" traditional="彛" />
+  <map variant="彞" traditional="彛" />
+  <map variant="轟" traditional="軣" />
+  <map variant="你" traditional="伲" />
+  <map variant="彠" traditional="彟" />
+  <map variant="齢" traditional="齡" />
+  <map variant="潢" traditional="洸" />
+  <map variant="罦" traditional="罘" />
+  <map variant="潨" traditional="潀" />
+  <map variant="彩" traditional="䌽" />
+  <map variant="彫" traditional="凋" />
+  <map variant="彬" traditional="份" />
+  <map variant="置" traditional="寘" />
+  <map variant="轰" traditional="軣" />
+  <map variant="彲" traditional="彨" />
+  <map variant="併" traditional="竝" />
+  <map variant="彷" traditional="仿" />
+  <map variant="罸" traditional="罚" />
+  <map variant="羀" traditional="罶" />
+  <map variant="澁" traditional="涩" />
+  <map variant="羂" traditional="罥" />
+  <map variant="羃" traditional="冪" />
+  <map variant="徃" traditional="往" />
+  <map variant="澄" traditional="澂" />
+  <map variant="羅" traditional="啰" />
+  <map variant="辆" traditional="輌" />
+  <map variant="徇" traditional="侚" />
+  <map variant="羇" traditional="羁" />
+  <map variant="辈" traditional="軰" />
+  <map variant="龍" traditional="尨" />
+  <map variant="龐" traditional="厖" />
+  <map variant="澑" traditional="溜" />
+  <map variant="辒" traditional="輼" />
+  <map variant="従" traditional="從" />
+  <map variant="澔" traditional="浩" />
+  <map variant="徕" traditional="來" />
+  <map variant="龙" traditional="尨" />
+  <map variant="澙" traditional="潟" />
+  <map variant="龜" traditional="亀" />
+  <map variant="羝" traditional="扺" />
+  <map variant="龝" traditional="䆋" />
+  <map variant="龞" traditional="鱉" />
+  <map variant="龟" traditional="亀" />
+  <map variant="徠" traditional="來" />
+  <map variant="辠" traditional="罪" />
+  <map variant="価" traditional="價" />
+  <map variant="龢" traditional="和" />
+  <map variant="澣" traditional="浣" />
+  <map variant="辣" traditional="辢" />
+  <map variant="辧" traditional="弁" />
+  <map variant="辨" traditional="弁" />
+  <map variant="侫" traditional="佞" />
+  <map variant="徬" traditional="仿" />
+  <map variant="澰" traditional="潋" />
+  <map variant="徳" traditional="德" />
+  <map variant="徴" traditional="徵" />
+  <map variant="辶" traditional="辵" />
+  <map variant="澹" traditional="淡" />
+  <map variant="羹" traditional="羮" />
+  <map variant="辺" traditional="邊" />
+  <map variant="徺" traditional="侥" />
+  <map variant="忄" traditional="心" />
+  <map variant="翅" traditional="翄" />
+  <map variant="濇" traditional="涩" />
+  <map variant="忈" traditional="仁" />
+  <map variant="濔" traditional="沵" />
+  <map variant="濚" traditional="溁" />
+  <map variant="濛" traditional="懞" />
+  <map variant="応" traditional="應" />
+  <map variant="濜" traditional="浕" />
+  <map variant="濞" traditional="淠" />
+  <map variant="翠" traditional="翆" />
+  <map variant="信" traditional="伩" />
+  <map variant="迤" traditional="迆" />
+  <map variant="俥" traditional="伡" />
+  <map variant="迪" traditional="廸" />
+  <map variant="俫" traditional="來" />
+  <map variant="翬" traditional="翚" />
+  <map variant="迬" traditional="往" />
+  <map variant="迭" traditional="叠" />
+  <map variant="迳" traditional="径" />
+  <map variant="濳" traditional="潛" />
+  <map variant="迴" traditional="囘" />
+  <map variant="濵" traditional="濱" />
+  <map variant="翶" traditional="翱" />
+  <map variant="迺" traditional="乃" />
+  <map variant="忻" traditional="䜣" />
+  <map variant="翻" traditional="繙" />
+  <map variant="濼" traditional="泊" />
+  <map variant="翽" traditional="翙" />
 </variants>
