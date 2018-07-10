@@ -6,13 +6,15 @@ import java.util.Map;
 
 import org.apache.lucene.analysis.TokenStream;
 import org.apache.lucene.analysis.util.TokenFilterFactory;
+import org.apache.lucene.analysis.util.AbstractAnalysisFactory;
+import org.apache.lucene.analysis.util.MultiTermAwareComponent;
 
 /**
  * Factory for CJKFoldingFilter
  * @author Naomi Dushay
  *
  */
-public class CJKFoldingFilterFactory extends TokenFilterFactory
+public class CJKFoldingFilterFactory extends TokenFilterFactory implements MultiTermAwareComponent
 {
 	public CJKFoldingFilterFactory(Map<String, String> map)
 	{
@@ -26,5 +28,10 @@ public class CJKFoldingFilterFactory extends TokenFilterFactory
 	public TokenStream create(TokenStream input)
 	{
 		return new CJKFoldingFilter(input);
+	}
+
+	@Override
+	public AbstractAnalysisFactory getMultiTermComponent() {
+		return this;
 	}
 }
