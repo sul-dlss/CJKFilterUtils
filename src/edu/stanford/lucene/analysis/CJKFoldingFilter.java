@@ -119,11 +119,11 @@ public class CJKFoldingFilter extends TokenFilter
 	}
 
 	private static AbstractMap<String, String> variant2Trad = new HashMap<String, String>();	
-	{
+	static {
 		try {
 			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
-	 		org.w3c.dom.Document doc = dBuilder.parse(getClass().getResourceAsStream("variantmap.xml"));
+	 		org.w3c.dom.Document doc = dBuilder.parse(CJKFoldingFilter.class.getResourceAsStream("variantmap.xml"));
 			//doc.getDocumentElement().normalize();				
 			NodeList nList = doc.getElementsByTagName("map");
 			for ( int i=0; i<nList.getLength(); i++ ) {
