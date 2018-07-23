@@ -38,6 +38,7 @@
 		<jar destfile="${dist.dir}/CJKFoldingFilter.jar">
 			<fileset dir="${build.dir}" includes="**/*.class"/>
 			<fileset dir="${src.dir}" includes="**/*.java"/>
+			<fileset dir="${src.dir}" includes="**/*.xml"/>
 		</jar>
 	</target>
 
@@ -145,7 +146,7 @@
 			<!-- name of the coverage data file to use.  It must be the same
                 as the coverage data file generated during instrumentation. -->
 			<sysproperty key="net.sourceforge.cobertura.datafile" file="${cobertura.data.file}" />
-    	<batchtest>
+    			<batchtest>
 				<fileset dir="${test.build.dir}" includes="**/Test*.class" excludes="**/*$*.class"/>
 			</batchtest>
 		</junit>
