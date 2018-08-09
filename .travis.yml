@@ -1,5 +1,4 @@
 language: java
-script: "ant ci"
 addons:
   apt:
     packages:
