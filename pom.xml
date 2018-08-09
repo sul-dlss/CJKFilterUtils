@@ -11,30 +11,31 @@
     <properties>
       <maven.compiler.source>1.6</maven.compiler.source>
       <maven.compiler.target>1.6</maven.compiler.target>
+      <version.solr>4.4.0</version.solr>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>org.apache.lucene</groupId>
+            <artifactId>lucene-test-framework</artifactId>
+            <version>${version.solr}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.lucene</groupId>
             <artifactId>lucene-core</artifactId>
-            <version>4.4.0</version>
+            <version>${version.solr}</version>
         </dependency>
         <dependency>
             <groupId>org.apache.lucene</groupId>
             <artifactId>lucene-analyzers-common</artifactId>
-            <version>4.4.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.lucene</groupId>
-            <artifactId>lucene-codecs</artifactId>
-            <version>4.4.0</version>
-            <scope>test</scope>
+            <version>${version.solr}</version>
         </dependency>
         
         <dependency>
             <groupId>org.apache.lucene</groupId>
-            <artifactId>lucene-test-framework</artifactId>
-            <version>4.4.0</version>
+            <artifactId>lucene-codecs</artifactId>
+            <version>${version.solr}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
