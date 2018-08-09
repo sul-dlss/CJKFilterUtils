@@ -19,8 +19,8 @@ public class TestCJKFoldingFilter extends BaseTokenStreamTestCase
 @Test
 	public void testNonCJKtokens() throws Exception
 	{
-		TokenStream stream = new MockTokenizer(new StringReader
-			("Des mot"), MockTokenizer.WHITESPACE, false);
+		Reader reader = new StringReader("Des mot");
+		TokenStream stream = whitespaceMockTokenizer(reader);
 		CJKFoldingFilter filter = new CJKFoldingFilter(stream);
 
 		CharTermAttribute termAtt = filter.getAttribute(CharTermAttribute.class);
@@ -381,18 +381,18 @@ public class TestCJKFoldingFilter extends BaseTokenStreamTestCase
 		Analyzer a = new Analyzer()
 		{
 			@Override
-			protected TokenStreamComponents createComponents(String fieldName, Reader reader) {
-				Tokenizer tokenizer = new KeywordTokenizer(reader);
+			protected TokenStreamComponents createComponents(String fieldName) {
+				Tokenizer tokenizer = new KeywordTokenizer();
 				return new TokenStreamComponents(tokenizer, new CJKFoldingFilter(tokenizer));
 			}
 		};
-		checkOneTermReuse(a, "", "");
+		checkOneTerm(a, "", "");
 	}
 
 	private Analyzer analyzer = new Analyzer() {
 	    @Override
-	    protected TokenStreamComponents createComponents(String field, Reader reader) {
-	      final Tokenizer tokenizer = new MockTokenizer(reader, MockTokenizer.WHITESPACE, false);
+	    protected TokenStreamComponents createComponents(String field) {
+	      final Tokenizer tokenizer = new MockTokenizer(MockTokenizer.WHITESPACE, false);
 	      final TokenStream stream = new CJKFoldingFilter(tokenizer);
 	      return new TokenStreamComponents(tokenizer, stream);
 	    }
