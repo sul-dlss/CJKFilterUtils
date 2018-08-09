@@ -1,24 +1,24 @@
-= CJKFoldingFilter
+# CJKFoldingFilter
 
-{<img src="https://secure.travis-ci.org/sul-dlss/CJKFoldingFilter.png?branch=master" alt="Build Status" />}[http://travis-ci.org/sul-dlss/CJKFoldingFilter]
+[![Build Status](https://travis-ci.org/sul-dlss/CJKFoldingFilter.svg?branch=master)](https://travis-ci.org/sul-dlss/CJKFoldingFilter)
 
 This is a Lucene filter and filter factory (see http://lucene.apache.org )
 to fold certain CJK characters to improve recall.  You should put it in your
 analysis chain BEFORE ICUTransforms from Traditional->Simplified Han, as it
 converts modern Japanese Kanji to their traditional equivalents.
 
-== Usage
+## Usage
 
-* clone the project
+- clone the project
 
  git clone git://github.com/solrmarc/CJKFoldingFilter.git
 
-* run the jar ant task
+- run the maven installation
 
- ant jar
+ maven clean install
 
-* put the CJKFoldingFilter.jar file found in the dist directory into your Solr lib directory
-* utilize the Solr CJKFoldingFilterFactory in your schema.xml file.
+- put the `CJKFoldingFilter*.jar` file found in the target directory into your Solr lib directory
+- utilize the Solr CJKFoldingFilterFactory in your schema.xml file.
 
  <fieldType name="text_cjk" class="solr.TextField" positionIncrementGap="10000" autoGeneratePhraseQueries="false">
    <analyzer>
@@ -32,7 +32,7 @@ converts modern Japanese Kanji to their traditional equivalents.
    </analyzer>
  </fieldType>
 
-== Contributing
+## Contributing
 
 1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
