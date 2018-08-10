@@ -22,6 +22,7 @@ converts modern Japanese Kanji to their traditional equivalents.
 
  <fieldType name="text_cjk" class="solr.TextField" positionIncrementGap="10000" autoGeneratePhraseQueries="false">
    <analyzer>
+   <charFilter class="edu.stanford.lucene.analysis.ICUTransformCharFilterFactory" id="Traditional-Simplified" />
      <tokenizer class="solr.ICUTokenizerFactory" />
      <filter class="solr.CJKWidthFilterFactory"/>
      <filter class="edu.stanford.lucene.analysis.CJKFoldingFilterFactory"/>
@@ -31,6 +32,45 @@ converts modern Japanese Kanji to their traditional equivalents.
      <filter class="solr.CJKBigramFilterFactory" han="true" hiragana="true" katakana="true" hangul="true" outputUnigrams="true" />
    </analyzer>
  </fieldType>
+ 
+ ## Checking example locally
+ 
+ (Uses Ruby)
+ 
+ Install Ruby dependencies
+ 
+ ```sh
+ $ bundle install
+ ```
+
+Setup Solr with CJKFilterUtils and config/schema
+
+```sh
+$ bundle exec rake setup_solr
+```
+
+Run solr_wrapper
+
+```sh
+$ solr_wrapper
+```
+
+In another shell, index fixtures
+
+```sh
+$ bundle exec rake fixtures
+```
+
+Run some queries (these should return results):
+
+```sh
+$ curl http://127.0.0.1:8983/solr/test/select?debugQuery=on&indent=on&q=cjk_test:呂思勉两晋南北朝&wt=json
+
+$ curl http://127.0.0.1:8983/solr/test/select?debugQuery=on&indent=on&q=cjk_test:俞平伯红楼梦&wt=json
+
+$ curl http://127.0.0.1:8983/solr/test/select?debugQuery=on&indent=on&q=cjk_test:南洋&wt=json
+
+```
 
 ## Contributing
 

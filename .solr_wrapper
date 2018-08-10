@@ -1,0 +1,6 @@
+# Place any default configuration for solr_wrapper here
+collection:
+  dir: example/solr_configs/
+  name: test
+version: 6.6.1
+port: 8983
