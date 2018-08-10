@@ -1,6 +1,6 @@
-# CJKFoldingFilter
+# CJKFilterUtils
 
-[![Build Status](https://travis-ci.org/sul-dlss/CJKFoldingFilter.svg?branch=master)](https://travis-ci.org/sul-dlss/CJKFoldingFilter)
+[![Build Status](https://travis-ci.org/sul-dlss/CJKFilterUtils.svg?branch=master)](https://travis-ci.org/sul-dlss/CJKFilterUtils)
 
 This is a Lucene filter and filter factory (see http://lucene.apache.org )
 to fold certain CJK characters to improve recall.  You should put it in your
@@ -11,13 +11,13 @@ converts modern Japanese Kanji to their traditional equivalents.
 
 - clone the project
 
- git clone git://github.com/solrmarc/CJKFoldingFilter.git
+ git clone git://github.com/solrmarc/CJKFilterUtils.git
 
 - run the maven installation
 
  maven clean install
 
-- put the `CJKFoldingFilter*.jar` file found in the target directory into your Solr lib directory
+- put the `CJKFilterUtils*.jar` file found in the target directory into your Solr lib directory
 - utilize the Solr CJKFoldingFilterFactory in your schema.xml file.
 
  <fieldType name="text_cjk" class="solr.TextField" positionIncrementGap="10000" autoGeneratePhraseQueries="false">
