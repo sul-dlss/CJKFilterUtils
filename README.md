@@ -1,6 +1,7 @@
 # CJKFilterUtils
 
-[![Build Status](https://travis-ci.org/sul-dlss/CJKFilterUtils.svg?branch=master)](https://travis-ci.org/sul-dlss/CJKFilterUtils)
+[![Build Status](https://travis-ci.org/sul-dlss/CJKFilterUtils.svg?branch=master)](https://travis-ci.org/sul-dlss/CJKFilterUtils) [![codecov](https://codecov.io/gh/sul-dlss/CJKFilterUtils/branch/master/graph/badge.svg)](https://codecov.io/gh/sul-dlss/CJKFilterUtils)
+
 
 This is a Lucene filter and filter factory (see http://lucene.apache.org )
 to fold certain CJK characters to improve recall.  You should put it in your
