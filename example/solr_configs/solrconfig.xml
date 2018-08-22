@@ -3,7 +3,7 @@
   <lib dir="${solr.install.dir:../../../..}/contrib/analysis-extras/lib" />
   <lib dir="${solr.install.dir:../../../..}/contrib/analysis-extras/lucene-libs" />
 
-  <lib dir="${solr.install.dir:../../../..}/contrib" regex="CJKFilterUtils-v2.0.jar" />
+  <lib dir="${solr.install.dir:../../../..}/contrib" regex="CJKFilterUtils-v2.1.jar" />
   <dataDir>${solr.data.dir:}</dataDir>
   <directoryFactory name="DirectoryFactory" class="${solr.directoryFactory:solr.StandardDirectoryFactory}"/>
 
