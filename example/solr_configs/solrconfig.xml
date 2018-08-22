@@ -1,0 +1,23 @@
+<config>
+  <luceneMatchVersion>LUCENE_6_6_1</luceneMatchVersion>
+  <lib dir="${solr.install.dir:../../../..}/contrib/analysis-extras/lib" />
+  <lib dir="${solr.install.dir:../../../..}/contrib/analysis-extras/lucene-libs" />
+
+  <lib dir="${solr.install.dir:../../../..}/contrib" regex="CJKFilterUtils-v2.0.jar" />
+  <dataDir>${solr.data.dir:}</dataDir>
+  <directoryFactory name="DirectoryFactory" class="${solr.directoryFactory:solr.StandardDirectoryFactory}"/>
+
+
+
+  <requestHandler name="/select" class="solr.SearchHandler">
+    <lst name="defaults">
+      <str name="q.alt">*:*</str>
+      <str name="echoParams">explicit</str>
+      <int name="rows">10</int>
+      <str name="mm">6&lt;-1 6&lt;90%</str>
+      <str name="qf">
+        cjk_test
+      </str>
+    </lst>
+  </requestHandler>
+</config>
