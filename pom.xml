@@ -6,13 +6,15 @@
 
     <groupId>edu.stanford</groupId>
     <artifactId>CJKFilterUtils</artifactId>
-    <version>v2.0</version>
+    <version>v2.1</version>
     
     <properties>
       <maven.compiler.source>1.7</maven.compiler.source>
       <maven.compiler.target>1.7</maven.compiler.target>
       <version.solr>6.6.1</version.solr>
       <version.mvn-jacoco>0.8.1</version.mvn-jacoco>
+      <version.io>2.5</version.io>
+        <resources.plugin.version>2.7</resources.plugin.version>
     </properties>
 
     <dependencies>
@@ -33,6 +35,11 @@
             <version>${version.solr}</version>
         </dependency>
         <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>${version.io}</version>
+        </dependency>
+        <dependency>
             <groupId>org.apache.lucene</groupId>
             <artifactId>lucene-codecs</artifactId>
             <version>${version.solr}</version>
@@ -44,9 +51,20 @@
             <version>61.1</version>
         </dependency>
 
+
     </dependencies>
 
     <build>
+        <pluginManagement>
+            <plugins>
+
+                <plugin>
+                    <artifactId>maven-resources-plugin</artifactId>
+                    <version>${resources.plugin.version}</version>
+                </plugin>
+
+            </plugins>
+        </pluginManagement>
         <plugins>
             <plugin>
                 <groupId>org.jacoco</groupId>
