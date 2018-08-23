@@ -48,7 +48,7 @@ converts modern Japanese Kanji to their traditional equivalents.
 Setup Solr with CJKFilterUtils and config/schema
 
 ```sh
-$ bundle exec rake setup_solr
+$ bundle exec rake setup_server
 ```
 
 Run solr_wrapper
