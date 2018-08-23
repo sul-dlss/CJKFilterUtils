@@ -15,6 +15,19 @@
     <resources.plugin.version>2.7</resources.plugin.version>
   </properties>
 
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>https://github.com/sul-dlss/CJKFilterUtils/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <organization>
+    <name>Stanford University Libraries</name>
+    <url>https://library.stanford.edu/</url>
+  </organization>
+
   <dependencies>
     <dependency>
       <groupId>org.apache.lucene</groupId>
