@@ -27,6 +27,7 @@ converts modern Japanese Kanji to their traditional equivalents.
      <tokenizer class="solr.ICUTokenizerFactory" />
      <filter class="solr.CJKWidthFilterFactory"/>
      <filter class="edu.stanford.lucene.analysis.CJKFoldingFilterFactory"/>
+     <charFilter class="edu.stanford.lucene.analysis.ICUCustomTransformCharFilterFactory" id="edu/stanford/lucene/analysis/stanford_cjk_transliterations.txt" />
      <filter class="solr.ICUTransformFilterFactory" id="Traditional-Simplified"/>
      <filter class="solr.ICUTransformFilterFactory" id="Katakana-Hiragana"/>
      <filter class="solr.ICUFoldingFilterFactory"/>
@@ -47,7 +48,7 @@ converts modern Japanese Kanji to their traditional equivalents.
 Setup Solr with CJKFilterUtils and config/schema
 
 ```sh
-$ bundle exec rake setup_solr
+$ bundle exec rake setup_server
 ```
 
 Run solr_wrapper

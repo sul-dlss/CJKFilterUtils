@@ -16,7 +16,7 @@ public class ICUCustomTransformCharFilterFactory extends CharFilterFactory imple
     private final String id;
     private final int dir;
 
-    /** Creates a new ICUTransformFilterFactory */
+    /** Creates a new ICUCustomTransformCharFilterFactory */
     public ICUCustomTransformCharFilterFactory(Map<String,String> args) {
         super(args);
         id = require(args, "id");
