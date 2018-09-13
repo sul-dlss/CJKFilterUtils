@@ -16,7 +16,7 @@ converts modern Japanese Kanji to their traditional equivalents.
 
 - run the maven installation
 
- maven clean install
+ mvn clean install
 
 - put the `CJKFilterUtils*.jar` file found in the target directory into your Solr lib directory
 - utilize the Solr CJKFoldingFilterFactory in your schema.xml file.
