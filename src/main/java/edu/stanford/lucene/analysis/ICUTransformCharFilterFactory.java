@@ -21,8 +21,6 @@ import java.util.Arrays;
 import java.util.Map;
 
 import java.io.Reader;
-import org.apache.lucene.analysis.util.AbstractAnalysisFactory; // javadocs
-import org.apache.lucene.analysis.util.MultiTermAwareComponent;
 import org.apache.lucene.analysis.util.CharFilterFactory;
 
 import com.ibm.icu.text.Transliterator;
@@ -38,7 +36,7 @@ import com.ibm.icu.text.Transliterator;
  * @see Transliterator
  * @since 3.1.0
  */
-public class ICUTransformCharFilterFactory extends CharFilterFactory implements MultiTermAwareComponent {
+public class ICUTransformCharFilterFactory extends CharFilterFactory {
     private final Transliterator transliterator;
 
     // TODO: add support for custom rules
@@ -57,10 +55,5 @@ public class ICUTransformCharFilterFactory extends CharFilterFactory implements 
     @Override
     public Reader create(Reader input) {
         return new ICUTransformCharFilter(input, transliterator);
-    }
-
-    @Override
-    public AbstractAnalysisFactory getMultiTermComponent() {
-        return this;
     }
 }
