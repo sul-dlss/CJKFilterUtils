@@ -11,7 +11,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
 import java.util.Map;
 
-public class ICUCustomTransformCharFilterFactory extends CharFilterFactory implements MultiTermAwareComponent, ResourceLoaderAware {
+public class ICUCustomTransformCharFilterFactory extends CharFilterFactory implements ResourceLoaderAware {
     private Transliterator transliterator;
     private final String id;
     private final int dir;
@@ -30,11 +30,6 @@ public class ICUCustomTransformCharFilterFactory extends CharFilterFactory imple
     @Override
     public Reader create(Reader input) {
         return transliterator == null ? input : new ICUTransformCharFilter(input, transliterator);
-    }
-
-    @Override
-    public AbstractAnalysisFactory getMultiTermComponent() {
-        return this;
     }
 
     @Override
