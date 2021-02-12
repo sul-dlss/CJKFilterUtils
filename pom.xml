@@ -7,11 +7,11 @@
   <version>v3.0-SNAPSHOT</version>
 
   <properties>
-    <maven.compiler.source>1.8</maven.compiler.source>
-    <maven.compiler.target>1.8</maven.compiler.target>
-    <version.solr>8.2.0</version.solr>
-    <version.mvn-jacoco>0.8.1</version.mvn-jacoco>
-    <version.io>2.5</version.io>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
+    <version.solr>8.8.0</version.solr>
+    <version.mvn-jacoco>0.8.6</version.mvn-jacoco>
+    <version.io>2.8.0</version.io>
     <resources.plugin.version>2.7</resources.plugin.version>
   </properties>
 
@@ -59,7 +59,7 @@
     <dependency>
       <groupId>com.ibm.icu</groupId>
       <artifactId>icu4j</artifactId>
-      <version>61.1</version>
+      <version>68.2</version>
     </dependency>
 
   </dependencies>
