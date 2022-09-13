@@ -9,7 +9,8 @@
   <properties>
     <maven.compiler.source>11</maven.compiler.source>
     <maven.compiler.target>11</maven.compiler.target>
-    <version.solr>8.8.0</version.solr>
+    <version.solr>9.0.0</version.solr>
+    <version.lucene>9.0.0</version.lucene>
     <version.mvn-jacoco>0.8.6</version.mvn-jacoco>
     <version.io>2.8.0</version.io>
     <resources.plugin.version>2.7</resources.plugin.version>
@@ -32,18 +33,24 @@
     <dependency>
       <groupId>org.apache.lucene</groupId>
       <artifactId>lucene-test-framework</artifactId>
-      <version>${version.solr}</version>
+      <version>${version.lucene}</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.apache.lucene</groupId>
       <artifactId>lucene-core</artifactId>
-      <version>${version.solr}</version>
+      <version>${version.lucene}</version>
     </dependency>
     <dependency>
       <groupId>org.apache.lucene</groupId>
-      <artifactId>lucene-analyzers-common</artifactId>
-      <version>${version.solr}</version>
+      <artifactId>lucene-analysis-common</artifactId>
+      <version>${version.lucene}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.lucene</groupId>
+      <artifactId>lucene-analysis-icu</artifactId>
+      <version>${version.lucene}</version>
     </dependency>
     <dependency>
       <groupId>commons-io</groupId>
@@ -53,7 +60,7 @@
     <dependency>
       <groupId>org.apache.lucene</groupId>
       <artifactId>lucene-codecs</artifactId>
-      <version>${version.solr}</version>
+      <version>${version.lucene}</version>
       <scope>test</scope>
     </dependency>
     <dependency>

@@ -2,7 +2,7 @@ package edu.stanford.lucene.analysis;
 
 import org.apache.lucene.analysis.BaseTokenStreamTestCase;
 import org.apache.lucene.analysis.TokenStream;
-import org.apache.lucene.analysis.util.ClasspathResourceLoader;
+import org.apache.lucene.util.ClasspathResourceLoader;
 
 import java.io.Reader;
 import java.io.StringReader;
