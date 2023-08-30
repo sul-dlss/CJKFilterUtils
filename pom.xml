@@ -9,10 +9,10 @@
   <properties>
     <maven.compiler.source>11</maven.compiler.source>
     <maven.compiler.target>11</maven.compiler.target>
-    <version.solr>8.8.0</version.solr>
-    <version.mvn-jacoco>0.8.6</version.mvn-jacoco>
-    <version.io>2.8.0</version.io>
-    <resources.plugin.version>2.7</resources.plugin.version>
+    <version.solr>9.3.0</version.solr>
+    <version.mvn-jacoco>0.8.10</version.mvn-jacoco>
+    <version.io>2.13.0</version.io>
+    <resources.plugin.version>3.3.1</resources.plugin.version>
   </properties>
 
   <licenses>
@@ -42,7 +42,7 @@
     </dependency>
     <dependency>
       <groupId>org.apache.lucene</groupId>
-      <artifactId>lucene-analyzers-common</artifactId>
+      <artifactId>lucene-analysis-common</artifactId>
       <version>${version.solr}</version>
     </dependency>
     <dependency>
@@ -61,7 +61,6 @@
       <artifactId>icu4j</artifactId>
       <version>68.2</version>
     </dependency>
-
   </dependencies>
 
   <build>

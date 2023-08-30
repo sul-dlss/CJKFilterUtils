@@ -21,7 +21,7 @@ import java.util.Arrays;
 import java.util.Map;
 
 import java.io.Reader;
-import org.apache.lucene.analysis.util.CharFilterFactory;
+import org.apache.lucene.analysis.CharFilterFactory;
 
 import com.ibm.icu.text.Transliterator;
 
