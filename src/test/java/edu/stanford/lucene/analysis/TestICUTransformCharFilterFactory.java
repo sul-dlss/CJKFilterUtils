@@ -22,7 +22,7 @@ import java.io.StringReader;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.apache.lucene.analysis.BaseTokenStreamTestCase;
+import org.apache.lucene.tests.analysis.BaseTokenStreamTestCase;
 import org.apache.lucene.analysis.TokenStream;
 
 /** basic tests for {@link ICUTransformCharFilterFactory} */

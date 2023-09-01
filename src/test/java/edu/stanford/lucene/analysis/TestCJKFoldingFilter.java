@@ -5,6 +5,8 @@ package edu.stanford.lucene.analysis;
 import java.io.*;
 
 import org.apache.lucene.analysis.*;
+import org.apache.lucene.tests.analysis.BaseTokenStreamTestCase;
+import org.apache.lucene.tests.analysis.MockTokenizer;
 import org.apache.lucene.analysis.tokenattributes.CharTermAttribute;
 import org.apache.lucene.analysis.core.KeywordTokenizer;
 import org.junit.Test;

@@ -9,7 +9,7 @@ import java.util.HashMap;
 import org.apache.lucene.analysis.TokenStream;
 
 import org.apache.lucene.analysis.standard.StandardTokenizer;
-import org.apache.lucene.analysis.util.BaseTokenStreamFactoryTestCase;
+import org.apache.lucene.tests.analysis.BaseTokenStreamFactoryTestCase;
 
 /**
  * Simple tests to ensure the CJKFoldingFilter factory is working.

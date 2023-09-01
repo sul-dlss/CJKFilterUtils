@@ -24,9 +24,9 @@ import java.io.StringReader;
 import com.ibm.icu.text.Normalizer2;
 import com.ibm.icu.text.Transliterator;
 import org.apache.lucene.analysis.Analyzer;
-import org.apache.lucene.analysis.BaseTokenStreamTestCase;
+import org.apache.lucene.tests.analysis.BaseTokenStreamTestCase;
 import org.apache.lucene.analysis.CharFilter;
-import org.apache.lucene.analysis.MockTokenizer;
+import org.apache.lucene.tests.analysis.MockTokenizer;
 
 public class TestICUTransformCharFilter extends BaseTokenStreamTestCase {
 

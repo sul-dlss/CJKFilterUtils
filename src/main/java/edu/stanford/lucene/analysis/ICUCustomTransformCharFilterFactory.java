@@ -2,7 +2,8 @@ package edu.stanford.lucene.analysis;
 
 import com.ibm.icu.text.Transliterator;
 import org.apache.commons.io.IOUtils;
-import org.apache.lucene.analysis.util.*;
+import org.apache.lucene.analysis.CharFilterFactory;
+import org.apache.lucene.util.*;
 
 import java.io.IOException;
 import java.io.InputStream;
