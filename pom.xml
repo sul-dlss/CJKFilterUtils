@@ -9,7 +9,7 @@
   <properties>
     <maven.compiler.source>11</maven.compiler.source>
     <maven.compiler.target>11</maven.compiler.target>
-    <version.solr>9.3.0</version.solr>
+    <version.lucene>9.6.0</version.lucene>
     <version.mvn-jacoco>0.8.10</version.mvn-jacoco>
     <version.io>2.13.0</version.io>
     <resources.plugin.version>3.3.1</resources.plugin.version>
@@ -32,18 +32,18 @@
     <dependency>
       <groupId>org.apache.lucene</groupId>
       <artifactId>lucene-test-framework</artifactId>
-      <version>${version.solr}</version>
+      <version>${version.lucene}</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.apache.lucene</groupId>
       <artifactId>lucene-core</artifactId>
-      <version>${version.solr}</version>
+      <version>${version.lucene}</version>
     </dependency>
     <dependency>
       <groupId>org.apache.lucene</groupId>
       <artifactId>lucene-analysis-common</artifactId>
-      <version>${version.solr}</version>
+      <version>${version.lucene}</version>
     </dependency>
     <dependency>
       <groupId>commons-io</groupId>
@@ -53,13 +53,13 @@
     <dependency>
       <groupId>org.apache.lucene</groupId>
       <artifactId>lucene-codecs</artifactId>
-      <version>${version.solr}</version>
+      <version>${version.lucene}</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>com.ibm.icu</groupId>
       <artifactId>icu4j</artifactId>
-      <version>68.2</version>
+      <version>70.1</version>
     </dependency>
   </dependencies>
 
